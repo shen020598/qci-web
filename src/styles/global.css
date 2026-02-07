@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: rgb(140, 191, 176);
+    --color-secondary: rgb(191, 140, 77);
+    --color-text-primary: rgb(40, 30, 48);
+    --font-poppins: 'Poppins', sans-serif;
+    --container-8xl: 88rem; /* 1408px */
+    --container-9xl: 96rem; /* 1536px */
+}

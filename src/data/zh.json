@@ -1,0 +1,12 @@
+{
+    "nav": {
+        "home": "首页",
+        "about": "关于我们",
+        "products": "产品",
+        "contact": "联系"
+    },
+    "hero": {
+        "title": "世界级 OEM 制造商",
+        "subtitle": "值得信赖的全球制造合作伙伴"
+    }
+}

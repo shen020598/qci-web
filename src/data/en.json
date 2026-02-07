@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "products": "Products",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "World-Class OEM Manufacturer",
+        "subtitle": "Delivering trusted manufacturing solutions across global markets"
+    },
+    "about": {
+        "title": "Who We Are",
+        "text": "We are an experienced OEM manufacturer serving international brands with a strong focus on quality, compliance, and long-term partnerships."
+    },
+    "features": {
+        "title": "Why Partner With Us",
+        "items": [
+            {
+                "title": "Dedicated Production Lines",
+                "text": "Optimized manufacturing processes to ensure consistency and scalability."
+            },
+            {
+                "title": "Quality & Compliance",
+                "text": "Strict quality control aligned with international standards."
+            },
+            {
+                "title": "Flexible OEM Solutions",
+                "text": "Customized formulations and packaging tailored to your market needs."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Your Trusted Manufacturing Partner",
+        "text": "Let’s build long-term success together."
+    }
+}
