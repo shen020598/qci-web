@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Navbar from "../../components/Navbar.astro";
 import Footer from "../../components/Footer.astro";
+import { Image } from 'astro:assets';
 ---
 
 <BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
@@ -12,9 +13,11 @@ import Footer from "../../components/Footer.astro";
     >
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img
-                src="/assets/home/hero_bg.jpg"
-                class="w-full h-full object-[50%_0%] object-cover"
+            <Image
+                src={import('../../../public/assets/home/hero_bg.jpg')}
+                alt="QCI Hero Background"
+                class="w-full h-full object-top object-cover"
+                loading="lazy"
             />
             <div class="absolute inset-0 bg-white/55"></div>
         </div>
@@ -35,13 +38,15 @@ import Footer from "../../components/Footer.astro";
         </div>
         <div class="absolute text-center w-full flex max-w-9xl justify-between">
             <!-- Left Image (Fly in) -->
-            <img
-                src="/assets/home/hero_1.jpg"
+            <Image
+                src={import('../../../public/assets/home/hero_1.jpg')}
+                alt="Hero left"
                 class="hidden 2xl:block w-48 mb-120 shadow-xl rounded border-4 border-white animate-fly-left shadow-xs shadow-black"
             />
             <!-- Right Image (Fly in) -->
-            <img
-                src="/assets/home/hero_2.jpg"
+            <Image
+                src={import('../../../public/assets/home/hero_2.jpg')}
+                alt="Hero right"
                 class="hidden 2xl:block mt-120 w-48 shadow-xl rounded border-4 border-white animate-fly-right shadow-xs shadow-black"
             />
         </div>
@@ -49,8 +54,10 @@ import Footer from "../../components/Footer.astro";
     <section id="about" class="relative py-20 overflow-hidden">
         <!-- Background -->
         <div class="absolute inset-0">
-            <img
-                src="/assets/home/about-anim.gif"
+            <Image
+                alt="About Background"
+                loading="lazy"
+                src={import('../../../public/assets/home/about-anim.gif')}
                 class="w-full h-full object-cover opacity-40"
             />
             <div class="absolute inset-0 bg-[#b7a27a]/80"></div>
@@ -65,8 +72,9 @@ import Footer from "../../components/Footer.astro";
             >
                 <!-- Left Image -->
                 <div class="flex flex-1">
-                    <img
-                        src="/assets/home/qci-front-1.jpg"
+                    <Image
+                        src={import('../../../public/assets/home/qci-front-1.jpg')}
+                        alt="QCI Front"
                         class="rounded shadow-2xl border-4 border-white reveal-left h-130 w-auto"
                     />
                 </div>
@@ -103,20 +111,24 @@ import Footer from "../../components/Footer.astro";
                     <div
                         class="grid grid-cols-2 gap-4 w-100 mx-auto md:mx-0 md:absolute md:right-0"
                     >
-                        <img
-                            src="/assets/home/flag-japan.gif"
+                        <Image
+                            src={import('../../../public/assets/home/flag-japan.gif')}
+                            alt="Japan flag"
                             class="shadow-md reveal w-100 h-30"
                         />
-                        <img
-                            src="/assets/home/flag-south-africa.gif"
+                        <Image
+                            src={import('../../../public/assets/home/flag-south-africa.gif')}
+                            alt="South Africa flag"
                             class="shadow-md reveal w-100 h-30"
                         />
-                        <img
-                            src="/assets/home/flag-south-korea.gif"
+                        <Image
+                            src={import('../../../public/assets/home/flag-south-korea.gif')}
+                            alt="South Korea flag"
                             class="shadow-md reveal w-100 h-30"
                         />
-                        <img
-                            src="/assets/home/flag-us.gif"
+                        <Image
+                            src={import('../../../public/assets/home/flag-us.gif')}
+                            alt="US flag"
                             class="shadow-md reveal w-100 h-30"
                         />
                     </div>

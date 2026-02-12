@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
+---
+
+<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+    <Navbar />
+    <section class="bg-[#d6c6a5] py-16 lg:py-24 overflow-hidden">
+        <!-- CARD -->
+        <div
+            class="max-w-9xl mx-auto bg-[#efefef] grid md:grid-cols-2 gap-10 items-top p-8 lg:p-12"
+        >
+            <!-- LEFT CONTENT -->
+            <div class="fly-left opacity-0">
+                <h2 class="text-4xl md:text-6xl font-bold text-[#2b2623] mb-4">
+                    Machinery
+                </h2>
+
+                <h3
+                    class="font-semibold text-lg md:text-3xl mb-4 text-[#2b2623]"
+                >
+                    Advanced Manufacturing Solutions For Mosquito Coil
+                    Production
+                </h3>
+
+                <p
+                    class="text-sm md:text-base lg:text-xl leading-relaxed text-[#3f3a36] mb-6"
+                >
+                    At QCI Malaysia, we rely on state-of-the-art technology to
+                    maintain the highest standards in mosquito coil
+                    manufacturing. Our production facilities are equipped with
+                    advanced one-line machines, ensuring precision, efficiency,
+                    and consistency in every coil we produce. For specialized
+                    machinery and equipment solutions, we collaborate with
+                    Yeohata, a leading manufacturer of mosquito coil production
+                    machines. Learn more about their cutting-edge technology and
+                    how it supports high-performance manufacturing.
+                </p>
+                <div class="w-full flex justify-end items-right">
+                    <button
+                        class="bg-[#1f1f1f] text-white px-6 py-3 rounded hover:opacity-90 md:text-xl transition"
+                    >
+                        View More
+                    </button>
+                </div>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="fly-right opacity-0">
+                <img
+                    src="/assets/machinery/yeohata-poster.png"
+                    class="w-full h-full object-cover"
+                    alt="Machinery"
+                />
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                    }
+                });
+            },
+            { threshold: 0.25 },
+        );
+
+        document
+            .querySelectorAll(".fly-left, .fly-right")
+            .forEach((el) => observer.observe(el));
+    </script>
+
+    <style>
+        .fly-left {
+            transform: translateX(-80px);
+            transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .fly-right {
+            transform: translateX(80px);
+            transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .show {
+            opacity: 1 !important;
+            transform: translateX(0);
+        }
+    </style>
+    <Footer />
+</BaseLayout>

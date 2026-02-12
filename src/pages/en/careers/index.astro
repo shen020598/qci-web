@@ -1,0 +1,674 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
+---
+
+<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <Navbar />
+    <section class="relative w-full overflow-hidden">
+        <!-- Background Image -->
+        <div
+            class="relative h-[320px] md:h-[500px] lg:h-[600px] 2xl:px-100 bg-[#edf7f7]"
+        >
+            <img
+                src="/assets/careers/career-head-bg.jpg"
+                alt="Office"
+                class="w-full h-full object-cover"
+            />
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/10"></div>
+
+            <!-- Center Content -->
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-center relative">
+                    <!-- TITLE PANEL (solid background) -->
+                    <div class="bg-white px-12 md:px-20 py-10 shadow-lg">
+                        <h2
+                            class="text-4xl md:text-8xl font-bold text-[#2b2623] leading-tight"
+                        >
+                            Join Our<br />Team
+                        </h2>
+                    </div>
+
+                    <!-- BUTTON (slightly overlapping panel) -->
+                    <a
+                        href="/careers"
+                        class="inline-block -mt-10 text-2xl bg-[#1f1f1f] text-white px-8 py-3 font-semibold shadow hover:opacity-90 transition"
+                    >
+                        Opportunities
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary py-20">
+        <div class="relative max-w-9xl mx-auto px-6">
+            <!-- TWO ROWS -->
+            <div class="flex flex-col gap-y-16 text-[#2b2623]">
+                <!-- FIRST ROW -->
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <!-- Image -->
+                    <div class="flex-1 flex justify-center md:justify-center">
+                        <img
+                            src="/assets/careers/careers-1.jpg"
+                            class="w-40 md:w-45 object-cover shadow"
+                        />
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="hidden md:block w-[2px] h-80 bg-[#2b2623]/20">
+                    </div>
+
+                    <!-- Text -->
+                    <p
+                        class="flex-1 text-lg md:text-2xl leading-relaxed text-center md:text-left text-text-primary"
+                    >
+                        At QCI Malaysia and QCI Thailand, we are dedicated to
+                        innovation, quality, and excellence in mosquito coil
+                        manufacturing. Our success is powered by talented
+                        individuals who are passionate about making a
+                        difference. Whether you are an experienced professional
+                        or a fresh graduate eager to learn, we offer exciting
+                        career opportunities that foster growth and development
+                        in a dynamic industry.
+                    </p>
+                </div>
+
+                <!-- SECOND ROW -->
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <!-- Text -->
+                    <p
+                        class="flex-1 text-lg md:text-2xl leading-relaxed text-center md:text-right"
+                    >
+                        At QCI Malaysia and QCI Thailand, we cultivate a
+                        positive and supportive work environment where employees
+                        can thrive. Our facilities are designed to provide a
+                        comfortable and productive workplace, ensuring both
+                        professional and personal growth.
+                    </p>
+
+                    <!-- Divider -->
+                    <div class="hidden md:block w-[2px] h-80 bg-[#2b2623]/20">
+                    </div>
+
+                    <!-- Image -->
+                    <div class="flex-1 flex justify-center md:justify-center">
+                        <img
+                            src="/assets/careers/careers-2.jpg"
+                            class="w-40 md:w-45 object-cover shadow"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary py-20">
+        <div class="max-w-9xl mx-auto px-6 text-center">
+            <!-- TITLE -->
+            <h2 class="text-5xl md:text-7xl font-bold mb-4 text-[#2b2623]">
+                What We Offer
+            </h2>
+
+            <p
+                class="max-w-5xl mx-auto mb-16 text-[#2b2623] font-semibold text-3xl"
+            >
+                We are committed to creating a dynamic and rewarding workplace
+                where hard work is valued, and teamwork drives our success.
+            </p>
+
+            <!-- STAR WRAPPER -->
+            <div class="relative hidden lg:block h-[800px]">
+                <!-- CENTER ICON -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <img
+                        src="/assets/careers/career-middle-man.png"
+                        class="w-50"
+                    />
+                </div>
+
+                <!-- TOP -->
+                <div
+                    class="offer-card absolute top-0 left-1/2 -translate-x-1/2"
+                >
+                    <h3 class="text-2xl font-bold leading-tight mb-4">
+                        Career Growth Opportunities
+                    </h3>
+                    <p class="text-xl leading-tight">
+                        Performance-based salary increments and regular career
+                        reviews.
+                    </p>
+                    <div class="flex justify-end mt-6">
+                        <img
+                            src="/assets/careers/benefit-career-growth.svg"
+                            class="w-12"
+                        />
+                    </div>
+                </div>
+
+                <!-- TOP LEFT -->
+                <div class="offer-card absolute top-14 left-24">
+                    <h3 class="text-2xl font-bold leading-tight mb-4">
+                        Comprehensive Benefits
+                    </h3>
+                    <p class="text-xl leading-tight">
+                        Medical coverage, personal accident insurance, and
+                        hospitalization benefits.
+                    </p>
+                    <div class="flex justify-end mt-6">
+                        <img
+                            src="/assets/careers/benefit-health.svg"
+                            class="w-12"
+                        />
+                    </div>
+                </div>
+
+                <!-- TOP RIGHT -->
+                <div class="offer-card absolute top-14 right-24">
+                    <h3 class="text-2xl font-bold leading-tight mb-4">
+                        Workplace Essentials
+                    </h3>
+                    <p class="text-xl leading-tight">
+                        Free uniforms provided for comfort and professionalism.
+                    </p>
+                    <div class="flex justify-end mt-6">
+                        <img
+                            src="/assets/careers/benefit-tshirt.svg"
+                            class="w-12"
+                        />
+                    </div>
+                </div>
+
+                <!-- BOTTOM LEFT -->
+                <div class="offer-card absolute bottom-55 left-24">
+                    <h3 class="text-2xl font-bold leading-tight mb-4">
+                        Work & Rest Facilities
+                    </h3>
+                    <p class="text-xl leading-tight">
+                        A well-maintained environment with designated areas for
+                        productivity and relaxation.
+                    </p>
+                    <div class="flex justify-end mt-6">
+                        <img
+                            src="/assets/careers/benefit-workplace.svg"
+                            class="w-12"
+                        />
+                    </div>
+                </div>
+
+                <!-- BOTTOM RIGHT -->
+                <div class="offer-card absolute bottom-60 right-24">
+                    <h3 class="text-2xl font-bold leading-tight mb-4">
+                        Annual Events
+                    </h3>
+                    <p class="text-xl leading-tight">
+                        Enjoy our annual company dinner and trips as part of our
+                        team.
+                    </p>
+                    <div class="flex justify-end mt-6">
+                        <img
+                            src="/assets/careers/benefit-vacation.svg"
+                            class="w-12"
+                        />
+                    </div>
+                </div>
+
+                <!-- BOTTOM -->
+                <div
+                    class="offer-card absolute left-1/3 -bottom-12 -translate-x-1/2"
+                >
+                    <h3 class="text-2xl font-bold leading-tight mb-4">
+                        Positive Work Culture
+                    </h3>
+                    <p class="text-xl leading-tight">
+                        A team-oriented, respectful, and supportive workplace.
+                    </p>
+                    <div class="flex justify-end mt-6">
+                        <img
+                            src="/assets/careers/benefit-work-together.svg"
+                            class="w-12"
+                        />
+                    </div>
+                </div>
+                <!-- BOTTOM -->
+                <div
+                    class="offer-card absolute left-2/3 -bottom-12 -translate-x-1/2"
+                >
+                    <h3 class="text-2xl font-bold leading-tight mb-4">
+                        Bonuses & Incentives
+                    </h3>
+                    <p class="text-xl leading-tight">
+                        Performance-based rewards to recognize and appreciate
+                        employee contributions.
+                    </p>
+                    <div class="flex justify-end mt-6">
+                        <img
+                            src="/assets/careers/benefit-work-together.svg"
+                            class="w-12"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOBILE STACK -->
+            <div class="lg:hidden space-y-4 px-4">
+                <div class="offer-card-mobile">
+                    <h3 class="text-lg font-bold mb-3">
+                        Comprehensive Benefits
+                    </h3>
+                    <p class="text-sm leading-relaxed">
+                        Medical coverage, personal accident insurance, and
+                        hospitalization benefits.
+                    </p>
+                </div>
+                <div class="offer-card-mobile">
+                    <h3 class="text-lg font-bold mb-3">
+                        Career Growth Opportunities
+                    </h3>
+                    <p class="text-sm leading-relaxed">
+                        Performance-based salary increments and regular career
+                        reviews.
+                    </p>
+                </div>
+                <div class="offer-card-mobile">
+                    <h3 class="text-lg font-bold mb-3">Workplace Essentials</h3>
+                    <p class="text-sm leading-relaxed">
+                        Free uniforms provided for comfort and professionalism.
+                    </p>
+                </div>
+                <div class="offer-card-mobile">
+                    <h3 class="text-lg font-bold mb-3">
+                        Work & Rest Facilities
+                    </h3>
+                    <p class="text-sm leading-relaxed">
+                        A well-maintained environment with designated areas for
+                        productivity and relaxation.
+                    </p>
+                </div>
+                <div class="offer-card-mobile">
+                    <h3 class="text-lg font-bold mb-3">Annual Events</h3>
+                    <p class="text-sm leading-relaxed">
+                        Enjoy our annual company dinner and trips as part of our
+                        team.
+                    </p>
+                </div>
+                <div class="offer-card-mobile">
+                    <h3 class="text-lg font-bold mb-3">Bonuses & Incentives</h3>
+                    <p class="text-sm leading-relaxed">
+                        Performance-based rewards to recognize and appreciate
+                        employee contributions.
+                    </p>
+                </div>
+                <div class="offer-card-mobile">
+                    <h3 class="text-lg font-bold mb-3">
+                        Positive Work Culture
+                    </h3>
+                    <p class="text-sm leading-relaxed">
+                        A team-oriented, respectful, and supportive workplace.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- TOP INTRO -->
+        <div class="bg-[#e7eceb] text-center py-12 px-6">
+            <div class="max-w-9xl mx-auto">
+                <h2 class="text-4xl md:text-7xl font-bold text-[#2b2623] mb-2">
+                    Join Us
+                </h2>
+
+                <p class="font-semibold text-[#2b2623] mb-3 text-2xl">
+                    Career Opportunities | Available Position
+                </p>
+
+                <p class="text-gray-600 md:text-xl">
+                    We are always looking for skilled professionals to join our
+                    team in various departments!
+                </p>
+            </div>
+        </div>
+
+        <!-- JOB AREA -->
+        <div
+            class="relative py-20 overflow-hidden
+              bg-gradient-to-r from-[#a8cfca] to-[#86b8ad]"
+        >
+            <!-- DECORATIVE SHAPES -->
+            <div class="absolute inset-0 opacity-30 pointer-events-none">
+                <!-- bottom curve -->
+                <div
+                    class="absolute -left-40 bottom-0
+                  w-[600px] h-[300px]
+                  bg-[#6aa79b]
+                  rounded-full"
+                >
+                </div>
+
+                <!-- diagonal block -->
+                <div
+                    class="absolute right-0 top-0
+                  w-[500px] h-[400px]
+                  bg-[#5f9f93]
+                  clip-path-[polygon(30%_0,100%_0,100%_100%,0_100%)]"
+                >
+                </div>
+            </div>
+
+            <!-- JOB LIST -->
+            <div class="relative max-w-9xl mx-auto px-6 space-y-6">
+                <!-- JOB CARD -->
+                <div
+                    class="bg-white/40 backdrop-blur-sm
+                  flex flex-col md:flex-row
+                  md:items-center
+                  gap-6
+                  p-6 md:p-8
+                  rounded"
+                >
+                    <div class="md:w-[25%]">
+                        <h3 class="font-bold text-lg md:text-3xl">Dispatch</h3>
+                        <span class="text-sm md:text-base font-semibold"
+                            >[ Malaysia ]</span
+                        >
+                    </div>
+
+                    <div class="hidden md:block w-[3px] h-20 bg-black"></div>
+                    <div class="md:hidden h-[2px] w-full bg-black"></div>
+
+                    <p class="flex-1 text-md md:text-xl text-gray-700">
+                        Dispatch duties including delivering and collecting
+                        documents. Ensure all tasks are handled with care and
+                        confidentiality.
+                    </p>
+
+                    <span
+                        class="text-3xl md:text-4xl text-teal-600 font-bold self-end md:self-auto"
+                    >
+                        →
+                    </span>
+                </div>
+
+                <!-- JOB CARD -->
+                <div
+                    class="bg-white/40 backdrop-blur-sm
+                  flex flex-col md:flex-row
+                  md:items-center
+                  gap-6
+                  p-6 md:p-8
+                  rounded"
+                >
+                    <div class="md:w-[25%]">
+                        <h3 class="font-bold text-lg md:text-3xl">Chemist</h3>
+                        <span class="text-sm md:text-base font-semibold"
+                            >[ Malaysia ]</span
+                        >
+                    </div>
+
+                    <div class="hidden md:block w-[3px] h-20 bg-black"></div>
+                    <div class="md:hidden h-[2px] w-full bg-black"></div>
+
+                    <p class="flex-1 text-md md:text-xl text-gray-700">
+                        Ensures product quality by performing daily tests on
+                        mosquito coil batches, analyzing raw materials, and
+                        coordinating with teams to meet customer and export
+                        standards.
+                    </p>
+
+                    <span
+                        class="text-3xl md:text-4xl text-teal-600 font-bold self-end md:self-auto"
+                    >
+                        →
+                    </span>
+                </div>
+
+                <!-- JOB CARD -->
+                <div
+                    class="bg-white/40 backdrop-blur-sm
+                  flex flex-col md:flex-row
+                  md:items-center
+                  gap-6
+                  p-6 md:p-8
+                  rounded"
+                >
+                    <div class="md:w-[25%]">
+                        <h3 class="font-bold text-lg md:text-3xl">
+                            Internship & Graduate Programs
+                        </h3>
+                    </div>
+
+                    <div class="hidden md:block w-[3px] h-20 bg-black"></div>
+                    <div class="md:hidden h-[2px] w-full bg-black"></div>
+
+                    <p class="flex-1 text-md md:text-xl text-gray-700">
+                        We offer internship opportunities for students and
+                        recent graduates to gain hands-on experience. Our
+                        structured programs provide mentorship, training, and
+                        exposure to real-world manufacturing and business
+                        operations.
+                    </p>
+
+                    <span
+                        class="text-3xl md:text-4xl text-teal-600 font-bold self-end md:self-auto"
+                    >
+                        →
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#1c1c1c] text-white py-20">
+        <div class="max-w-9xl mx-auto px-6 grid md:grid-cols-2 gap-16 flex">
+            <!-- LEFT — APPLY FORM -->
+            <div>
+                <h2 class="text-5xl md:text-6xl font-bold mb-8">Apply Now</h2>
+
+                <div id="formMessage" class="hidden p-4 rounded mb-4"></div>
+
+                <form id="careerForm" class="space-y-6">
+                    <!-- Name + Email -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="text-base md:text-lg">Name *</label>
+                            <input
+                                type="text"
+                                name="name"
+                                id="name"
+                                required
+                                class="w-full mt-2 bg-[#4b5f59] text-white text-lg px-4 py-3 outline-none"
+                            />
+                        </div>
+
+                        <div>
+                            <label class="text-base md:text-lg">Email *</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                                class="w-full mt-2 bg-[#4b5f59] text-white text-lg px-4 py-3 outline-none"
+                            />
+                        </div>
+                    </div>
+
+                    <!-- Position -->
+                    <div>
+                        <label class="text-base md:text-lg">Position</label>
+                        <input
+                            type="text"
+                            name="position"
+                            id="position"
+                            placeholder="Applying for"
+                            class="w-full mt-2 bg-[#4b5f59] text-white text-lg px-4 py-3 outline-none placeholder:text-gray-300"
+                        />
+                    </div>
+
+                    <!-- Cover Letter -->
+                    <div>
+                        <label class="text-base md:text-lg">Cover Letter</label>
+                        <textarea
+                            rows="4"
+                            name="cover_letter"
+                            id="cover_letter"
+                            class="w-full mt-2 bg-[#4b5f59] text-white text-lg px-4 py-3 outline-none"
+                        ></textarea>
+                    </div>
+
+                    <!-- Resume -->
+                    <div>
+                        <label class="text-base md:text-lg block mb-2"
+                            >RESUME</label
+                        >
+                        <input
+                            type="file"
+                            name="resume"
+                            id="resume"
+                            accept=".pdf,.doc,.docx"
+                            class="w-full bg-[#4b5f59] text-white text-lg file:bg-gray-200 file:text-black file:px-3 file:py-2 p-2"
+                        />
+                    </div>
+
+                    <!-- Turnstile Placeholder -->
+                    <div
+                        class="cf-turnstile"
+                        data-sitekey="0x4AAAAAACat4KviYp9cYO3c"
+                    >
+                    </div>
+
+                    <!-- Submit -->
+                    <button
+                        type="submit"
+                        id="submitBtn"
+                        class="bg-gray-200 text-black text-xl px-8 py-3 hover:bg-gray-50 transition rounded disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                        Submit
+                    </button>
+                </form>
+            </div>
+
+            <!-- RIGHT — CONTACT -->
+            <div>
+                <h2 class="text-5xl md:text-6xl font-bold mb-6">Contact Us</h2>
+
+                <p
+                    class="text-md md:text-xl text-gray-300 leading-relaxed mb-6 max-w-2xl leading-tight"
+                >
+                    Get in touch with us for any inquiries or feedback. We are
+                    here to assist you with all your questions and needs of
+                    information regarding our company product & services.
+                </p>
+
+                <a
+                    href="/contact"
+                    class="inline-block bg-gray-200 text-black text-xl px-8 py-3 hover:bg-gray-50 transition rounded"
+                >
+                    Contact
+                </a>
+            </div>
+        </div>
+    </section>
+    <Footer />
+</BaseLayout>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('careerForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const formMessage = document.getElementById('formMessage');
+
+        if (!form || !submitBtn || !formMessage) return;
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            // Disable submit button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+
+            // Hide previous messages
+            formMessage.classList.add('hidden');
+
+            // Get Turnstile response token
+            const turnstileResponse = document.querySelector('[name="cf-turnstile-response"]')?.value;
+
+            if (!turnstileResponse) {
+                showMessage('Please complete the verification challenge', 'error');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit';
+                return;
+            }
+
+            // Prepare form data
+            const formData = new FormData(form);
+
+            try {
+                // Send to API
+                const response = await fetch('https://www.qci.com.my/api/career-email.php', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showMessage(data.message, 'success');
+                    form.reset();
+                    // Reset Turnstile
+                    if (window.turnstile) {
+                        window.turnstile.reset();
+                    }
+                } else {
+                    showMessage(data.message || 'An error occurred. Please try again.', 'error');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showMessage('Failed to submit application. Please try again later.', 'error');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit';
+            }
+        });
+
+        function showMessage(message, type) {
+            formMessage.textContent = message;
+            formMessage.classList.remove('hidden', 'bg-green-500', 'bg-red-500', 'text-white');
+            formMessage.classList.add('text-white');
+            
+            if (type === 'success') {
+                formMessage.classList.add('bg-green-500');
+            } else {
+                formMessage.classList.add('bg-red-500');
+            }
+            
+            formMessage.classList.remove('hidden');
+            
+            // Scroll to message
+            formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    });
+</script>
+
+<style>
+    .offer-card {
+        background: #d8c9a6;
+        width: 380px;
+        padding: 28px;
+        border-radius: 12px;
+        text-align: left;
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .offer-card-mobile {
+        background: #d8c9a6;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-left: 4px solid #2b2623;
+    }
+</style>
