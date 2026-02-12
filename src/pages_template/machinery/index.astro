@@ -1,0 +1,99 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
+import { Image } from "astro:assets";
+import { t } from "../../utils/i18n";
+
+const lang = Astro.props.language || "en";
+const translations = t(lang).machinery;
+---
+
+<BaseLayout title={translations.meta.title}>
+    <Navbar />
+    <section class="bg-[#d6c6a5] py-16 lg:py-24 overflow-hidden">
+        <!-- CARD -->
+        <div
+            class="max-w-9xl mx-auto bg-[#efefef] grid md:grid-cols-2 gap-10 items-top p-8 lg:p-12"
+        >
+            <!-- LEFT CONTENT -->
+            <div class="fly-left opacity-0">
+                <h2 class="text-4xl md:text-6xl font-bold text-[#2b2623] mb-4">
+                    {translations.heading}
+                </h2>
+
+                <h3
+                    class="font-semibold text-lg md:text-3xl mb-4 text-[#2b2623]"
+                >
+                    {translations.subheading}
+                </h3>
+
+                <p
+                    class="text-sm md:text-base lg:text-xl leading-relaxed text-[#3f3a36] mb-6"
+                >
+                    {translations.description}
+                </p>
+                <div class="w-full flex justify-end items-right">
+                    <a
+                        href="https://yeohata.co.jp/en/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-[#1f1f1f] text-white px-6 py-3 rounded hover:opacity-90 md:text-xl transition inline-block"
+                        aria-label={translations.buttonAria}
+                    >
+                        {translations.button}
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="fly-right opacity-0">
+                <Image
+                    src={import("../../assets/machinery/yeohata-poster.png")}
+                    alt={translations.imageAlt}
+                    class="w-full h-full object-cover"
+                    loading={"lazy"}
+                    fetchpriority={"high"}
+                    width={450}
+                    height={600}
+                />
+            </div>
+        </div>
+    </section>
+
+    <Footer />
+</BaseLayout>
+
+<script>
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        { threshold: 0.25 },
+    );
+
+    document
+        .querySelectorAll(".fly-left, .fly-right")
+        .forEach((el) => observer.observe(el));
+</script>
+
+<style>
+    .fly-left {
+        transform: translateX(-80px);
+        transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .fly-right {
+        transform: translateX(80px);
+        transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .show {
+        opacity: 1 !important;
+        transform: translateX(0);
+    }
+</style>

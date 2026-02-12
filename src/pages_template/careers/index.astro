@@ -1,13 +1,17 @@
 ---
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import Navbar from "../../../components/Navbar.astro";
-import Footer from "../../../components/Footer.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
 import { Image } from 'astro:assets';
+import { t } from "../../utils/i18n";
+
+const lang = Astro.props.language || "en";
+const translations = t(lang).careers;
 ---
 
 <BaseLayout 
-    title="Careers at QCI - Join Our Team" 
-    description="Join Quality Coils Industries (QCI) - Malaysia and Thailand. Explore career opportunities in mosquito coil manufacturing. We offer competitive benefits, career growth, and a positive work culture."
+    title={translations.meta.title}
+    description={translations.meta.description}
 >
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <Navbar />
@@ -18,8 +22,8 @@ import { Image } from 'astro:assets';
             class="relative h-[320px] md:h-[500px] lg:h-[600px] 2xl:px-100 bg-[#edf7f7]"
         >
             <Image
-                src={import('../../../assets/careers/career-head-bg.jpg')}
-                alt="QCI office and workplace environment"
+                src={import('../../assets/careers/career-head-bg.jpg')}
+                alt={translations.hero.bgAlt}
                 class="w-full h-full object-cover"
                 loading="eager"
                 fetchpriority={"high"}
@@ -37,8 +41,8 @@ import { Image } from 'astro:assets';
                     <div class="bg-white px-12 md:px-20 py-10 shadow-lg">
                         <h2
                             class="text-4xl md:text-8xl font-bold text-[#2b2623] leading-tight"
+                            set:html={translations.hero.heading}
                         >
-                            Join Our<br />Team
                         </h2>
                     </div>
 
@@ -46,9 +50,9 @@ import { Image } from 'astro:assets';
                     <a
                         href="#positions"
                         class="inline-block -mt-10 text-2xl bg-[#1f1f1f] text-white px-8 py-3 font-semibold shadow hover:opacity-90 transition"
-                        aria-label="View available career opportunities"
+                        aria-label={translations.hero.buttonAria}
                     >
-                        Opportunities
+                        {translations.hero.button}
                     </a>
                 </div>
             </div>
@@ -64,8 +68,8 @@ import { Image } from 'astro:assets';
                     <!-- Image -->
                     <div class="flex-1 flex justify-center md:justify-center">
                         <Image
-                            src={import('../../../assets/careers/careers-1.jpg')}
-                            alt="QCI team members at work"
+                            src={import('../../assets/careers/careers-1.jpg')}
+                            alt={translations.intro.image1Alt}
                             class="w-40 md:w-45 object-cover shadow"
                             loading="eager"
                             width={180}
@@ -81,14 +85,7 @@ import { Image } from 'astro:assets';
                     <p
                         class="flex-1 text-lg md:text-2xl leading-relaxed text-center md:text-left text-text-primary"
                     >
-                        At QCI Malaysia and QCI Thailand, we are dedicated to
-                        innovation, quality, and excellence in mosquito coil
-                        manufacturing. Our success is powered by talented
-                        individuals who are passionate about making a
-                        difference. Whether you are an experienced professional
-                        or a fresh graduate eager to learn, we offer exciting
-                        career opportunities that foster growth and development
-                        in a dynamic industry.
+                        {translations.intro.text1}
                     </p>
                 </div>
 
@@ -98,11 +95,7 @@ import { Image } from 'astro:assets';
                     <p
                         class="flex-1 text-lg md:text-2xl leading-relaxed text-center md:text-right"
                     >
-                        At QCI Malaysia and QCI Thailand, we cultivate a
-                        positive and supportive work environment where employees
-                        can thrive. Our facilities are designed to provide a
-                        comfortable and productive workplace, ensuring both
-                        professional and personal growth.
+                        {translations.intro.text2}
                     </p>
 
                     <!-- Divider -->
@@ -112,8 +105,8 @@ import { Image } from 'astro:assets';
                     <!-- Image -->
                     <div class="flex-1 flex justify-center md:justify-center">
                         <Image
-                            src={import('../../../assets/careers/careers-2.jpg')}
-                            alt="QCI workplace facilities"
+                            src={import('../../assets/careers/careers-2.jpg')}
+                            alt={translations.intro.image2Alt}
                             class="w-40 md:w-45 object-cover shadow"
                             loading="lazy"
                             width={180}
@@ -128,14 +121,13 @@ import { Image } from 'astro:assets';
         <div class="max-w-9xl mx-auto px-6 text-center">
             <!-- TITLE -->
             <h2 class="text-5xl md:text-7xl font-bold mb-4 text-[#2b2623]">
-                What We Offer
+                {translations.whatWeOffer.heading}
             </h2>
 
             <p
                 class="max-w-5xl mx-auto mb-16 text-[#2b2623] font-semibold text-3xl"
             >
-                We are committed to creating a dynamic and rewarding workplace
-                where hard work is valued, and teamwork drives our success.
+                {translations.whatWeOffer.subheading}
             </p>
 
             <!-- STAR WRAPPER -->
@@ -143,8 +135,8 @@ import { Image } from 'astro:assets';
                 <!-- CENTER ICON -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <Image
-                        src={import('../../../assets/careers/career-middle-man.png')}
-                        alt="Career benefits icon"
+                        src={import('../../assets/careers/career-middle-man.png')}
+                        alt={translations.whatWeOffer.centerIconAlt}
                         class="w-50"
                         loading="lazy"
                         width={200}
@@ -157,16 +149,15 @@ import { Image } from 'astro:assets';
                     class="offer-card absolute top-0 left-1/2 -translate-x-1/2"
                 >
                     <h3 class="text-2xl font-bold leading-tight mb-4">
-                        Career Growth Opportunities
+                        {translations.whatWeOffer.benefits.careerGrowth.title}
                     </h3>
                     <p class="text-xl leading-tight">
-                        Performance-based salary increments and regular career
-                        reviews.
+                        {translations.whatWeOffer.benefits.careerGrowth.description}
                     </p>
                     <div class="flex justify-end mt-6">
                         <Image
-                            src={import('../../../assets/careers/benefit-career-growth.svg')}
-                            alt="Career growth icon"
+                            src={import('../../assets/careers/benefit-career-growth.svg')}
+                            alt={translations.whatWeOffer.benefits.careerGrowth.iconAlt}
                             class="w-12"
                             loading="lazy"
                             width={48}
@@ -178,16 +169,15 @@ import { Image } from 'astro:assets';
                 <!-- TOP LEFT -->
                 <div class="offer-card absolute top-14 left-24">
                     <h3 class="text-2xl font-bold leading-tight mb-4">
-                        Comprehensive Benefits
+                        {translations.whatWeOffer.benefits.comprehensive.title}
                     </h3>
                     <p class="text-xl leading-tight">
-                        Medical coverage, personal accident insurance, and
-                        hospitalization benefits.
+                        {translations.whatWeOffer.benefits.comprehensive.description}
                     </p>
                     <div class="flex justify-end mt-6">
                         <Image
-                            src={import('../../../assets/careers/benefit-health.svg')}
-                            alt="Health benefits icon"
+                            src={import('../../assets/careers/benefit-health.svg')}
+                            alt={translations.whatWeOffer.benefits.comprehensive.iconAlt}
                             class="w-12"
                             loading="lazy"
                             width={48}
@@ -199,15 +189,15 @@ import { Image } from 'astro:assets';
                 <!-- TOP RIGHT -->
                 <div class="offer-card absolute top-14 right-24">
                     <h3 class="text-2xl font-bold leading-tight mb-4">
-                        Workplace Essentials
+                        {translations.whatWeOffer.benefits.workplace.title}
                     </h3>
                     <p class="text-xl leading-tight">
-                        Free uniforms provided for comfort and professionalism.
+                        {translations.whatWeOffer.benefits.workplace.description}
                     </p>
                     <div class="flex justify-end mt-6">
                         <Image
-                            src={import('../../../assets/careers/benefit-tshirt.svg')}
-                            alt="Uniforms provided icon"
+                            src={import('../../assets/careers/benefit-tshirt.svg')}
+                            alt={translations.whatWeOffer.benefits.workplace.iconAlt}
                             class="w-12"
                             loading="lazy"
                             width={48}
@@ -219,16 +209,15 @@ import { Image } from 'astro:assets';
                 <!-- BOTTOM LEFT -->
                 <div class="offer-card absolute bottom-55 left-24">
                     <h3 class="text-2xl font-bold leading-tight mb-4">
-                        Work & Rest Facilities
+                        {translations.whatWeOffer.benefits.facilities.title}
                     </h3>
                     <p class="text-xl leading-tight">
-                        A well-maintained environment with designated areas for
-                        productivity and relaxation.
+                        {translations.whatWeOffer.benefits.facilities.description}
                     </p>
                     <div class="flex justify-end mt-6">
                         <Image
-                            src={import('../../../assets/careers/benefit-workplace.svg')}
-                            alt="Workplace facilities icon"
+                            src={import('../../assets/careers/benefit-workplace.svg')}
+                            alt={translations.whatWeOffer.benefits.facilities.iconAlt}
                             class="w-12"
                             loading="lazy"
                             width={48}
@@ -240,16 +229,15 @@ import { Image } from 'astro:assets';
                 <!-- BOTTOM RIGHT -->
                 <div class="offer-card absolute bottom-60 right-24">
                     <h3 class="text-2xl font-bold leading-tight mb-4">
-                        Annual Events
+                        {translations.whatWeOffer.benefits.events.title}
                     </h3>
                     <p class="text-xl leading-tight">
-                        Enjoy our annual company dinner and trips as part of our
-                        team.
+                        {translations.whatWeOffer.benefits.events.description}
                     </p>
                     <div class="flex justify-end mt-6">
                         <Image
-                            src={import('../../../assets/careers/benefit-vacation.svg')}
-                            alt="Annual events icon"
+                            src={import('../../assets/careers/benefit-vacation.svg')}
+                            alt={translations.whatWeOffer.benefits.events.iconAlt}
                             class="w-12"
                             loading="lazy"
                             width={48}
@@ -263,15 +251,15 @@ import { Image } from 'astro:assets';
                     class="offer-card absolute left-1/3 -bottom-12 -translate-x-1/2"
                 >
                     <h3 class="text-2xl font-bold leading-tight mb-4">
-                        Positive Work Culture
+                        {translations.whatWeOffer.benefits.culture.title}
                     </h3>
                     <p class="text-xl leading-tight">
-                        A team-oriented, respectful, and supportive workplace.
+                        {translations.whatWeOffer.benefits.culture.description}
                     </p>
                     <div class="flex justify-end mt-6">
                         <Image
-                            src={import('../../../assets/careers/benefit-work-together.svg')}
-                            alt="Team culture icon"
+                            src={import('../../assets/careers/benefit-work-together.svg')}
+                            alt={translations.whatWeOffer.benefits.culture.iconAlt}
                             class="w-12"
                             loading="lazy"
                             width={48}
@@ -284,16 +272,15 @@ import { Image } from 'astro:assets';
                     class="offer-card absolute left-2/3 -bottom-12 -translate-x-1/2"
                 >
                     <h3 class="text-2xl font-bold leading-tight mb-4">
-                        Bonuses & Incentives
+                        {translations.whatWeOffer.benefits.bonuses.title}
                     </h3>
                     <p class="text-xl leading-tight">
-                        Performance-based rewards to recognize and appreciate
-                        employee contributions.
+                        {translations.whatWeOffer.benefits.bonuses.description}
                     </p>
                     <div class="flex justify-end mt-6">
                         <Image
-                            src={import('../../../assets/careers/benefit-work-together.svg')}
-                            alt="Bonuses icon"
+                            src={import('../../assets/careers/benefit-work-together.svg')}
+                            alt={translations.whatWeOffer.benefits.bonuses.iconAlt}
                             class="w-12"
                             loading="lazy"
                             width={48}
@@ -307,57 +294,52 @@ import { Image } from 'astro:assets';
             <div class="lg:hidden space-y-4 px-4">
                 <div class="offer-card-mobile">
                     <h3 class="text-lg font-bold mb-3">
-                        Comprehensive Benefits
+                        {translations.whatWeOffer.benefits.comprehensive.title}
                     </h3>
                     <p class="text-sm leading-relaxed">
-                        Medical coverage, personal accident insurance, and
-                        hospitalization benefits.
+                        {translations.whatWeOffer.benefits.comprehensive.description}
                     </p>
                 </div>
                 <div class="offer-card-mobile">
                     <h3 class="text-lg font-bold mb-3">
-                        Career Growth Opportunities
+                        {translations.whatWeOffer.benefits.careerGrowth.title}
                     </h3>
                     <p class="text-sm leading-relaxed">
-                        Performance-based salary increments and regular career
-                        reviews.
+                        {translations.whatWeOffer.benefits.careerGrowth.description}
                     </p>
                 </div>
                 <div class="offer-card-mobile">
-                    <h3 class="text-lg font-bold mb-3">Workplace Essentials</h3>
+                    <h3 class="text-lg font-bold mb-3">{translations.whatWeOffer.benefits.workplace.title}</h3>
                     <p class="text-sm leading-relaxed">
-                        Free uniforms provided for comfort and professionalism.
+                        {translations.whatWeOffer.benefits.workplace.description}
                     </p>
                 </div>
                 <div class="offer-card-mobile">
                     <h3 class="text-lg font-bold mb-3">
-                        Work & Rest Facilities
+                        {translations.whatWeOffer.benefits.facilities.title}
                     </h3>
                     <p class="text-sm leading-relaxed">
-                        A well-maintained environment with designated areas for
-                        productivity and relaxation.
+                        {translations.whatWeOffer.benefits.facilities.description}
                     </p>
                 </div>
                 <div class="offer-card-mobile">
-                    <h3 class="text-lg font-bold mb-3">Annual Events</h3>
+                    <h3 class="text-lg font-bold mb-3">{translations.whatWeOffer.benefits.events.title}</h3>
                     <p class="text-sm leading-relaxed">
-                        Enjoy our annual company dinner and trips as part of our
-                        team.
+                        {translations.whatWeOffer.benefits.events.description}
                     </p>
                 </div>
                 <div class="offer-card-mobile">
-                    <h3 class="text-lg font-bold mb-3">Bonuses & Incentives</h3>
+                    <h3 class="text-lg font-bold mb-3">{translations.whatWeOffer.benefits.bonuses.title}</h3>
                     <p class="text-sm leading-relaxed">
-                        Performance-based rewards to recognize and appreciate
-                        employee contributions.
+                        {translations.whatWeOffer.benefits.bonuses.description}
                     </p>
                 </div>
                 <div class="offer-card-mobile">
                     <h3 class="text-lg font-bold mb-3">
-                        Positive Work Culture
+                        {translations.whatWeOffer.benefits.culture.title}
                     </h3>
                     <p class="text-sm leading-relaxed">
-                        A team-oriented, respectful, and supportive workplace.
+                        {translations.whatWeOffer.benefits.culture.description}
                     </p>
                 </div>
             </div>
@@ -369,16 +351,15 @@ import { Image } from 'astro:assets';
         <div id="positions" class="bg-[#e7eceb] text-center py-12 px-6">
             <div class="max-w-9xl mx-auto">
                 <h2 class="text-4xl md:text-7xl font-bold text-[#2b2623] mb-2">
-                    Join Us
+                    {translations.positions.heading}
                 </h2>
 
                 <p class="font-semibold text-[#2b2623] mb-3 text-2xl">
-                    Career Opportunities | Available Position
+                    {translations.positions.subheading}
                 </p>
 
                 <p class="text-gray-600 md:text-xl">
-                    We are always looking for skilled professionals to join our
-                    team in various departments!
+                    {translations.positions.description}
                 </p>
             </div>
         </div>
@@ -421,9 +402,9 @@ import { Image } from 'astro:assets';
                   rounded"
                 >
                     <div class="md:w-[25%]">
-                        <h3 class="font-bold text-lg md:text-3xl">Dispatch</h3>
+                        <h3 class="font-bold text-lg md:text-3xl">{translations.positions.jobs[0].title}</h3>
                         <span class="text-sm md:text-base font-semibold"
-                            >[ Malaysia ]</span
+                            >{translations.positions.jobs[0].location}</span
                         >
                     </div>
 
@@ -431,9 +412,7 @@ import { Image } from 'astro:assets';
                     <div class="md:hidden h-[2px] w-full bg-black"></div>
 
                     <p class="flex-1 text-md md:text-xl text-gray-700">
-                        Dispatch duties including delivering and collecting
-                        documents. Ensure all tasks are handled with care and
-                        confidentiality.
+                        {translations.positions.jobs[0].description}
                     </p>
 
                     <span
@@ -453,9 +432,9 @@ import { Image } from 'astro:assets';
                   rounded"
                 >
                     <div class="md:w-[25%]">
-                        <h3 class="font-bold text-lg md:text-3xl">Chemist</h3>
+                        <h3 class="font-bold text-lg md:text-3xl">{translations.positions.jobs[1].title}</h3>
                         <span class="text-sm md:text-base font-semibold"
-                            >[ Malaysia ]</span
+                            >{translations.positions.jobs[1].location}</span
                         >
                     </div>
 
@@ -463,10 +442,7 @@ import { Image } from 'astro:assets';
                     <div class="md:hidden h-[2px] w-full bg-black"></div>
 
                     <p class="flex-1 text-md md:text-xl text-gray-700">
-                        Ensures product quality by performing daily tests on
-                        mosquito coil batches, analyzing raw materials, and
-                        coordinating with teams to meet customer and export
-                        standards.
+                        {translations.positions.jobs[1].description}
                     </p>
 
                     <span
@@ -487,7 +463,7 @@ import { Image } from 'astro:assets';
                 >
                     <div class="md:w-[25%]">
                         <h3 class="font-bold text-lg md:text-3xl">
-                            Internship & Graduate Programs
+                            {translations.positions.jobs[2].title}
                         </h3>
                     </div>
 
@@ -495,11 +471,7 @@ import { Image } from 'astro:assets';
                     <div class="md:hidden h-[2px] w-full bg-black"></div>
 
                     <p class="flex-1 text-md md:text-xl text-gray-700">
-                        We offer internship opportunities for students and
-                        recent graduates to gain hands-on experience. Our
-                        structured programs provide mentorship, training, and
-                        exposure to real-world manufacturing and business
-                        operations.
+                        {translations.positions.jobs[2].description}
                     </p>
 
                     <span
@@ -516,7 +488,7 @@ import { Image } from 'astro:assets';
         <div class="max-w-9xl mx-auto px-6 grid md:grid-cols-2 gap-16 flex">
             <!-- LEFT — APPLY FORM -->
             <div>
-                <h2 class="text-5xl md:text-6xl font-bold mb-8">Apply Now</h2>
+                <h2 class="text-5xl md:text-6xl font-bold mb-8">{translations.apply.heading}</h2>
 
                 <div id="formMessage" class="hidden p-4 rounded mb-4"></div>
 
@@ -524,7 +496,7 @@ import { Image } from 'astro:assets';
                     <!-- Name + Email -->
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
-                            <label for="name" class="text-base md:text-lg">Name *</label>
+                            <label for="name" class="text-base md:text-lg">{translations.apply.form.name}</label>
                             <input
                                 type="text"
                                 name="name"
@@ -535,7 +507,7 @@ import { Image } from 'astro:assets';
                         </div>
 
                         <div>
-                            <label for="email" class="text-base md:text-lg">Email *</label>
+                            <label for="email" class="text-base md:text-lg">{translations.apply.form.email}</label>
                             <input
                                 type="email"
                                 name="email"
@@ -548,19 +520,19 @@ import { Image } from 'astro:assets';
 
                     <!-- Position -->
                     <div>
-                        <label for="position" class="text-base md:text-lg">Position</label>
+                        <label for="position" class="text-base md:text-lg">{translations.apply.form.position}</label>
                         <input
                             type="text"
                             name="position"
                             id="position"
-                            placeholder="Applying for"
+                            placeholder={translations.apply.form.positionPlaceholder}
                             class="w-full mt-2 bg-[#4b5f59] text-white text-lg px-4 py-3 outline-none placeholder:text-gray-300"
                         />
                     </div>
 
                     <!-- Cover Letter -->
                     <div>
-                        <label for="cover_letter" class="text-base md:text-lg">Cover Letter</label>
+                        <label for="cover_letter" class="text-base md:text-lg">{translations.apply.form.coverLetter}</label>
                         <textarea
                             rows="4"
                             name="cover_letter"
@@ -572,7 +544,7 @@ import { Image } from 'astro:assets';
                     <!-- Resume -->
                     <div>
                         <label for="resume" class="text-base md:text-lg block mb-2"
-                            >RESUME</label
+                            >{translations.apply.form.resume}</label
                         >
                         <input
                             type="file"
@@ -596,29 +568,27 @@ import { Image } from 'astro:assets';
                         id="submitBtn"
                         class="bg-gray-200 text-black text-xl px-8 py-3 hover:bg-gray-50 transition rounded disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                        Submit
+                        {translations.apply.form.submit}
                     </button>
                 </form>
             </div>
 
             <!-- RIGHT — CONTACT -->
             <div>
-                <h2 class="text-5xl md:text-6xl font-bold mb-6">Contact Us</h2>
+                <h2 class="text-5xl md:text-6xl font-bold mb-6">{translations.contact.heading}</h2>
 
                 <p
                     class="text-md md:text-xl text-gray-300 leading-relaxed mb-6 max-w-2xl leading-tight"
                 >
-                    Get in touch with us for any inquiries or feedback. We are
-                    here to assist you with all your questions and needs of
-                    information regarding our company product & services.
+                    {translations.contact.description}
                 </p>
 
                 <a
                     href="/en/contact"
                     class="inline-block bg-gray-200 text-black text-xl px-8 py-3 hover:bg-gray-50 transition rounded"
-                    aria-label="Contact us for more information"
+                    aria-label={translations.contact.buttonAria}
                 >
-                    Contact
+                    {translations.contact.button}
                 </a>
             </div>
         </div>
@@ -627,7 +597,7 @@ import { Image } from 'astro:assets';
     <Footer />
 </BaseLayout>
 
-<script>
+<script define:vars={{ translations }}>
     document.addEventListener('DOMContentLoaded', function() {
         const form = document.getElementById('careerForm');
         const submitBtn = document.getElementById('submitBtn');
@@ -640,7 +610,7 @@ import { Image } from 'astro:assets';
 
             // Disable submit button
             submitBtn.disabled = true;
-            submitBtn.textContent = 'Submitting...';
+            submitBtn.textContent = translations.apply.form.submitting;
 
             // Hide previous messages
             formMessage.classList.add('hidden');
@@ -649,9 +619,9 @@ import { Image } from 'astro:assets';
             const turnstileResponse = document.querySelector('[name="cf-turnstile-response"]')?.value;
 
             if (!turnstileResponse) {
-                showMessage('Please complete the verification challenge', 'error');
+                showMessage(translations.apply.validation.verificationRequired, 'error');
                 submitBtn.disabled = false;
-                submitBtn.textContent = 'Submit';
+                submitBtn.textContent = translations.apply.form.submit;
                 return;
             }
 
@@ -675,14 +645,14 @@ import { Image } from 'astro:assets';
                         window.turnstile.reset();
                     }
                 } else {
-                    showMessage(data.message || 'An error occurred. Please try again.', 'error');
+                    showMessage(data.message || translations.apply.validation.errorGeneric, 'error');
                 }
             } catch (error) {
                 console.error('Error:', error);
-                showMessage('Failed to submit application. Please try again later.', 'error');
+                showMessage(translations.apply.validation.submitFailed, 'error');
             } finally {
                 submitBtn.disabled = false;
-                submitBtn.textContent = 'Submit';
+                submitBtn.textContent = translations.apply.form.submit;
             }
         });
 

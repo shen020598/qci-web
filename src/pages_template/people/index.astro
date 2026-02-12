@@ -1,0 +1,149 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
+import { Image } from 'astro:assets';
+import { t } from "../../utils/i18n";
+
+const lang = Astro.props.language || "en";
+const translations = t(lang).people;
+---
+
+<BaseLayout 
+    title={translations.meta.title}
+    description={translations.meta.description}
+>
+    <Navbar />
+    <section class="bg-[#edf7f7] py-16 lg:py-24">
+        <div class="max-w-9xl mx-auto px-6 lg:px-12">
+            <!-- TITLE -->
+            <div class="text-center mb-16">
+                <h2
+                    class="text-3xl md:text-4xl lg:text-5xl
+        font-bold
+        text-[#2b2623]"
+                >
+                    {translations.heading.title}
+                </h2>
+
+                <!-- Green underline (correct style) -->
+                <div class="w-22 h-[6px]
+        bg-primary
+        mx-auto mt-4">
+                </div>
+            </div>
+
+            <!-- GRID -->
+            <div class="grid md:grid-cols-2 gap-18 lg:gap-25 max-w-6xl mx-auto">
+                <!-- CARD -->
+                <div class="bg-[#d8c9a6] p-3 rounded">
+                    <Image
+                        src={import('../../assets/people/yeoh.png')}
+                        alt={translations.yeoh.alt}
+                        class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading="lazy"
+                        width={450}
+                        height={300}
+                    />
+
+                    <div class="p-6 lg:p-8">
+                        <p class="text-xl text-[#4a443d] mb-2">
+                            {translations.yeoh.position}
+                        </p>
+
+                        <h3 class="font-bold text-2xl mb-3 text-[#2b2623]">
+                            {translations.yeoh.name}
+                        </h3>
+
+                        <p class="text-lg leading-relaxed text-[#4a443d]">
+                            {translations.yeoh.description}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="bg-[#d8c9a6] p-3 rounded">
+                    <Image
+                        src={import('../../assets/people/andrew.png')}
+                        alt={translations.andrew.alt}
+                        class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading="lazy"
+                        width={450}
+                        height={300}
+                    />
+
+                    <div class="p-6 lg:p-8">
+                        <p class="text-xl text-[#4a443d] mb-2">
+                            {translations.andrew.position}
+                        </p>
+
+                        <h3 class="font-bold text-2xl mb-3 text-[#2b2623]">
+                            {translations.andrew.name}
+                        </h3>
+
+                        <p class="text-lg leading-relaxed text-[#4a443d]">
+                            {translations.andrew.description}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="bg-[#d8c9a6] p-3 rounded">
+                    <Image
+                        src={import('../../assets/people/wong.png')}
+                        alt={translations.wong.alt}
+                        class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading="lazy"
+                        width={450}
+                        height={300}
+                    />
+
+                    <div class="p-6 lg:p-8">
+                        <p class="text-xl text-[#4a443d] mb-2">
+                            {translations.wong.position}
+                        </p>
+
+                        <h3 class="font-bold text-2xl mb-3 text-[#2b2623]">
+                            {translations.wong.name}
+                        </h3>
+
+                        <p class="text-lg leading-relaxed text-[#4a443d]">
+                            {translations.wong.description}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="bg-[#d8c9a6] p-3 rounded">
+                    <Image
+                        src={import('../../assets/people/ng.png')}
+                        alt={translations.ng.alt}
+                        class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading="lazy"
+                        width={450}
+                        height={300}
+                    />
+
+                    <div class="p-6 lg:p-8">
+                        <p class="text-xl text-[#4a443d] mb-2">
+                            {translations.ng.position}
+                        </p>
+
+                        <h3 class="font-bold text-2xl mb-3 text-[#2b2623]">
+                            {translations.ng.name}
+                        </h3>
+
+                        <p class="text-lg leading-relaxed text-[#4a443d]">
+                            {translations.ng.description}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <Footer />
+</BaseLayout>

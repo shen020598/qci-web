@@ -1,22 +1,26 @@
 ---
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import Navbar from "../../../components/Navbar.astro";
-import Footer from "../../../components/Footer.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
 import { Image } from "astro:assets";
+import { t } from "../../utils/i18n";
+
+const lang = Astro.props.language || "en";
+const translations = t(lang).products;
 ---
 
 <BaseLayout
-    title="QCI Products - High-Performance Mosquito Coils"
-    description="Quality Coils Industries offers premium mosquito coils including smokeless, wood-based, charcoal-based coils and pre-mix powder. Custom OEM solutions with various colors, aromas, and packaging options for global markets."
+    title={translations.meta.title}
+    description={translations.meta.description}
 >
     <Navbar />
     <section class="relative">
         <!-- Background Image -->
         <div class="absolute inset-0">
             <Image
-                src={import("../../../assets/products/bg.jpg")}
+                src={import("../../assets/products/bg.jpg")}
                 fetchpriority={"high"}
-                alt="Products background"
+                alt={translations.hero.bgAlt}
                 class="w-full h-full object-cover"
                 loading="eager"
                 width={1920}
@@ -35,36 +39,27 @@ import { Image } from "astro:assets";
                     <h2
                         class="text-3xl md:text-4xl lg:text-6xl font-bold text-[#2b2623] mb-4 reveal"
                     >
-                        Our Products
+                        {translations.hero.heading}
                     </h2>
 
                     <h3
                         class="text-lg md:text-xl lg:text-3xl font-semibold mb-4 text-[#2b2623] reveal"
                     >
-                        High-Performance Mosquito Coils for Every Market
+                        {translations.hero.subheading}
                     </h3>
 
                     <p
                         class="text-sm md:text-base lg:text-xl leading-tight max-w-4xl text-[#3f3a36] reveal"
                     >
-                        At QCI, we specialize in manufacturing high-performance
-                        mosquito coils designed for maximum protection,
-                        efficiency, and market adaptability. With over 50 years
-                        of expertise, we cater to various product
-                        specifications, including different colors, active
-                        ingredients, sizes, burning times, and aromas. Our
-                        dedicated production lines ensure the highest quality
-                        standards, allowing brands to choose between
-                        charcoal-based coils and wood-based coils without
-                        cross-contamination
+                        {translations.hero.description}
                     </p>
                 </div>
 
                 <!-- RIGHT IMAGE -->
                 <div class="flex justify-center md:justify-end">
                     <Image
-                        src={import("../../../assets/products/banner-coil.png")}
-                        alt="Mosquito coil product"
+                        src={import("../../assets/products/banner-coil.png")}
+                        alt={translations.hero.bannerAlt}
                         class="w-48 md:w-56 lg:w-64 object-cover shadow-md reveal-right"
                         loading="eager"
                         width={256}
@@ -83,16 +78,13 @@ import { Image } from "astro:assets";
                     <h3
                         class="text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-[#1f1f1f] reveal"
                     >
-                        Customizable Aromas
+                        {translations.aromas.heading}
                     </h3>
 
                     <p
                         class="text-sm md:text-base lg:text-2xl leading-tight text-[#2f2f2f] reveal"
                     >
-                        To enhance market appeal, we offer mosquito coils in
-                        various colors, each paired with a unique scent. These
-                        specialty coils combine protection with pleasant aromas,
-                        making them ideal for diverse markets worldwide.
+                        {translations.aromas.description}
                     </p>
                 </div>
                 <div class="grid gap-10 items-center">
@@ -105,54 +97,54 @@ import { Image } from "astro:assets";
                         <!-- ITEM -->
                         <div class="reveal">
                             <Image
-                                src={import("../../../assets/products/coil-red.png")}
-                                alt="Red rose scented mosquito coil"
+                                src={import("../../assets/products/coil-red.png")}
+                                alt={translations.aromas.items[0].alt}
                                 class="mx-auto mb-3 w-200"
                                 loading="lazy"
                                 width={300}
                                 height={300}
                             />
-                            <p class="font-semibold text-2xl">Red Rose</p>
+                            <p class="font-semibold text-2xl">{translations.aromas.items[0].label}</p>
                         </div>
 
                         <!-- ITEM -->
                         <div class="reveal">
                             <Image
-                                src={import("../../../assets/products/coil-green.png")}
-                                alt="Green matcha scented mosquito coil"
+                                src={import("../../assets/products/coil-green.png")}
+                                alt={translations.aromas.items[1].alt}
                                 class="mx-auto mb-3 w-200"
                                 loading="lazy"
                                 width={300}
                                 height={300}
                             />
-                            <p class="font-semibold text-2xl">Green Matcha</p>
+                            <p class="font-semibold text-2xl">{translations.aromas.items[1].label}</p>
                         </div>
                         <!-- ITEM -->
                         <div class="reveal">
                             <Image
-                                src={import("../../../assets/products/coil-purple.png")}
-                                alt="Lavender purple scented mosquito coil"
+                                src={import("../../assets/products/coil-purple.png")}
+                                alt={translations.aromas.items[2].alt}
                                 class="mx-auto mb-3 w-200"
                                 loading="lazy"
                                 width={300}
                                 height={300}
                             />
                             <p class="font-semibold text-2xl">
-                                Lavender Purple
+                                {translations.aromas.items[2].label}
                             </p>
                         </div>
 
                         <!-- ITEM -->
                         <div class="reveal">
                             <Image
-                                src={import("../../../assets/products/coil-brown.png")}
-                                alt="Brown natural scented mosquito coil"
+                                src={import("../../assets/products/coil-brown.png")}
+                                alt={translations.aromas.items[3].alt}
                                 class="mx-auto mb-3 w-200"
                                 loading="lazy"
                                 width={300}
                                 height={300}
                             />
-                            <p class="font-semibold text-2xl">Brown Natural</p>
+                            <p class="font-semibold text-2xl">{translations.aromas.items[3].label}</p>
                         </div>
                     </div>
                 </div>
@@ -168,22 +160,17 @@ import { Image } from "astro:assets";
                     <h3
                         class="text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-[#1f1f1f] reveal"
                     >
-                        Custom Packing Solutions
+                        {translations.packing.heading}
                     </h3>
 
                     <p class="text-sm font-semibold mb-4 text-[#3f3a36] reveal">
-                        Exceptional Packaging
+                        {translations.packing.subheading}
                     </p>
 
                     <p
                         class="text-sm md:text-base lg:text-2xl leading-tight text-[#2f2f2f] reveal"
                     >
-                        Quality Coils Industries offers a comprehensive range of
-                        packaging designed with efficiency and effectiveness in
-                        mind. Our products are crafted to provide reliable
-                        protection against mosquitoes and other pests, ensuring
-                        a peaceful and enjoyable environment for you and your
-                        family.
+                        {translations.packing.description}
                     </p>
                 </div>
                 <!-- LEFT: PACKING ITEMS -->
@@ -193,41 +180,41 @@ import { Image } from "astro:assets";
                     <!-- Item -->
                     <div class="reveal-left">
                         <Image
-                            src={import("../../../assets/products/box-tin-can.png")}
-                            alt="Tin can mosquito coil packaging"
+                            src={import("../../assets/products/box-tin-can.png")}
+                            alt={translations.packing.items[0].alt}
                             class="mx-auto mb-4 w-80"
                             loading="lazy"
                             width={400}
                             height={400}
                         />
-                        <p class="font-semibold text-[#2b2623]">Tin Can</p>
+                        <p class="font-semibold text-[#2b2623]">{translations.packing.items[0].label}</p>
                     </div>
 
                     <!-- Item -->
                     <div class="reveal">
                         <Image
-                            src={import("../../../assets/products/box-coil-holder.png")}
-                            alt="Coil holder mosquito coil packaging"
+                            src={import("../../assets/products/box-coil-holder.png")}
+                            alt={translations.packing.items[1].alt}
                             class="mx-auto mb-4 w-80"
                             loading="lazy"
                             width={400}
                             height={400}
                         />
-                        <p class="font-semibold text-[#2b2623]">Coil Holder</p>
+                        <p class="font-semibold text-[#2b2623]">{translations.packing.items[1].label}</p>
                     </div>
 
                     <!-- Item -->
                     <div class="reveal-right">
                         <Image
-                            src={import("../../../assets/products/box-dispenser.png")}
-                            alt="Paper dispenser box mosquito coil packaging"
+                            src={import("../../assets/products/box-dispenser.png")}
+                            alt={translations.packing.items[2].alt}
                             class="mx-auto mb-4 w-80"
                             loading="lazy"
                             width={400}
                             height={400}
                         />
                         <p class="font-semibold text-[#2b2623]">
-                            Paper Dispenser Box
+                            {translations.packing.items[2].label}
                         </p>
                     </div>
                 </div>
@@ -244,8 +231,8 @@ import { Image } from "astro:assets";
                     <!-- ITEM -->
                     <div class="reveal">
                         <Image
-                            src={import("../../../assets/products/base-smokeless.jpg")}
-                            alt="Smokeless mosquito coil base"
+                            src={import("../../assets/products/base-smokeless.jpg")}
+                            alt={translations.bases[0].alt}
                             class="mx-auto mb-6 object-cover"
                             loading="lazy"
                             width={300}
@@ -254,15 +241,15 @@ import { Image } from "astro:assets";
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 rounded-xl inline-block text-3xl min-w-[180px]"
                         >
-                            Smokeless
+                            {translations.bases[0].label}
                         </div>
                     </div>
 
                     <!-- ITEM -->
                     <div class="reveal">
                         <Image
-                            src={import("../../../assets/products/base-wood.jpg")}
-                            alt="Wood-based mosquito coil base"
+                            src={import("../../assets/products/base-wood.jpg")}
+                            alt={translations.bases[1].alt}
                             class="mx-auto mb-6 object-cover"
                             loading="lazy"
                             width={300}
@@ -271,15 +258,15 @@ import { Image } from "astro:assets";
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 text-3xl rounded-xl inline-block min-w-[180px]"
                         >
-                            Wood-Based
+                            {translations.bases[1].label}
                         </div>
                     </div>
 
                     <!-- ITEM -->
                     <div class="reveal">
                         <Image
-                            src={import("../../../assets/products/base-charcoal.jpg")}
-                            alt="Charcoal-based mosquito coil base"
+                            src={import("../../assets/products/base-charcoal.jpg")}
+                            alt={translations.bases[2].alt}
                             class="mx-auto mb-6 object-cover"
                             loading="lazy"
                             width={300}
@@ -288,15 +275,15 @@ import { Image } from "astro:assets";
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 text-3xl rounded-xl inline-block min-w-[180px]"
                         >
-                            Charcoal-Based
+                            {translations.bases[2].label}
                         </div>
                     </div>
 
                     <!-- ITEM -->
                     <div class="reveal">
                         <Image
-                            src={import("../../../assets/products/base-pre-mix-powder.jpg")}
-                            alt="Pre-mix powder for mosquito coil manufacturing"
+                            src={import("../../assets/products/base-pre-mix-powder.jpg")}
+                            alt={translations.bases[3].alt}
                             class="mx-auto mb-6 object-cover"
                             loading="lazy"
                             width={300}
@@ -305,7 +292,7 @@ import { Image } from "astro:assets";
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 text-3xl rounded-xl inline-block min-w-[180px]"
                         >
-                            Pre-Mix Powder
+                            {translations.bases[3].label}
                         </div>
                     </div>
                 </div>
@@ -328,45 +315,27 @@ import { Image } from "astro:assets";
                             <h2
                                 class="text-3xl md:text-6xl font-bold mb-3 text-shadow-sm text-shadow-gray-700"
                             >
-                                Smokeless Mosquito Coil
+                                {translations.carousel.smokeless.heading}
                             </h2>
 
                             <h3
                                 class="text-3xl font-semibold text-shadow-sm text-shadow-sm text-shadow-gray-700"
                             >
-                                Low Smoke, Maximum Protection
+                                {translations.carousel.smokeless.subheading}
                             </h3>
 
                             <p
                                 class="max-w-8xl mx-auto my-10 md:my-20 opacity-90 md:text-2xl leading-tight text-center text-shadow-lg"
                             >
-                                Our smokeless mosquito coil is ideal for indoor
-                                use and for consumers who prefer a low-smoke yet
-                                highly effective repellent. Using advanced
-                                formulation technology, these coils emit minimal
-                                smoke while ensuring long-lasting mosquito
-                                protection.
+                                {translations.carousel.smokeless.description}
                             </p>
 
                             <ul
                                 class="inline-block text-center space-y-1 opacity-90 md:text-2xl leading-tight text-shadow-lg"
                             >
-                                <li>
-                                    • Ideal for indoor environments – safe for
-                                    enclosed spaces with minimal air pollution
-                                </li>
-                                <li>
-                                    • Low-irritation formula – suitable for
-                                    sensitive individuals and families
-                                </li>
-                                <li>
-                                    • Highly effective – provides consistent
-                                    mosquito protection for hours
-                                </li>
-                                <li>
-                                    • Customizable aromas – lemongrass,
-                                    lavender, sandalwood, or unscented
-                                </li>
+                                {translations.carousel.smokeless.benefits.map((benefit: string) => (
+                                    <li>• {benefit}</li>
+                                ))}
                             </ul>
                         </div>
 
@@ -377,47 +346,27 @@ import { Image } from "astro:assets";
                             <h2
                                 class="text-3xl md:text-6xl font-bold mb-3 text-shadow-sm text-shadow-gray-700"
                             >
-                                Wood-Based Mosquito Coil
+                                {translations.carousel.wood.heading}
                             </h2>
 
                             <h3
                                 class="text-3xl font-semibold text-shadow-sm text-shadow-gray-700"
                             >
-                                Eco-Friendly, Low-Smoke Formula
+                                {translations.carousel.wood.subheading}
                             </h3>
 
                             <p
                                 class="max-w-8xl mx-auto my-10 md:my-20 opacity-90 md:text-2xl leading-tight text-center text-shadow-lg"
                             >
-                                Our wood-based mosquito coil is a premium,
-                                environmentally friendly alternative that offers
-                                low-smoke mosquito protection. Made from natural
-                                wood-based materials, these coils ensure
-                                efficient repelling without excessive smoke
-                                emissions, making them ideal for both indoor and
-                                outdoor use.
+                                {translations.carousel.wood.description}
                             </p>
 
                             <ul
                                 class="inline-block text-center space-y-1 opacity-90 md:text-2xl leading-tight text-shadow-lg"
                             >
-                                <li>
-                                    • Produced in a dedicated green coil line –
-                                    no contamination with charcoal-based
-                                    products
-                                </li>
-                                <li>
-                                    • Low-smoke, clean-burning formula –
-                                    designed for health-conscious consumers
-                                </li>
-                                <li>
-                                    • Eco-friendly & sustainable – made from
-                                    renewable wood-based materials
-                                </li>
-                                <li>
-                                    • Mild yet effective – suitable for homes,
-                                    restaurants, and outdoor patios
-                                </li>
+                                {translations.carousel.wood.benefits.map((benefit: string) => (
+                                    <li>• {benefit}</li>
+                                ))}
                             </ul>
                         </div>
 
@@ -428,45 +377,27 @@ import { Image } from "astro:assets";
                             <h2
                                 class="text-3xl md:text-6xl font-bold mb-3 text-shadow-sm text-shadow-gray-700"
                             >
-                                Charcoal-Based Mosquito Coil
+                                {translations.carousel.charcoal.heading}
                             </h2>
 
                             <h3
                                 class="text-3xl font-semibold text-shadow-sm text-shadow-gray-700"
                             >
-                                High-Repellency For Outdoor Protection
+                                {translations.carousel.charcoal.subheading}
                             </h3>
 
                             <p
                                 class="max-w-8xl mx-auto my-10 md:my-20 opacity-90 md:text-2xl leading-tight text-center text-shadow-lg"
                             >
-                                Our charcoal-based mosquito coil is formulated
-                                for maximum effectiveness, making it perfect for
-                                outdoor environments. It produces stronger
-                                smoke, creating a protective barrier that keeps
-                                mosquitoes away in open areas.
+                                {translations.carousel.charcoal.description}
                             </p>
 
                             <ul
                                 class="inline-block text-center space-y-1 opacity-90 md:text-2xl leading-tight text-shadow-lg"
                             >
-                                <li>
-                                    • Dedicated black coil production line –
-                                    ensuring purity and consistency
-                                </li>
-                                <li>
-                                    • Powerful repellent action – effective in
-                                    high-risk mosquito areas
-                                </li>
-                                <li>
-                                    • Long-lasting burn time – extended
-                                    protection for outdoor settings
-                                </li>
-                                <li>
-                                    • Best for camping, gardens & tropical
-                                    climates – protects against mosquito-borne
-                                    diseases
-                                </li>
+                                {translations.carousel.charcoal.benefits.map((benefit: string) => (
+                                    <li>• {benefit}</li>
+                                ))}
                             </ul>
                         </div>
 
@@ -477,64 +408,41 @@ import { Image } from "astro:assets";
                             <h2
                                 class="text-3xl md:text-6xl font-bold mb-3 text-shadow-sm text-shadow-gray-700"
                             >
-                                Mosquito Coil Pre-Mix Powder
+                                {translations.carousel.premix.heading}
                             </h2>
 
                             <h3
                                 class="text-3xl font-semibold text-shadow-sm text-shadow-gray-700"
                             >
-                                Custom Formulation For OEM Manufacturing
+                                {translations.carousel.premix.subheading}
                             </h3>
 
                             <p
                                 class="max-w-8xl mx-auto my-10 md:my-20 opacity-90 md:text-2xl leading-tight text-center text-shadow-lg"
                             >
-                                Our pre-mix powder is a ready-to-use formulation
-                                designed for mosquito coil manufacturers looking
-                                for trouble-free production. This high-quality
-                                blend eliminates the need for additional quality
-                                control testing, making it an ideal solution for
-                                brands aiming to manufacture their own coils
-                                efficiently.
+                                {translations.carousel.premix.description}
                             </p>
 
                             <p
                                 class="md:text-2xl font-semibold text-shadow-lg mb-4"
                             >
-                                Common challenges we SOLVE:
+                                {translations.carousel.premix.challengesHeading}
                             </p>
 
                             <ul
                                 class="inline-block text-center space-y-1 opacity-90 md:text-2xl leading-tight text-shadow-lg"
                             >
-                                <li>• Raw material shortages</li>
-                                <li>• Inconsistent raw material quality</li>
-                                <li>• High labor costs</li>
-                                <li>• Large storage space requirements</li>
+                                {translations.carousel.premix.challenges.map((challenge: string) => (
+                                    <li>• {challenge}</li>
+                                ))}
                             </ul>
 
                             <ul
                                 class="inline-block text-center space-y-1 opacity-90 md:text-2xl leading-tight text-shadow-lg mt-8"
                             >
-                                <li>
-                                    • Customizable formulation – tailored to
-                                    specific market needs
-                                </li>
-                                <li>
-                                    • Easy-to-use pre-mix – ensures uniformity
-                                    in production
-                                </li>
-                                <li>
-                                    • Compatible with both charcoal & wood-based
-                                    coils
-                                </li>
-                                <li>
-                                    • Scientifically tested for effectiveness
-                                </li>
-                                <li>
-                                    • Ready-to-ship premix powder available in
-                                    customer-preferred sizes
-                                </li>
+                                {translations.carousel.premix.benefits.map((benefit: string) => (
+                                    <li>• {benefit}</li>
+                                ))}
                             </ul>
                         </div>
                     </div>
@@ -543,11 +451,11 @@ import { Image } from "astro:assets";
                 <!-- ARROWS -->
                 <button
                     class="prev absolute left-0 top-1/2 -translate-y-1/2 opacity-70 hover:opacity-100 z-10"
-                    aria-label="Previous slide"
+                    aria-label={translations.navigation.prevAria}
                 >
                     <Image
-                        src={import("../../../assets/products/left-arrow.png")}
-                        alt="Previous"
+                        src={import("../../assets/products/left-arrow.png")}
+                        alt={translations.navigation.prevAlt}
                         class="w-6 md:w-12"
                         loading="lazy"
                         width={48}
@@ -557,11 +465,11 @@ import { Image } from "astro:assets";
 
                 <button
                     class="next absolute right-0 top-1/2 -translate-y-1/2 opacity-70 hover:opacity-100 z-10"
-                    aria-label="Next slide"
+                    aria-label={translations.navigation.nextAria}
                 >
                     <Image
-                        src={import("../../../assets/products/right-arrow.png")}
-                        alt="Next"
+                        src={import("../../assets/products/right-arrow.png")}
+                        alt={translations.navigation.nextAlt}
                         class="w-6 md:w-12"
                         loading="lazy"
                         width={48}
@@ -578,16 +486,16 @@ import { Image } from "astro:assets";
             <h2
                 class="text-3xl md:text-4xl lg:text-6xl font-bold text-[#2b2623] leading-tight mb-10 reveal"
             >
-                Bring high-quality mosquito coil products to your market.
+                {translations.cta.heading}
             </h2>
 
             <!-- BUTTON -->
             <a
                 href="/en/contact"
                 class="inline-block bg-[#1f1f1f] text-white px-8 py-3 rounded-md text-md md:text-lg hover:opacity-90 transition reveal"
-                aria-label="Contact us about our mosquito coil products"
+                aria-label={translations.cta.buttonAria}
             >
-                Contact Us
+                {translations.cta.button}
             </a>
         </div>
     </section>

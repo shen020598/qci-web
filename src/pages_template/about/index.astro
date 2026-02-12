@@ -1,13 +1,17 @@
 ---
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import Navbar from "../../../components/Navbar.astro";
-import Footer from "../../../components/Footer.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
 import { Image } from 'astro:assets';
+import { t } from "../../utils/i18n";
+
+const lang = Astro.props.language || "en";
+const translations = t(lang).about;
 ---
 
 <BaseLayout 
-    title="About QCI - Leading OEM Mosquito Coil Manufacturer" 
-    description="Quality Coils Industries (QCI) - A legacy of excellence since 1973. Learn about our OEM expertise, global reach, and commitment to producing high-quality mosquito coils in Malaysia and Thailand."
+    title={translations.meta.title}
+    description={translations.meta.description}
 >
     <Navbar />
     <section>
@@ -15,8 +19,8 @@ import { Image } from 'astro:assets';
         <div class="relative h-[340px] md:h-[600px] overflow-hidden">
             <!-- Background -->
             <Image
-                src={import('../../../assets/about/thai-malaysia-bg.png')}
-                alt="QCI Malaysia and Thailand facilities"
+                src={import('../../assets/about/thai-malaysia-bg.png')}
+                alt={translations.hero.altBackground}
                 class="w-full h-full object-cover object-top"
                 loading="eager"
                 width={1200}
@@ -33,7 +37,7 @@ import { Image } from 'astro:assets';
                text-4xl md:text-6xl lg:text-8xl
                font-bold tracking-wide text-center px-4"
             >
-                A Legacy of Excellence
+                {translations.hero.title}
             </h1>
         </div>
 
@@ -45,7 +49,7 @@ import { Image } from 'astro:assets';
                 <p
                     class="text-sm md:text-base lg:text-xl font-bold mb-4 reveal"
                 >
-                    QCI Malaysia & QCI Thailand: Trusted OEM Partners Since 1973
+                    {translations.intro.label}
                 </p>
 
                 <!-- Main Paragraph -->
@@ -54,13 +58,7 @@ import { Image } from 'astro:assets';
         font-semibold leading-relaxed
         mb-12 max-w-9xl reveal"
                 >
-                    QCI is a leading OEM manufacturer specializing in
-                    high-quality mosquito coils, serving global brands with
-                    innovative, effective, and environmentally responsible
-                    solutions. With nearly five decades of expertise, we provide
-                    custom formulations, cutting-edge production technologies,
-                    and private labeling services to empower businesses
-                    worldwide.
+                    {translations.intro.description}
                 </p>
 
                 <!-- MEDIA + TEXT -->
@@ -86,16 +84,11 @@ import { Image } from 'astro:assets';
           font-semibold leading-tight reveal-right"
                     >
                         <p>
-                            QCI Malaysia, established in 1973 was pioneering in
-                            OEM mosquito coil manufacturing, setting the
-                            industry standard for quality and innovation.
+                            {translations.intro.malaysiaText}
                         </p>
 
                         <p>
-                            QCI Thailand, established 1993 was us strengthening
-                            our regional and international supply chain with
-                            advanced production capabilities and strategic
-                            market access.
+                            {translations.intro.thailandText}
                         </p>
                     </div>
                 </div>
@@ -135,8 +128,8 @@ import { Image } from 'astro:assets';
 
                 <!-- RIGHT IMAGE -->
                 <Image
-                    src={import('../../../assets/about/lab-experiment.jpg')}
-                    alt="QCI laboratory quality control testing"
+                    src={import('../../assets/about/lab-experiment.jpg')}
+                    alt={translations.commitment.altLab}
                     class="h-full object-cover reveal-right"
                     loading="lazy"
                     width={700}
@@ -150,7 +143,7 @@ import { Image } from 'astro:assets';
         <div class="max-w-9xl mx-auto px-6 lg:px-12 text-center">
             <!-- Title -->
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-12 reveal">
-                OEM Expertise & Global Reach
+                {translations.expertise.title}
             </h2>
 
             <!-- Subtitle -->
@@ -161,9 +154,7 @@ import { Image } from 'astro:assets';
       leading-relaxed border-b-1 border-t-1
       mb-14 reveal"
             >
-                As an experienced OEM manufacturer, we partner with brands
-                worldwide to produce customized mosquito coils tailored to
-                specific market needs.
+                {translations.expertise.subtitle}
             </p>
 
             <!-- GRID WRAPPER -->
@@ -183,33 +174,30 @@ import { Image } from 'astro:assets';
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
                         <Image
-                            src={import('../../../assets/about/about-formulation.png')}
-                            alt="Custom formulation icon"
+                            src={import('../../assets/about/about-formulation.png')}
+                            alt={translations.expertise.formulation.alt}
                             class="mx-auto w-30"
                             loading="lazy"
                             width={100}
                             height={100}
                         />
                         <h3 class="text-xl md:text-3xl font-bold">
-                            Formulation
+                            {translations.expertise.formulation.title}
                         </h3>
                         <p class="underline text-lg md:text-xl leading-tight">
-                            A specific formulation for enhanced mosquito
-                            repellency
+                            {translations.expertise.formulation.subtitle}
                         </p>
                         <p
                             class="text-lg md:text-xl leading-tight text-black/80"
                         >
-                            Our proprietary formula provides long-lasting
-                            protection against mosquito bites, ensuring comfort
-                            and peace of mind.
+                            {translations.expertise.formulation.description}
                         </p>
                     </div>
 
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
                         <Image
-                            src={import('../../../assets/about/about-scent.png')}
+                            src={import('../../assets/about/about-scent.png')}
                             alt="Custom scent icon"
                             class="mx-auto w-30"
                             loading="lazy"
@@ -232,7 +220,7 @@ import { Image } from 'astro:assets';
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
                         <Image
-                            src={import('../../../assets/about/about-brand.png')}
+                            src={import('../../assets/about/about-brand.png')}
                             alt="Custom branding icon"
                             class="mx-auto w-30"
                             loading="lazy"
@@ -255,23 +243,21 @@ import { Image } from 'astro:assets';
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
                         <Image
-                            src={import('../../../assets/about/about-packaging.png')}
-                            alt="Custom packaging icon"
+                            src={import('../../assets/about/about-packaging.png')}
+                            alt={translations.expertise.packaging.alt}
                             class="mx-auto w-30"
                             loading="lazy"
                             width={100}
                             height={100}
                         />
-                        <h3 class="text-xl md:text-3xl font-bold">Packaging</h3>
+                        <h3 class="text-xl md:text-3xl font-bold">{translations.expertise.packaging.title}</h3>
                         <p class="underline text-lg md:text-xl leading-tight">
-                            Specialized packaging solutions
+                            {translations.expertise.packaging.subtitle}
                         </p>
                         <p
                             class="text-lg md:text-xl leading-tight text-black/80"
                         >
-                            Choose from an array of packaging solutions designed
-                            to protect the product, enhance its appeal, and
-                            ensure convenience for your customers.
+                            {translations.expertise.packaging.description}
                         </p>
                     </div>
                 </div>
@@ -284,10 +270,7 @@ import { Image } from 'astro:assets';
       text-lg lg:text-2xl
       text-black/80 reveal"
             >
-                Our team delivers tailored solutions to give your brand a
-                competitive edge. With state-of-the-art production facilities in
-                Malaysia and Thailand, we efficiently fulfill bulk orders while
-                maintaining product integrity.
+                {translations.expertise.bottomText}
             </p>
         </div>
     </section>
@@ -296,8 +279,8 @@ import { Image } from 'astro:assets';
         <!-- Background Image -->
         <div class="relative h-[420px] md:h-[520px] lg:h-[600px]">
             <Image
-                src={import('../../../assets/about/stamping-process.jpg')}
-                alt="QCI mosquito coil stamping production process"
+                src={import('../../assets/about/stamping-process.jpg')}
+                alt={translations.quality.altBackground}
                 class="mx-auto w-full object-cover h-full"
                 loading="lazy"
                 width={1200}
@@ -323,8 +306,7 @@ import { Image } from 'astro:assets';
                         class="text-5xl md:text-6xl lg:text-7xl
           font-bold leading-tight"
                     >
-                        Quality Control &<br />
-                        Production Process
+                        {translations.quality.title}
                     </h2>
                 </div>
 
@@ -337,8 +319,7 @@ import { Image } from 'astro:assets';
         -mt-6
         shadow reveal"
                 >
-                    Ensuring<br class="md:hidden" />
-                    Excellence In Every Step
+                    {translations.quality.subtitle}
                 </div>
 
                 <!-- Caption -->
@@ -351,9 +332,7 @@ import { Image } from 'astro:assets';
         max-w-3xl
         drop-shadow reveal"
                 >
-                    Our mosquito coil manufacturing follows strict ISO 9001:2008
-                    quality standards. Every step is monitored to maintain
-                    consistency, safety, and efficiency.
+                    {translations.quality.description}
                 </p>
             </div>
         </div>
@@ -366,7 +345,7 @@ import { Image } from 'astro:assets';
                 <div class="reveal-left">
                     <!-- Title -->
                     <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Team
+                        {translations.team.title}
                     </h2>
 
                     <!-- Name -->
@@ -375,7 +354,7 @@ import { Image } from 'astro:assets';
           font-semibold
           mb-4"
                     >
-                        Mr. Yeoh Hon Poh - Chairman / Founder
+                        {translations.team.name}
                     </h3>
 
                     <!-- Description -->
@@ -385,13 +364,7 @@ import { Image } from 'astro:assets';
           max-w-2xl
           mb-8"
                     >
-                        Meet Mr. Yeoh, the visionary entrepreneur behind QCI.
-                        With an unwavering commitment to innovation and
-                        sustainability, Mr. Yeoh has revolutionized the
-                        industry, ensuring families can enjoy mosquito-free
-                        environments. His journey from humble beginnings to
-                        leading a top-tier manufacturing powerhouse is filled
-                        with inspiring milestones.
+                        {translations.team.description}
                     </p>
 
                     <!-- Button -->
@@ -400,7 +373,7 @@ import { Image } from 'astro:assets';
                         class="bg-[#4a4a4a] text-white px-6 py-3 rounded text-sm md:text-base hover:opacity-90 transition inline-block"
                         aria-label="Learn more about Mr. Yeoh Hon Poh"
                     >
-                        Learn More
+                        {translations.team.learnMore}
                     </a>
                 </div>
 
@@ -418,8 +391,8 @@ import { Image } from 'astro:assets';
 
                     <!-- Portrait -->
                     <Image
-                        src={import('../../../assets/about/mr-yeoh-hon-poh.jpg')}
-                        alt="Mr. Yeoh Hon Poh, QCI Chairman and Founder"
+                        src={import('../../assets/about/mr-yeoh-hon-poh.jpg')}
+                        alt={translations.team.alt}
                         class="w-72 md:w-80 lg:w-96 object-cover md:ml-12"
                         loading="lazy"
                         width={320}
@@ -441,9 +414,7 @@ import { Image } from 'astro:assets';
           text-3xl md:text-5xl lg:text-6xl
           leading-tight"
                     >
-                        Partner with <br />
-                        QCI Malaysia & <br />
-                        QCI Thailand
+                        {translations.partner.title}
                     </h2>
                 </div>
 
@@ -454,7 +425,7 @@ import { Image } from 'astro:assets';
           text-sm md:text-base lg:text-2xl
           mb-6"
                     >
-                        Join us in building a safer, mosquito-free future today.
+                        {translations.partner.description}
                     </p>
 
                     <a
@@ -462,7 +433,7 @@ import { Image } from 'astro:assets';
                         class="bg-[#6f8f85] text-white px-6 py-3 rounded text-sm md:text-base hover:opacity-90 transition inline-block"
                         aria-label="Read more about partnering with QCI"
                     >
-                        Contact Us
+                        {translations.partner.contactUs}
                     </a>
                 </div>
             </div>

@@ -1,0 +1,96 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
+import { t } from "../../utils/i18n";
+
+const lang = Astro.props.language || "en";
+const translations = t(lang).oemAdvantage;
+---
+
+<BaseLayout 
+    title={translations.meta.title}
+    description={translations.meta.description}
+>
+    <Navbar />
+    <main>
+    <section class="bg-[#d8c9a6] py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- TOP BLOCK -->
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <!-- LEFT TEXT -->
+                <div>
+                    <h2
+                        class="text-4xl md:text-5xl font-bold text-[#2b2623] mb-6 leading-tight"
+                    >
+                        {translations.hero.heading}
+                    </h2>
+
+                    <p class="text-[#3a332c] leading-relaxed mb-6">
+                        {translations.hero.paragraph1}
+                    </p>
+
+                    <p class="text-[#3a332c] leading-relaxed">
+                        {translations.hero.paragraph2}
+                    </p>
+                </div>
+
+                <!-- RIGHT BADGE -->
+                <div class="flex justify-center md:justify-end">
+                    <img
+                        src="https://picsum.photos/200"
+                        alt={translations.hero.badgeAlt}
+                        class="w-40 md:w-52"
+                    />
+                </div>
+            </div>
+
+            <!-- BOTTOM BLOCK -->
+            <div class="mt-20 max-w-4xl">
+                <h2
+                    class="text-4xl md:text-5xl font-bold text-[#2b2623] mb-8 leading-tight"
+                >
+                    {translations.whyChoose.heading}
+                </h2>
+
+                <ul class="space-y-3 text-[#3a332c]">
+                    {translations.whyChoose.benefits.map((benefit) => (
+                        <li set:html={benefit} />
+                    ))}
+                </ul>
+
+                <p class="mt-6 text-[#3a332c]">
+                    {translations.whyChoose.closingText}
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full">
+        <!-- MAIN CTA -->
+        <div class="bg-[#0c2f16] text-white py-20 px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <!-- Small Title -->
+                <p class="text-lg md:text-xl mb-6 font-semibold">
+                    {translations.cta.smallTitle}
+                </p>
+
+                <!-- Main Heading -->
+                <h2 class="text-3xl md:text-5xl font-bold leading-tight mb-10">
+                    {translations.cta.heading}
+                </h2>
+
+                <!-- Button -->
+                <a
+                    href={`/${lang}/contact`}
+                    class="inline-block bg-gray-200 text-gray-800 px-8 py-3 rounded hover:bg-white transition"
+                    aria-label={translations.cta.buttonAria}
+                >
+                    {translations.cta.button}
+                </a>
+            </div>
+        </div>
+    </section>
+    </main>
+    <Footer />
+</BaseLayout>

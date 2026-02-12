@@ -1,13 +1,17 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import Navbar from "../../components/Navbar.astro";
-import Footer from "../../components/Footer.astro";
-import { Image } from 'astro:assets';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+import { Image } from "astro:assets";
+import { t } from "../utils/i18n";
+
+const lang = Astro.props.language || "en";
+const translations = t(lang).home;
 ---
 
-<BaseLayout 
-    title="QCI - OEM Mosquito Coil Manufacturer" 
-    description="Quality Coils Industries (QCI) - Trusted OEM mosquito coil manufacturer since 1973. We serve global brands across Japan, Korea, USA, South America, and South Africa with innovative, high-quality mosquito coil solutions and custom formulations."
+<BaseLayout
+    title={translations.meta.title}
+    description={translations.meta.description}
 >
     <Navbar />
 
@@ -17,8 +21,8 @@ import { Image } from 'astro:assets';
         <!-- Background Image -->
         <div class="absolute inset-0">
             <Image
-                src={import('../../assets/home/hero_bg.jpg')}
-                alt="QCI Hero Background"
+                src={import("../assets/home/hero_bg.jpg")}
+                alt={translations.hero.altHeroBackground}
                 class="w-full h-full object-top object-cover"
                 loading="lazy"
             />
@@ -30,26 +34,26 @@ import { Image } from 'astro:assets';
             <p
                 class="mb-3 text-lg md:text-2xl font-poppins text-shadow-[2px_2px_8px_rgba(0,0,0,0.3)]"
             >
-                Welcome to Quality Coils Industries
+                {translations.hero.welcome}
             </p>
 
             <h1
                 class="text-5xl md:text-8xl font-bold leading-tight text-black text-shadow-[2px_2px_8px_rgba(0,0,0,0.3)]"
             >
-                World-Class OEM Mosquito Coil Manufacturer
+                {translations.hero.title}
             </h1>
         </div>
         <div class="absolute text-center w-full flex max-w-9xl justify-between">
             <!-- Left Image (Fly in) -->
             <Image
-                src={import('../../assets/home/hero_1.png')}
-                alt="Hero left"
+                src={import("../assets/home/hero_1.png")}
+                alt={translations.hero.altHeroLeft}
                 class="hidden 2xl:block w-48 mb-120 shadow-xl rounded border-4 border-white animate-fly-left shadow-xs shadow-black"
             />
             <!-- Right Image (Fly in) -->
             <Image
-                src={import('../../assets/home/hero_2.jpg')}
-                alt="Hero right"
+                src={import("../assets/home/hero_2.jpg")}
+                alt={translations.hero.altHeroRight}
                 class="hidden 2xl:block mt-120 w-48 shadow-xl rounded border-4 border-white animate-fly-right shadow-xs shadow-black"
             />
         </div>
@@ -58,9 +62,9 @@ import { Image } from 'astro:assets';
         <!-- Background -->
         <div class="absolute inset-0">
             <Image
-                alt="About Background"
+                alt={translations.about.altAboutBackground}
                 loading="lazy"
-                src={import('../../assets/home/about-anim.gif')}
+                src={import("../assets/home/about-anim.gif")}
                 class="w-full h-full object-cover opacity-40"
             />
             <div class="absolute inset-0 bg-[#b7a27a]/80"></div>
@@ -68,7 +72,7 @@ import { Image } from 'astro:assets';
 
         <div class="relative max-w-9xl mx-auto px-6">
             <!-- Title -->
-            <h2 class="text-4xl md:text-5xl font-bold mb-10 reveal">About</h2>
+            <h2 class="text-4xl md:text-5xl font-bold mb-10 reveal">{translations.about.title}</h2>
 
             <div
                 class="flex h-auto flex-col md:flex-row gap-10 md:gap-20 items-center"
@@ -76,8 +80,8 @@ import { Image } from 'astro:assets';
                 <!-- Left Image -->
                 <div class="flex flex-1">
                     <Image
-                        src={import('../../assets/home/qci-front-1.jpg')}
-                        alt="QCI Front"
+                        src={import("../assets/home/qci-front-1.jpg")}
+                        alt={translations.about.altQciFront}
                         class="rounded shadow-2xl border-4 border-white reveal-left h-130 w-auto"
                     />
                 </div>
@@ -87,21 +91,13 @@ import { Image } from 'astro:assets';
                     class="space-y-5 text-center md:text-left flex-2 align-left justify-start"
                 >
                     <p class="text-2xl reveal">
-                        Delivering Excellence since 1973
+                        {translations.about.subtitle}
                     </p>
 
                     <p
                         class="text-base md:text-3xl leading-relaxed reveal leading-tight"
                     >
-                        Quality Coils Industries, we are a trusted OEM
-                        manufacturer specializing in high-quality mosquito
-                        coils, serving global brands across Japan, Korea, the
-                        USA, South America, and South Africa with innovative,
-                        effective, and environmentally responsible solutions.
-                        With nearly five decades of expertise, we offer custom
-                        formulations, advanced production technologies, and
-                        private labeling services to help businesses establish a
-                        strong market presence.
+                        {translations.about.description}
                     </p>
 
                     <a
@@ -109,7 +105,7 @@ import { Image } from 'astro:assets';
                         class="bg-teal-700 text-white px-6 py-3 rounded-full shadow reveal inline-block"
                         aria-label="Learn more about Quality Coils Industries"
                     >
-                        Learn More
+                        {translations.about.learnMore}
                     </a>
 
                     <!-- Flags -->
@@ -117,32 +113,32 @@ import { Image } from 'astro:assets';
                         class="grid grid-cols-2 gap-4 w-100 mx-auto md:mx-0 md:absolute md:right-0"
                     >
                         <Image
-                            src={import('../../assets/home/flag-japan.gif')}
-                            alt="Japan flag"
+                            src={import("../assets/home/flag-japan.gif")}
+                            alt={translations.about.altFlagJapan}
                             class="shadow-md reveal w-100 h-30"
                             width={400}
                             height={120}
                             loading="lazy"
                         />
                         <Image
-                            src={import('../../assets/home/flag-south-africa.gif')}
-                            alt="South Africa flag"
+                            src={import("../assets/home/flag-south-africa.gif")}
+                            alt={translations.about.altFlagSouthAfrica}
                             class="shadow-md reveal w-100 h-30"
                             width={400}
                             height={120}
                             loading="lazy"
                         />
                         <Image
-                            src={import('../../assets/home/flag-south-korea.gif')}
-                            alt="South Korea flag"
+                            src={import("../assets/home/flag-south-korea.gif")}
+                            alt={translations.about.altFlagSouthKorea}
                             class="shadow-md reveal w-100 h-30"
                             width={400}
                             height={120}
                             loading="lazy"
                         />
                         <Image
-                            src={import('../../assets/home/flag-us.gif')}
-                            alt="US flag"
+                            src={import("../assets/home/flag-us.gif")}
+                            alt={translations.about.altFlagUs}
                             class="shadow-md reveal w-100 h-30"
                             width={400}
                             height={120}
@@ -155,8 +151,8 @@ import { Image } from 'astro:assets';
             <!-- Bottom Image -->
             <div class="flex 2xl:ml-30 mt-12">
                 <Image
-                    src={import('../../assets/home/qci-front-2.jpg')}
-                    alt="QCI manufacturing facility exterior view"
+                    src={import("../assets/home/qci-front-2.jpg")}
+                    alt={translations.about.altQciFacility}
                     class="border-3 border-white shadow-md shadow-black w-full md:w-auto max-w-3xl reveal"
                     loading="lazy"
                 />
@@ -176,30 +172,26 @@ import { Image } from 'astro:assets';
                 <!-- LEFT CONTENT -->
                 <div>
                     <h2 class="text-4xl md:text-6xl font-bold mb-6 reveal">
-                        Expanding Our Legacy
+                        {translations.expansion.title}
                     </h2>
 
                     <h3 class="text-3xl font-semibold mb-4 reveal">
-                        QCI Malaysia & QCI Thailand
+                        {translations.expansion.subtitle}
                     </h3>
 
                     <p class="text-gray-700 mb-4 reveal text-2xl">
-                        QCI Malaysia, established in 1973. The pioneer in OEM
-                        mosquito coil manufacturing, committed to superior
-                        quality and innovation.
+                        {translations.expansion.malaysiaText}
                     </p>
 
                     <p class="text-gray-700 mb-6 reveal text-2xl">
-                        QCI Thailand, established in 1993. Strengthening our
-                        regional and international supply chain with advanced
-                        production capabilities.
+                        {translations.expansion.thailandText}
                     </p>
 
                     <div class="flex justify-between gap-6 items-start">
                         <!-- Small Image -->
                         <Image
-                            src={import('../../assets/home/thai-front-1.jpg')}
-                            alt="QCI Thailand facility"
+                            src={import("../assets/home/thai-front-1.jpg")}
+                            alt={translations.expansion.altThaiFacility}
                             class="shadow-lg border-4 border-white reveal-left w-60"
                             loading="lazy"
                         />
@@ -210,7 +202,7 @@ import { Image } from 'astro:assets';
                             class="h-fit bg-gray-700 text-white px-6 py-3 rounded shadow hover:scale-105 transition reveal text-sm md:text-xl inline-block"
                             aria-label="Explore more about QCI Malaysia and Thailand facilities"
                         >
-                            Explore More
+                            {translations.expansion.exploreMore}
                         </a>
                     </div>
                 </div>
@@ -219,16 +211,16 @@ import { Image } from 'astro:assets';
                 <div class="relative flex-col 2xl:h-[750px]">
                     <!-- Top Image -->
                     <Image
-                        src={import('../../assets/home/thai-front-2.jpg')}
-                        alt="QCI Thailand production facility interior"
+                        src={import("../assets/home/thai-front-2.jpg")}
+                        alt={translations.expansion.altThaiProduction}
                         class="2xl:absolute left-20 w-130 border-4 mb-10 border-teal-600 shadow-xl reveal-right"
                         loading="lazy"
                     />
 
                     <!-- Bottom Image -->
                     <Image
-                        src={import('../../assets/home/thai-front-3.jpg')}
-                        alt="QCI Thailand manufacturing operations"
+                        src={import("../assets/home/thai-front-3.jpg")}
+                        alt={translations.expansion.altThaiManufacturing}
                         class="2xl:absolute top-110 left-80 w-130 border-4 border-teal-600 shadow-xl reveal-right"
                         loading="lazy"
                     />
@@ -241,23 +233,21 @@ import { Image } from 'astro:assets';
         <div class="max-w-9xl mx-auto px-6 text-center">
             <!-- Titles -->
             <h2 class="text-4xl md:text-7xl font-bold mb-4 reveal">
-                The QCI Advantage
+                {translations.advantage.title}
             </h2>
 
             <h3 class="text-2xl md:text-5xl font-semibold mb-14 reveal">
-                Exclusive Separate Production Lines
+                {translations.advantage.subtitle}
             </h3>
 
             <!-- 3 Column Layout -->
             <div class="grid md:grid-cols-3 gap-10 items-top text-left">
                 <!-- LEFT TEXT -->
                 <div class="reveal 2xl:text-right flex-col">
-                    <h4 class="font-bold text-2xl mb-3">What Sets Us Apart?</h4>
+                    <h4 class="font-bold text-2xl mb-3">{translations.advantage.leftTitle}</h4>
 
                     <p class="text-xl leading-relaxed">
-                        We are the only OEM manufacturer with dedicated
-                        production lines for different mosquito coil
-                        formulations. This ensures:
+                        {translations.advantage.leftText}
                     </p>
                 </div>
 
@@ -266,16 +256,16 @@ import { Image } from 'astro:assets';
                     <div class="relative w-100 h-100 group cursor-pointer">
                         <!-- Image 1 -->
                         <Image
-                            src={import('../../assets/home/coil-wood.png')}
-                            alt="Wood-based mosquito coil product"
+                            src={import("../assets/home/coil-wood.png")}
+                            alt={translations.advantage.altCoilWood}
                             class="absolute inset-0 w-full h-full object-cover border-4 border-[#355f52] shadow-xl transition-opacity duration-500 group-hover:opacity-0"
                             loading="lazy"
                         />
 
                         <!-- Image 2 -->
                         <Image
-                            src={import('../../assets/home/coil-charcoal.png')}
-                            alt="Charcoal-based mosquito coil product"
+                            src={import("../assets/home/coil-charcoal.png")}
+                            alt={translations.advantage.altCoilCharcoal}
                             class="absolute inset-0 w-full h-full object-cover border-4 border-[#355f52] shadow-xl opacity-0 transition-opacity duration-500 group-hover:opacity-100"
                             loading="lazy"
                         />
@@ -285,29 +275,9 @@ import { Image } from 'astro:assets';
                 <!-- RIGHT BULLETS -->
                 <div class="text-sm leading-relaxed reveal">
                     <ul class="space-y-3 list-disc pl-5 text-xl">
-                        <li>
-                            Unmatched Quality Control – Each formulation is
-                            produced separately, ensuring purity, consistency,
-                            and optimal performance.
-                        </li>
-
-                        <li>
-                            Zero Cross-Contamination – Custom formulations
-                            remain uncompromised, catering to diverse market
-                            needs.
-                        </li>
-
-                        <li>
-                            Greater Market Flexibility – Brands can target both
-                            eco-conscious consumers (low-smoke, indoor-friendly)
-                            and high-smoke repellency markets.
-                        </li>
-
-                        <li>
-                            Efficient & Scalable Production – Streamlined
-                            processes for shorter lead times and a reliable
-                            global supply chain.
-                        </li>
+                        {translations.advantage.benefits.map((benefit: string) => (
+                            <li>{benefit}</li>
+                        ))}
                     </ul>
                 </div>
             </div>
@@ -319,7 +289,7 @@ import { Image } from 'astro:assets';
                     class="bg-gray-800 text-white px-8 py-3 rounded shadow hover:scale-105 transition reveal inline-block"
                     aria-label="View more about QCI's exclusive production lines advantage"
                 >
-                    View More
+                    {translations.advantage.viewMore}
                 </a>
             </div>
         </div>
@@ -329,13 +299,11 @@ import { Image } from 'astro:assets';
         <div class="max-w-9xl mx-auto px-6 text-center">
             <!-- Title -->
             <h2 class="text-4xl md:text-6xl font-bold mb-4">
-                Your Trusted Partner in Mosquito Coil Manufacturing
+                {translations.trust.title}
             </h2>
 
             <p class="font-semibold max-w-3xl mx-auto mb-16 text-2xl">
-                Built on a foundation of Quality, Commitment, and Integrity, QCI
-                delivers mosquito coils that meet the highest industry
-                standards:
+                {translations.trust.subtitle}
             </p>
 
             <!-- GRID -->
@@ -344,14 +312,13 @@ import { Image } from 'astro:assets';
                 <div class="group cursor-pointer">
                     <div class="feature-card">
                         <Image
-                            src={import('../../assets/home/trust-quality.png')}
-                            alt="Quality assurance icon"
+                            src={import("../assets/home/trust-quality.png")}
+                            alt={translations.trust.quality.alt}
                             class="w-40 2xl:w-100 mb-10 mx-auto"
                             loading="lazy"
                         />
                         <p class="feature-text text-2xl">
-                            Stringent manufacturing processes ensure safe,
-                            effective, and long-lasting mosquito protection.
+                            {translations.trust.quality.text}
                         </p>
                     </div>
                 </div>
@@ -360,14 +327,13 @@ import { Image } from 'astro:assets';
                 <div class="group cursor-pointer">
                     <div class="feature-card">
                         <Image
-                            src={import('../../assets/home/trust-commitment.png')}
-                            alt="Commitment to innovation icon"
+                            src={import("../assets/home/trust-commitment.png")}
+                            alt={translations.trust.commitment.alt}
                             class="w-40 2xl:w-100 mb-10 mx-auto"
                             loading="lazy"
                         />
                         <p class="feature-text text-2xl">
-                            Continuous innovation drives our ability to enhance
-                            product efficiency and customer satisfaction.
+                            {translations.trust.commitment.text}
                         </p>
                     </div>
                 </div>
@@ -376,14 +342,13 @@ import { Image } from 'astro:assets';
                 <div class="group cursor-pointer">
                     <div class="feature-card">
                         <Image
-                            src={import('../../assets/home/trust-integrity.png')}
-                            alt="Business integrity icon"
+                            src={import("../assets/home/trust-integrity.png")}
+                            alt={translations.trust.integrity.alt}
                             class="w-40 2xl:w-100 mb-10 mx-auto"
                             loading="lazy"
                         />
                         <p class="feature-text text-2xl">
-                            Transparent operations, ethical business practices,
-                            and strict regulatory compliance.
+                            {translations.trust.integrity.text}
                         </p>
                     </div>
                 </div>
@@ -393,7 +358,7 @@ import { Image } from 'astro:assets';
     <section class="bg-[#cfd8dc] py-20">
         <div class="max-w-9xl mx-auto px-6 text-center">
             <!-- Title -->
-            <h2 class="text-4xl md:text-7xl font-bold mb-16">Our Offerings</h2>
+            <h2 class="text-4xl md:text-7xl font-bold mb-16">{translations.offerings.title}</h2>
 
             <!-- CROSS CONTAINER -->
             <div class="relative max-w-9xl mx-auto">
@@ -411,49 +376,16 @@ import { Image } from 'astro:assets';
 
                 <!-- GRID -->
                 <div class="grid md:grid-cols-2 gap-y-50 gap-x-50 relative">
-                    <!-- Item 1 -->
-                    <div class="space-y-2">
-                        <h3 class="font-semibold text-3xl">
-                            Quality & Compliance
-                        </h3>
-                        <p class="text-gray-600 text-2xl">
-                            Adherence to international safety and environmental
-                            standards.
-                        </p>
-                    </div>
-
-                    <!-- Item 2 -->
-                    <div class="space-y-2">
-                        <h3 class="font-semibold text-3xl">
-                            Custom OEM Solutions
-                        </h3>
-                        <p class="text-gray-600 text-2xl">
-                            Full-service product development, branding, and
-                            packaging.
-                        </p>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="space-y-2">
-                        <h3 class="font-semibold text-3xl">
-                            Sustainable Practices
-                        </h3>
-                        <p class="text-gray-600 text-2xl">
-                            Eco-conscious production minimizing environmental
-                            impact.
-                        </p>
-                    </div>
-
-                    <!-- Item 4 -->
-                    <div class="space-y-2">
-                        <h3 class="font-semibold text-3xl">
-                            Reliable Supply Chain
-                        </h3>
-                        <p class="text-gray-600 text-2xl">
-                            Global distribution with efficient and timely
-                            deliveries.
-                        </p>
-                    </div>
+                    {translations.offerings.items.map((item: any) => (
+                        <div class="space-y-2">
+                            <h3 class="font-semibold text-3xl">
+                                {item.title}
+                            </h3>
+                            <p class="text-gray-600 text-2xl">
+                                {item.description}
+                            </p>
+                        </div>
+                    ))}
                 </div>
 
                 <!-- CENTER BUTTON -->
@@ -465,7 +397,7 @@ import { Image } from 'astro:assets';
                         class="bg-green-700 text-white px-6 py-3 text-2xl rounded shadow hover:scale-105 transition inline-block"
                         aria-label="Discover more about our product offerings and services"
                     >
-                        Discover More
+                        {translations.offerings.discoverMore}
                     </a>
                 </div>
             </div>
@@ -477,19 +409,18 @@ import { Image } from 'astro:assets';
                     class="bg-green-700 text-white px-6 py-3 rounded shadow inline-block"
                     aria-label="Discover more about our product offerings and services"
                 >
-                    Discover More
+                    {translations.offerings.discoverMore}
                 </a>
             </div>
 
             <!-- Bottom Text -->
             <div class="mt-20 space-y-4 max-w-9xl mx-auto">
                 <p class="font-semibold text-3xl">
-                    At QCI, we don’t just manufacture mosquito coils.
+                    {translations.offerings.closingText1}
                 </p>
 
                 <p class="font-bold text-3xl">
-                    We create market-leading solutions that protect homes,
-                    businesses, and communities from mosquito-borne diseases.
+                    {translations.offerings.closingText2}
                 </p>
             </div>
         </div>

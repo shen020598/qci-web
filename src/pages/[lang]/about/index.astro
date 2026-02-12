@@ -1,0 +1,12 @@
+---
+import Page from "../../../pages_template/about/index.astro";
+export function getStaticPaths() {
+    return ["en", "zh", "th"].map((lang) => ({
+        params: { lang },
+    }));
+}
+
+const { lang } = Astro.params;
+---
+
+<Page language={lang} />
