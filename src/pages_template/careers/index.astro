@@ -14,7 +14,7 @@ const translations = t(lang).careers;
     description={translations.meta.description}
 >
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-    <Navbar />
+    <Navbar language={lang} />
     <main>
     <section class="relative w-full overflow-hidden">
         <!-- Background Image -->
@@ -594,7 +594,7 @@ const translations = t(lang).careers;
         </div>
     </section>
     </main>
-    <Footer />
+    <Footer language={lang} />
 </BaseLayout>
 
 <script define:vars={{ translations }}>

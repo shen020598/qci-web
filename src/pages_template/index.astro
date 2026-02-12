@@ -13,7 +13,7 @@ const translations = t(lang).home;
     title={translations.meta.title}
     description={translations.meta.description}
 >
-    <Navbar />
+    <Navbar language={lang} />
 
     <section
         class="relative h-[500px] md:h-[850px] flex items-center justify-center overflow-hidden"
@@ -425,7 +425,7 @@ const translations = t(lang).home;
             </div>
         </div>
     </section>
-    <Footer />
+    <Footer language={lang} />
 </BaseLayout>
 
 <script>

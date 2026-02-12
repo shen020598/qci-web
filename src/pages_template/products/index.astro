@@ -13,7 +13,7 @@ const translations = t(lang).products;
     title={translations.meta.title}
     description={translations.meta.description}
 >
-    <Navbar />
+    <Navbar language={lang} />
     <section class="relative">
         <!-- Background Image -->
         <div class="absolute inset-0">
@@ -500,7 +500,7 @@ const translations = t(lang).products;
         </div>
     </section>
 
-    <Footer />
+    <Footer language={lang} />
 </BaseLayout>
 
 <style>

@@ -543,5 +543,28 @@
                 "iframeTitle": "QCI Thailand Facility"
             }
         }
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "people": "People",
+        "products": "Products",
+        "machinery": "Machinery",
+        "careers": "Careers",
+        "contact": "Contact"
+    },
+    "footer": {
+        "brandName": "Quality Coil Industries",
+        "brandDescription": "Manufacturing high-quality mosquito coils with OEM expertise across Malaysia & Thailand.",
+        "contactHeading": "Contact",
+        "quickLinksHeading": "Quick Links",
+        "followUsHeading": "Follow Us",
+        "addressHeading": "Address",
+        "address": "Lot 25278, Mambang Diwan,<br />31950 Kampar, Perak,<br />West Malaysia.",
+        "mapTitle": "QCI Mambang Diawam",
+        "copyright": "© 2025 Quality Coils Industries Sdn. Bhd. (198701004701)",
+        "instagramAria": "Follow us on Instagram",
+        "facebookAria": "Follow us on Facebook",
+        "linkedinAria": "Follow us on LinkedIn"
     }
 }

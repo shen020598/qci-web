@@ -1,5 +1,11 @@
 ---
 import { Image } from "astro:assets";
+import { t, localePath } from '../utils/i18n';
+
+const lang = Astro.props.language || 'en';
+const translations = t(lang);
+const footerTranslations = translations.footer;
+const navTranslations = translations.navbar;
 ---
 
 <footer class="bg-[#edf7f7] text-[#2b2623]">
@@ -17,18 +23,17 @@ import { Image } from "astro:assets";
             width={56}
             height={56}
           />
-          <h3 class="font-semibold text-xl">Quality Coil Industries</h3>
+          <h3 class="font-semibold text-xl">{footerTranslations.brandName}</h3>
         </div>
 
         <p class="text-base leading-relaxed">
-          Manufacturing high-quality mosquito coils with OEM expertise across
-          Malaysia & Thailand.
+          {footerTranslations.brandDescription}
         </p>
       </div>
 
       <!-- CONTACT -->
       <div class="md:border-l md:border-green-800 md:pl-8">
-        <h4 class="font-semibold text-xl mb-5">Contact</h4>
+        <h4 class="font-semibold text-xl mb-5">{footerTranslations.contactHeading}</h4>
 
         <div class="space-y-3 text-base">
           <p>05-4652771</p>
@@ -40,34 +45,34 @@ import { Image } from "astro:assets";
 
       <!-- QUICK LINKS -->
       <div class="md:border-l md:border-green-800 md:pl-8">
-        <h4 class="font-semibold text-xl mb-5">Quick Links</h4>
+        <h4 class="font-semibold text-xl mb-5">{footerTranslations.quickLinksHeading}</h4>
 
         <div class="grid grid-cols-2 gap-y-3 text-base">
-          <a href="/" class="transition hover:text-secondary">Home</a>
-          <a href="/products" class="transition hover:text-secondary"
-            >Products</a
+          <a href={localePath('/', lang)} class="transition hover:text-secondary">{navTranslations.home}</a>
+          <a href={localePath('/products', lang)} class="transition hover:text-secondary">
+            {navTranslations.products}</a
           >
-          <a href="/about" class="transition hover:text-secondary">About</a>
-          <a href="/machinery" class="transition hover:text-secondary"
-            >Machinery</a
+          <a href={localePath('/about', lang)} class="transition hover:text-secondary">{navTranslations.about}</a>
+          <a href={localePath('/machinery', lang)} class="transition hover:text-secondary">
+            {navTranslations.machinery}</a
           >
-          <a href="/people" class="transition hover:text-secondary">People</a>
-          <a href="/oem" class="transition hover:text-secondary">OEM</a>
-          <a href="/careers" class="transition hover:text-secondary">Careers</a>
-          <a href="/contact" class="transition hover:text-secondary">Contact</a>
+          <a href={localePath('/people', lang)} class="transition hover:text-secondary">{navTranslations.people}</a>
+          <a href={localePath('/oem-advantage', lang)} class="transition hover:text-secondary">OEM</a>
+          <a href={localePath('/careers', lang)} class="transition hover:text-secondary">{navTranslations.careers}</a>
+          <a href={localePath('/contact', lang)} class="transition hover:text-secondary">{navTranslations.contact}</a>
         </div>
       </div>
 
       <!-- SOCIAL -->
       <div class="md:border-l md:border-green-800 md:pl-8">
-        <h4 class="font-semibold text-xl mb-5">Follow Us</h4>
+        <h4 class="font-semibold text-xl mb-5">{footerTranslations.followUsHeading}</h4>
 
         <div class="flex gap-4">
           <a
-            href="https://www.instagram.com/qci"
+            href="https://www.instagram.com/qci_official_?igsh=MWRqazY4ZzhrYWN6bw=="
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Follow us on Instagram"
+            aria-label={footerTranslations.instagramAria}
             class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
           >
             <Image
@@ -80,10 +85,10 @@ import { Image } from "astro:assets";
             />
           </a>
           <a
-            href="https://www.facebook.com/qci"
+            href="https://www.facebook.com/share/15G1rURZkj/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Follow us on Facebook"
+            aria-label={footerTranslations.facebookAria}
             class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
           >
             <Image
@@ -96,10 +101,10 @@ import { Image } from "astro:assets";
             />
           </a>
           <a
-            href="https://www.linkedin.com/company/qci"
+            href="https://www.linkedin.com/company/qcimalaysia"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Follow us on LinkedIn"
+            aria-label={footerTranslations.linkedinAria}
             class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
           >
             <Image
@@ -119,18 +124,15 @@ import { Image } from "astro:assets";
     <div class="grid md:grid-cols-2 gap-10 mt-12 items-center">
       <!-- ADDRESS -->
       <div>
-        <h4 class="font-semibold text-xl mb-4">Address</h4>
+        <h4 class="font-semibold text-xl mb-4">{footerTranslations.addressHeading}</h4>
 
-        <p class="text-base leading-relaxed">
-          Lot 25278, Mambang Diwan,<br />
-          31950 Kampar, Perak,<br />
-          West Malaysia.
+        <p class="text-base leading-relaxed" set:html={footerTranslations.address}>
         </p>
       </div>
 
       <!-- MAP -->
       <iframe
-        title="QCI Mambang Diawam"
+        title={footerTranslations.mapTitle}
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6760.7213303525095!2d101.14700347681303!3d4.273903245205845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cb1cda15555555%3A0x89d30b2b531d1e8a!2sQuality%20Coils%20Industries%20Sdn.Bhd.!5e1!3m2!1sen!2smy!4v1770906246621!5m2!1sen!2smy"
         class="w-full h-[200px] border border-green-800 rounded"
         loading="lazy"></iframe>
@@ -139,6 +141,6 @@ import { Image } from "astro:assets";
 
   <!-- COPYRIGHT -->
   <div class="border-t border-green-800 text-center text-sm py-6">
-    © 2025 Quality Coils Industries Sdn. Bhd. (198701004701)
+    {footerTranslations.copyright}
   </div>
 </footer>

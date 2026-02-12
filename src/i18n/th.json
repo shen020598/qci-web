@@ -1,497 +1,497 @@
 {
     "home": {
         "meta": {
-            "title": "THAI QCI - OEM Mosquito Coil Manufacturer",
-            "description": "Quality Coils Industries (QCI) - Trusted OEM mosquito coil manufacturer since 1973. We serve global brands across Japan, Korea, USA, South America, and South Africa with innovative, high-quality mosquito coil solutions and custom formulations."
+            "title": "QCI - ผู้ผลิตยากันยุงแบบ OEM",
+            "description": "Quality Coils Industries (QCI) - ผู้ผลิตยากันยุงแบบ OEM ที่น่าเชื่อถือตั้งแต่ปี 1973 เราให้บริการแบรนด์ระดับโลกในญี่ปุ่น เกาหลี สหรัฐอเมริกา อเมริกาใต้ และแอฟริกาใต้ด้วยโซลูชันยากันยุงที่มีนวัตกรรม คุณภาพสูง และสูตรตามความต้องการ"
         },
         "hero": {
-            "welcome": "Welcome to Quality Coils Industries",
-            "title": "World-Class OEM Mosquito Coil Manufacturer",
-            "altHeroBackground": "QCI Hero Background",
-            "altHeroLeft": "Hero left",
-            "altHeroRight": "Hero right"
+            "welcome": "ยินดีต้อนรับสู่ Quality Coils Industries",
+            "title": "ผู้ผลิตยากันยุงแบบ OEM ระดับโลก",
+            "altHeroBackground": "พื้นหลัง QCI Hero",
+            "altHeroLeft": "Hero ซ้าย",
+            "altHeroRight": "Hero ขวา"
         },
         "about": {
-            "title": "About",
-            "subtitle": "Delivering Excellence since 1973",
-            "description": "Quality Coils Industries, we are a trusted OEM manufacturer specializing in high-quality mosquito coils, serving global brands across Japan, Korea, the USA, South America, and South Africa with innovative, effective, and environmentally responsible solutions. With nearly five decades of expertise, we offer custom formulations, advanced production technologies, and private labeling services to help businesses establish a strong market presence.",
-            "learnMore": "Learn More",
-            "altQciFront": "QCI Front",
-            "altAboutBackground": "About Background",
-            "altFlagJapan": "Japan flag",
-            "altFlagSouthAfrica": "South Africa flag",
-            "altFlagSouthKorea": "South Korea flag",
-            "altFlagUs": "US flag",
-            "altQciFacility": "QCI manufacturing facility exterior view"
+            "title": "เกี่ยวกับเรา",
+            "subtitle": "มอบความเป็นเลิศตั้งแต่ปี 1973",
+            "description": "Quality Coils Industries เราเป็นผู้ผลิตแบบ OEM ที่น่าเชื่อถือ เชี่ยวชาญด้านยากันยุงคุณภาพสูง ให้บริการแบรนด์ระดับโลกในญี่ปุ่น เกาหลี สหรัฐอเมริกา อเมริกาใต้ และแอฟริกาใต้ด้วยโซลูชันที่มีนวัตกรรม มีประสิทธิภาพ และรับผิดชอบต่อสิ่งแวดล้อม ด้วยความเชี่ยวชาญเกือบห้าทศวรรษ เรานำเสนอสูตรสำหรับลูกค้า เทคโนโลยีการผลิตขั้นสูง และบริการฉลากส่วนตัวเพื่อช่วยให้ธุรกิจสร้างตำแหน่งที่แข็งแกร่งในตลาด",
+            "learnMore": "เรียนรู้เพิ่มเติม",
+            "altQciFront": "ด้านหน้า QCI",
+            "altAboutBackground": "พื้นหลังเกี่ยวกับเรา",
+            "altFlagJapan": "ธงญี่ปุ่น",
+            "altFlagSouthAfrica": "ธงแอฟริกาใต้",
+            "altFlagSouthKorea": "ธงเกาหลีใต้",
+            "altFlagUs": "ธงสหรัฐอเมริกา",
+            "altQciFacility": "มุมมองภายนอกโรงงานผลิต QCI"
         },
         "expansion": {
-            "title": "Expanding Our Legacy",
+            "title": "ขยายมรดกของเรา",
             "subtitle": "QCI Malaysia & QCI Thailand",
-            "malaysiaText": "QCI Malaysia, established in 1973. The pioneer in OEM mosquito coil manufacturing, committed to superior quality and innovation.",
-            "thailandText": "QCI Thailand, established in 1993. Strengthening our regional and international supply chain with advanced production capabilities.",
-            "exploreMore": "Explore More",
-            "altThaiFacility": "QCI Thailand facility",
-            "altThaiProduction": "QCI Thailand production facility interior",
-            "altThaiManufacturing": "QCI Thailand manufacturing operations"
+            "malaysiaText": "QCI Malaysia ก่อตั้งในปี 1973 ผู้บุกเบิกการผลิตยากันยุงแบบ OEM มุ่งมั่นสู่คุณภาพที่เหนือกว่าและนวัตกรรม",
+            "thailandText": "QCI Thailand ก่อตั้งในปี 1993 เสริมสร้างความแข็งแกร่งให้กับห่วงโซ่อุปทานระดับภูมิภาคและนานาชาติของเราด้วยความสามารถในการผลิตขั้นสูง",
+            "exploreMore": "สำรวจเพิ่มเติม",
+            "altThaiFacility": "โรงงาน QCI Thailand",
+            "altThaiProduction": "ภายในโรงงานผลิต QCI Thailand",
+            "altThaiManufacturing": "การดำเนินการผลิต QCI Thailand"
         },
         "advantage": {
-            "title": "The QCI Advantage",
-            "subtitle": "Exclusive Separate Production Lines",
-            "leftTitle": "What Sets Us Apart?",
-            "leftText": "We are the only OEM manufacturer with dedicated production lines for different mosquito coil formulations. This ensures:",
-            "altCoilWood": "Wood-based mosquito coil product",
-            "altCoilCharcoal": "Charcoal-based mosquito coil product",
+            "title": "ข้อได้เปรียบของ QCI",
+            "subtitle": "สายการผลิตแยกเฉพาะ",
+            "leftTitle": "สิ่งที่ทำให้เราแตกต่าง?",
+            "leftText": "เราเป็นผู้ผลิตแบบ OEM เพียงรายเดียวที่มีสายการผลิตเฉพาะสำหรับสูตรยากันยุงที่แตกต่างกัน ซึ่งรับประกัน:",
+            "altCoilWood": "ผลิตภัณฑ์ยากันยุงชนิดไม้",
+            "altCoilCharcoal": "ผลิตภัณฑ์ยากันยุงชนิดถ่าน",
             "benefits": [
-                "Unmatched Quality Control – Each formulation is produced separately, ensuring purity, consistency, and optimal performance.",
-                "Zero Cross-Contamination – Custom formulations remain uncompromised, catering to diverse market needs.",
-                "Greater Market Flexibility – Brands can target both eco-conscious consumers (low-smoke, indoor-friendly) and high-smoke repellency markets.",
-                "Efficient & Scalable Production – Streamlined processes for shorter lead times and a reliable global supply chain."
+                "การควบคุมคุณภาพที่ไม่มีใครเทียบ – แต่ละสูตรผลิตแยกกัน รับประกันความบริสุทธิ์ ความสม่ำเสมอ และประสิทธิภาพที่เหมาะสมที่สุด",
+                "ไม่มีการปนเปื้อนข้าม – สูตรที่กำหนดเองยังคงไม่มีการประนีประนอม ตอบสนองความต้องการของตลาดที่หลากหลาย",
+                "ความยืดหยุ่นทางการตลาดที่มากขึ้น – แบรนด์สามารถกำหนดเป้าหมายทั้งผู้บริโภคที่ใส่ใจสิ่งแวดล้อม (ควันน้อย เหมาะกับในร่ม) และตลาดไล่ยุงควันมาก",
+                "การผลิตที่มีประสิทธิภาพและขยายได้ – กระบวนการที่คล่องตัวสำหรับระยะเวลาส่งมอบที่สั้นลงและห่วงโซ่อุปทานระดับโลกที่เชื่อถือได้"
             ],
-            "viewMore": "View More"
+            "viewMore": "ดูเพิ่มเติม"
         },
         "trust": {
-            "title": "Your Trusted Partner in Mosquito Coil Manufacturing",
-            "subtitle": "Built on a foundation of Quality, Commitment, and Integrity, QCI delivers mosquito coils that meet the highest industry standards:",
+            "title": "พันธมิตรที่เชื่อถือได้ของคุณในการผลิตยากันยุง",
+            "subtitle": "สร้างบนรากฐานของคุณภาพ ความมุ่งมั่น และความซื่อสัตย์ QCI มอบยากันยุงที่ตรงตามมาตรฐานอุตสาหกรรมสูงสุด:",
             "quality": {
-                "alt": "Quality assurance icon",
-                "text": "Stringent manufacturing processes ensure safe, effective, and long-lasting mosquito protection."
+                "alt": "ไอคอนการประกันคุณภาพ",
+                "text": "กระบวนการผลิตที่เข้มงวดรับประกันการป้องกันยุงที่ปลอดภัย มีประสิทธิภาพ และยาวนาน"
             },
             "commitment": {
-                "alt": "Commitment to innovation icon",
-                "text": "Continuous innovation drives our ability to enhance product efficiency and customer satisfaction."
+                "alt": "ไอคอนความมุ่งมั่นในนวัตกรรม",
+                "text": "นวัตกรรมอย่างต่อเนื่องขับเคลื่อนความสามารถของเราในการเพิ่มประสิทธิภาพผลิตภัณฑ์และความพึงพอใจของลูกค้า"
             },
             "integrity": {
-                "alt": "Business integrity icon",
-                "text": "Transparent operations, ethical business practices, and strict regulatory compliance."
+                "alt": "ไอคอนความซื่อสัตย์ทางธุรกิจ",
+                "text": "การดำเนินงานที่โปร่งใส แนวปฏิบัติทางธุรกิจที่มีจริยธรรม และการปฏิบัติตามข้อบังคับที่เข้มงวด"
             }
         },
         "offerings": {
-            "title": "Our Offerings",
+            "title": "บริการของเรา",
             "items": [
                 {
-                    "title": "Quality & Compliance",
-                    "description": "Adherence to international safety and environmental standards."
+                    "title": "คุณภาพและการปฏิบัติตาม",
+                    "description": "การยึดมั่นในมาตรฐานความปลอดภัยและสิ่งแวดล้อมระหว่างประเทศ"
                 },
                 {
-                    "title": "Custom OEM Solutions",
-                    "description": "Full-service product development, branding, and packaging."
+                    "title": "โซลูชัน OEM ที่กำหนดเอง",
+                    "description": "การพัฒนาผลิตภัณฑ์แบบครบวงจร การสร้างแบรนด์ และบรรจุภัณฑ์"
                 },
                 {
-                    "title": "Sustainable Practices",
-                    "description": "Eco-conscious production minimizing environmental impact."
+                    "title": "แนวทางที่ยั่งยืน",
+                    "description": "การผลิตที่คำนึงถึงสิ่งแวดล้อม ลดผลกระทบต่อสิ่งแวดล้อมให้น้อยที่สุด"
                 },
                 {
-                    "title": "Reliable Supply Chain",
-                    "description": "Global distribution with efficient and timely deliveries."
+                    "title": "ห่วงโซ่อุปทานที่เชื่อถือได้",
+                    "description": "การกระจายทั่วโลกด้วยการส่งมอบที่มีประสิทธิภาพและทันเวลา"
                 }
             ],
-            "discoverMore": "Discover More",
-            "closingText1": "At QCI, we don't just manufacture mosquito coils.",
-            "closingText2": "We create market-leading solutions that protect homes, businesses, and communities from mosquito-borne diseases."
+            "discoverMore": "ค้นพบเพิ่มเติม",
+            "closingText1": "ที่ QCI เราไม่ได้เพียงแค่ผลิตยากันยุง",
+            "closingText2": "เราสร้างโซลูชันที่นำตลาดซึ่งปกป้องบ้าน ธุรกิจ และชุมชนจากโรคที่มียุงเป็นพาหะ"
         }
     },
     "about": {
         "meta": {
-            "title": "About QCI - Leading OEM Mosquito Coil Manufacturer",
-            "description": "Quality Coils Industries (QCI) - A legacy of excellence since 1973. Learn about our OEM expertise, global reach, and commitment to producing high-quality mosquito coils in Malaysia and Thailand."
+            "title": "เกี่ยวกับ QCI - ผู้ผลิตยากันยุงแบบ OEM ชั้นนำ",
+            "description": "Quality Coils Industries (QCI) - มรดกแห่งความเป็นเลิศตั้งแต่ปี 1973 เรียนรู้เกี่ยวกับความเชี่ยวชาญด้าน OEM ของเรา การเข้าถึงระดับโลก และความมุ่งมั่นในการผลิตยากันยุงคุณภาพสูงในมาเลเซียและไทย"
         },
         "hero": {
-            "title": "A Legacy of Excellence",
-            "altBackground": "QCI Malaysia and Thailand facilities"
+            "title": "มรดกแห่งความเป็นเลิศ",
+            "altBackground": "โรงงาน QCI Malaysia และ Thailand"
         },
         "intro": {
-            "label": "QCI Malaysia & QCI Thailand: Trusted OEM Partners Since 1973",
-            "description": "QCI is a leading OEM manufacturer specializing in high-quality mosquito coils, serving global brands with innovative, effective, and environmentally responsible solutions. With nearly five decades of expertise, we provide custom formulations, cutting-edge production technologies, and private labeling services to empower businesses worldwide.",
-            "malaysiaText": "QCI Malaysia, established in 1973 was pioneering in OEM mosquito coil manufacturing, setting the industry standard for quality and innovation.",
-            "thailandText": "QCI Thailand, established 1993 was us strengthening our regional and international supply chain with advanced production capabilities and strategic market access."
+            "label": "QCI Malaysia & QCI Thailand: พันธมิตร OEM ที่เชื่อถือได้ตั้งแต่ปี 1973",
+            "description": "QCI เป็นผู้ผลิตแบบ OEM ชั้นนำที่เชี่ยวชาญด้านยากันยุงคุณภาพสูง ให้บริการแบรนด์ระดับโลกด้วยโซลูชันที่มีนวัตกรรม มีประสิทธิภาพ และรับผิดชอบต่อสิ่งแวดล้อม ด้วยความเชี่ยวชาญเกือบห้าทศวรรษ เรามอบสูตรสำหรับลูกค้า เทคโนโลยีการผลิตที่ล้ำสมัย และบริการฉลากส่วนตัวเพื่อเสริมพลังให้ธุรกิจทั่วโลก",
+            "malaysiaText": "QCI Malaysia ก่อตั้งในปี 1973 เป็นผู้บุกเบิกในการผลิตยากันยุงแบบ OEM กำหนดมาตรฐานอุตสาหกรรมด้านคุณภาพและนวัตกรรม",
+            "thailandText": "QCI Thailand ก่อตั้งในปี 1993 เสริมสร้างความแข็งแกร่งให้กับห่วงโซ่อุปทานระดับภูมิภาคและนานาชาติของเราด้วยความสามารถในการผลิตขั้นสูงและการเข้าถึงตลาดเชิงกลยุทธ์"
         },
         "commitment": {
-            "title": "Our Commitment",
-            "description": "At QCI, mosquito control should never come at the expense of safety or sustainability. That's why our products are developed using scientifically tested ingredients and manufactured under strict quality control measures to meet international regulatory standards. We continuously invest in research and development to create innovative, long-lasting mosquito coils that offer superior protection against vector-borne diseases.",
-            "altLab": "QCI laboratory quality control testing"
+            "title": "ความมุ่งมั่นของเรา",
+            "description": "ที่ QCI การควบคุมยุงไม่ควรมาในราคาของความปลอดภัยหรือความยั่งยืน นั่นคือเหตุผลที่ผลิตภัณฑ์ของเราได้รับการพัฒนาโดยใช้ส่วนผสมที่ผ่านการทดสอบทางวิทยาศาสตร์และผลิตภายใต้มาตรการควบคุมคุณภาพที่เข้มงวดเพื่อให้ตรงตามมาตรฐานกฎระเบียบระหว่างประเทศ เราลงทุนอย่างต่อเนื่องในการวิจัยและพัฒนาเพื่อสร้างยากันยุงที่มีนวัตกรรมและยาวนานซึ่งให้การป้องกันที่เหนือกว่าต่อโรคที่มีพาหะนำโรค",
+            "altLab": "การทดสอบควบคุมคุณภาพห้องปฏิบัติการ QCI"
         },
         "expertise": {
-            "title": "OEM Expertise & Global Reach",
-            "subtitle": "As an experienced OEM manufacturer, we partner with brands worldwide to produce customized mosquito coils tailored to specific market needs.",
+            "title": "ความเชี่ยวชาญด้าน OEM และการเข้าถึงระดับโลก",
+            "subtitle": "ในฐานะผู้ผลิตแบบ OEM ที่มีประสบการณ์ เราร่วมมือกับแบรนด์ทั่วโลกเพื่อผลิตยากันยุงที่ปรับแต่งตามความต้องการของตลาดเฉพาะ",
             "formulation": {
-                "title": "Formulation",
-                "subtitle": "A specific formulation for enhanced mosquito repellency",
-                "description": "Our proprietary formula provides long-lasting protection against mosquito bites, ensuring comfort and peace of mind.",
-                "alt": "Custom formulation icon"
+                "title": "สูตร",
+                "subtitle": "สูตรเฉพาะสำหรับการไล่ยุงที่เพิ่มขึ้น",
+                "description": "สูตรกรรมสิทธิ์ของเรามอบการป้องกันยาวนานจากการกัดของยุง รับประกันความสะดวกสบายและความอุ่นใจ",
+                "alt": "ไอคอนสูตรที่กำหนดเอง"
             },
             "scent": {
-                "title": "Scent",
-                "subtitle": "A unique scent to suit our customers' preferences",
-                "description": "Customize the scent profile to match our customers' preferences, making repellent use a pleasant and personalized experience.",
-                "alt": "Custom scent icon"
+                "title": "กลิ่น",
+                "subtitle": "กลิ่นที่เป็นเอกลักษณ์เพื่อให้เหมาะกับความชอบของลูกค้าของเรา",
+                "description": "ปรับแต่งโปรไฟล์กลิ่นให้ตรงกับความชอบของลูกค้าของเรา ทำให้การใช้ผลิตภัณฑ์ไล่ยุงเป็นประสบการณ์ที่น่าพอใจและเป็นส่วนตัว",
+                "alt": "ไอคอนกลิ่นที่กำหนดเอง"
             },
             "branding": {
-                "title": "Branding",
-                "subtitle": "Custom branding and private labeling",
-                "description": "Stand out in the market with distinctive branding and private labeling options tailored to your brand's identity and customer expectations.",
-                "alt": "Custom branding icon"
+                "title": "การสร้างแบรนด์",
+                "subtitle": "การสร้างแบรนด์ที่กำหนดเองและฉลากส่วนตัว",
+                "description": "โดดเด่นในตลาดด้วยการสร้างแบรนด์ที่โดดเด่นและตัวเลือกฉลากส่วนตัวที่ปรับให้เหมาะกับอัตลักษณ์ของแบรนด์และความคาดหวังของลูกค้าของคุณ",
+                "alt": "ไอคอนการสร้างแบรนด์ที่กำหนดเอง"
             },
             "packaging": {
-                "title": "Packaging",
-                "subtitle": "Specialized packaging solutions",
-                "description": "Choose from an array of packaging solutions designed to protect the product, enhance its appeal, and ensure convenience for your customers.",
-                "alt": "Custom packaging icon"
+                "title": "บรรจุภัณฑ์",
+                "subtitle": "โซลูชันบรรจุภัณฑ์เชี่ยวชาญ",
+                "description": "เลือกจากโซลูชันบรรจุภัณฑ์ที่หลากหลายซึ่งออกแบบมาเพื่อปกป้องผลิตภัณฑ์ เพิ่มความน่าสนใจ และรับประกันความสะดวกสบายสำหรับลูกค้าของคุณ",
+                "alt": "ไอคอนบรรจุภัณฑ์ที่กำหนดเอง"
             },
-            "bottomText": "Our team delivers tailored solutions to give your brand a competitive edge. With state-of-the-art production facilities in Malaysia and Thailand, we efficiently fulfill bulk orders while maintaining product integrity."
+            "bottomText": "ทีมงานของเรามอบโซลูชันที่ปรับแต่งเพื่อให้แบรนด์ของคุณมีความได้เปรียบในการแข่งขัน ด้วยโรงงานผลิตที่ล้ำสมัยในมาเลเซียและไทย เราดำเนินการสั่งซื้อจำนวนมากอย่างมีประสิทธิภาพในขณะที่รักษาความสมบูรณ์ของผลิตภัณฑ์"
         },
         "quality": {
-            "title": "Quality Control & Production Process",
-            "subtitle": "Ensuring Excellence In Every Step",
-            "description": "Our mosquito coil manufacturing follows strict ISO 9001:2008 quality standards. Every step is monitored to maintain consistency, safety, and efficiency.",
-            "altBackground": "QCI mosquito coil stamping production process"
+            "title": "การควบคุมคุณภาพและกระบวนการผลิต",
+            "subtitle": "รับประกันความเป็นเลิศในทุกขั้นตอน",
+            "description": "การผลิตยากันยุงของเราปฏิบัติตามมาตรฐานคุณภาพ ISO 9001:2008 อย่างเข้มงวด ทุกขั้นตอนได้รับการตรวจสอบเพื่อรักษาความสม่ำเสมอ ความปลอดภัย และประสิทธิภาพ",
+            "altBackground": "กระบวนการผลิตการปั๊มยากันยุง QCI"
         },
         "team": {
-            "title": "Team",
-            "name": "Mr. Yeoh Hon Poh - Chairman / Founder",
-            "description": "Meet Mr. Yeoh, the visionary entrepreneur behind QCI. With an unwavering commitment to innovation and sustainability, Mr. Yeoh has revolutionized the industry, ensuring families can enjoy mosquito-free environments. His journey from humble beginnings to leading a top-tier manufacturing powerhouse is filled with inspiring milestones.",
-            "learnMore": "Learn More",
-            "alt": "Mr. Yeoh Hon Poh, QCI Chairman and Founder"
+            "title": "ทีมงาน",
+            "name": "Mr. Yeoh Hon Poh - ประธาน / ผู้ก่อตั้ง",
+            "description": "พบกับ Mr. Yeoh ผู้ประกอบการที่มีวิสัยทัศน์เบื้องหลัง QCI ด้วยความมุ่งมั่นอย่างแน่วแน่ในนวัตกรรมและความยั่งยืน Mr. Yeoh ได้ปฏิวัติอุตสาหกรรม รับประกันว่าครอบครัวสามารถเพลิดเพลินกับสภาพแวดล้อมที่ปราศจากยุงได้ เส้นทางของเขาจากจุดเริ่มต้นที่เรียบง่ายไปสู่การเป็นผู้นำบริษัทผลิตชั้นนำเต็มไปด้วยเหตุการณ์สำคัญที่สร้างแรงบันดาลใจ",
+            "learnMore": "เรียนรู้เพิ่มเติม",
+            "alt": "Mr. Yeoh Hon Poh ประธานและผู้ก่อตั้ง QCI"
         },
         "partner": {
-            "title": "Partner with QCI Malaysia & QCI Thailand",
-            "description": "Join us in building a safer, mosquito-free future today.",
-            "contactUs": "Contact Us"
+            "title": "เป็นพันธมิตรกับ QCI Malaysia & QCI Thailand",
+            "description": "ร่วมกับเราในการสร้างอนาคตที่ปลอดภัยและปลอดยุงวันนี้",
+            "contactUs": "ติดต่อเรา"
         }
     },
     "people": {
         "meta": {
-            "title": "Our Team - QCI Leadership & Management",
-            "description": "Meet the leadership team behind Quality Coils Industries (QCI). Our experienced executives drive innovation, quality, and sustainable manufacturing in mosquito coil production."
+            "title": "ทีมงานของเรา - ผู้นำและการจัดการ QCI",
+            "description": "พบกับทีมผู้นำเบื้องหลัง Quality Coils Industries (QCI) ผู้บริหารที่มีประสบการณ์ของเราขับเคลื่อนนวัตกรรม คุณภาพ และการผลิตที่ยั่งยืนในการผลิตยากันยุง"
         },
         "heading": {
-            "title": "Meet The Team"
+            "title": "พบกับทีมงาน"
         },
         "yeoh": {
-            "alt": "Yeoh Hon Poh, Founder and Chairman of QCI",
-            "position": "Founder & Chairman",
+            "alt": "Yeoh Hon Poh ผู้ก่อตั้งและประธาน QCI",
+            "position": "ผู้ก่อตั้งและประธาน",
             "name": "Yeoh Hon Poh",
-            "description": "Mr. Yeoh brings over 50 years of leadership experience in the manufacturing and consumer goods industry. Under his strategic vision, QCI Malaysia has expanded its global presence, solidifying its reputation as a leading OEM manufacturer of mosquito coils. His expertise in corporate governance and business development ensures the company's continuous growth and commitment to excellence"
+            "description": "Mr. Yeoh นำประสบการณ์ความเป็นผู้นำมากกว่า 50 ปีในอุตสาหกรรมการผลิตและสินค้าอุปโภคบริโภค ภายใต้วิสัยทัศน์เชิงกลยุทธ์ของเขา QCI Malaysia ได้ขยายการแสดงตนทั่วโลก ทำให้ชื่อเสียงเป็นผู้ผลิตแบบ OEM ชั้นนำของยากันยุงมั่นคง ความเชี่ยวชาญของเขาในการกำกับดูแลกิจการและการพัฒนาธุรกิจรับประกันการเติบโตอย่างต่อเนื่องและความมุ่งมั่นในความเป็นเลิศของบริษัท"
         },
         "andrew": {
-            "alt": "Andrew Yeoh, Managing Director of QCI",
-            "position": "Managing Director",
+            "alt": "Andrew Yeoh กรรมการผู้จัดการ QCI",
+            "position": "กรรมการผู้จัดการ",
             "name": "Andrew Yeoh",
-            "description": "With a background in manufacturing and business management, Mr. Andrew has been instrumental in driving QCI Malaysia's innovation and operational efficiency. His leadership focuses on sustainable manufacturing practices, quality assurance, and international market expansion. Under his direction, QCI has strengthened partnerships with global brands, delivering high-performance mosquito coils that meet stringent regulatory standards."
+            "description": "ด้วยพื้นฐานในการผลิตและการจัดการธุรกิจ Mr. Andrew มีบทบาทสำคัญในการขับเคลื่อนนวัตกรรมและประสิทธิภาพการดำเนินงานของ QCI Malaysia ความเป็นผู้นำของเขามุ่งเน้นไปที่แนวทางการผลิตที่ยั่งยืน การประกันคุณภาพ และการขยายตลาดระหว่างประเทศ ภายใต้การกำกับดูแลของเขา QCI ได้เสริมสร้างความเป็นหุ้นส่วนกับแบรนด์ระดับโลก มอบยากันยุงประสิทธิภาพสูงที่ตรงตามมาตรฐานกฎระเบียบที่เข้มงวด"
         },
         "wong": {
-            "alt": "Wong Hon Kai, Chief Financial Officer of QCI",
-            "position": "Chief Financial Officer",
+            "alt": "Wong Hon Kai ผู้อำนวยการฝ่ายการเงิน QCI",
+            "position": "ผู้อำนวยการฝ่ายการเงิน",
             "name": "Wong Hon Kai",
-            "description": "With extensive experience in corporate finance and risk management, Mr Wong manages QCI Malaysia's financial strategy and long-term sustainability. His expertise in financial planning, compliance, and global trade ensures the company maintains financial stability while pursuing strategic growth initiatives."
+            "description": "ด้วยประสบการณ์ที่กว้างขวางในการเงินองค์กรและการจัดการความเสี่ยง Mr. Wong จัดการกลยุทธ์ทางการเงินและความยั่งยืนระยะยาวของ QCI Malaysia ความเชี่ยวชาญของเขาในการวางแผนทางการเงิน การปฏิบัติตาม และการค้าระหว่างประเทศรับประกันว่าบริษัทรักษาเสถียรภาพทางการเงินในขณะที่ดำเนินการตามแผนการเติบโตเชิงกลยุทธ์"
         },
         "ng": {
-            "alt": "Ng Jun Kee, General Manager of QCI",
-            "position": "General Manager",
+            "alt": "Ng Jun Kee ผู้จัดการทั่วไป QCI",
+            "position": "ผู้จัดการทั่วไป",
             "name": "Ng Jun Kee",
-            "description": "A specialist in manufacturing and supply chain management, Mr Ng oversees QCI's production operations, ensuring seamless execution and quality control. With decades of experience in industrial automation and process optimization, he has played a crucial role in developing QCI's exclusive separate production lines for wood-based and charcoal-based coils, enhancing efficiency and product integrity."
+            "description": "ผู้เชี่ยวชาญด้านการผลิตและการจัดการห่วงโซ่อุปทาน Mr. Ng ดูแลการดำเนินงานการผลิตของ QCI รับประกันการดำเนินการที่ราบรื่นและการควบคุมคุณภาพ ด้วยประสบการณ์หลายทศวรรษในระบบอัตโนมัติทางอุตสาหกรรมและการเพิ่มประสิทธิภาพกระบวนการ เขามีบทบาทสำคัญในการพัฒนาสายการผลิตแยกพิเศษของ QCI สำหรับยาชนิดไม้และชนิดถ่าน เพิ่มประสิทธิภาพและความสมบูรณ์ของผลิตภัณฑ์"
         }
     },
     "products": {
         "meta": {
-            "title": "QCI Products - High-Performance Mosquito Coils",
-            "description": "Quality Coils Industries offers premium mosquito coils including smokeless, wood-based, charcoal-based coils and pre-mix powder. Custom OEM solutions with various colors, aromas, and packaging options for global markets."
+            "title": "ผลิตภัณฑ์ QCI - ยากันยุงประสิทธิภาพสูง",
+            "description": "Quality Coils Industries นำเสนอยากันยุงพรีเมียม รวมถึงยาไร้ควัน ชนิดไม้ ชนิดถ่าน และผงผสมล่วงหน้า โซลูชัน OEM ที่กำหนดเองพร้อมสี กลิ่น และตัวเลือกบรรจุภัณฑ์ที่หลากหลายสำหรับตลาดทั่วโลก"
         },
         "hero": {
-            "bgAlt": "Products background",
-            "heading": "Our Products",
-            "subheading": "High-Performance Mosquito Coils for Every Market",
-            "description": "At QCI, we specialize in manufacturing high-performance mosquito coils designed for maximum protection, efficiency, and market adaptability. With over 50 years of expertise, we cater to various product specifications, including different colors, active ingredients, sizes, burning times, and aromas. Our dedicated production lines ensure the highest quality standards, allowing brands to choose between charcoal-based coils and wood-based coils without cross-contamination",
-            "bannerAlt": "Mosquito coil product"
+            "bgAlt": "พื้นหลังผลิตภัณฑ์",
+            "heading": "ผลิตภัณฑ์ของเรา",
+            "subheading": "ยากันยุงประสิทธิภาพสูงสำหรับทุกตลาด",
+            "description": "ที่ QCI เราเชี่ยวชาญในการผลิตยากันยุงประสิทธิภาพสูงที่ออกแบบมาเพื่อการป้องกันสูงสุด ประสิทธิภาพ และความสามารถในการปรับตัวทางการตลาด ด้วยความเชี่ยวชาญกว่า 50 ปี เราตอบสนองข้อกำหนดผลิตภัณฑ์ต่างๆ รวมถึงสีที่แตกต่างกัน ส่วนผสมออกฤทธิ์ ขนาด เวลาการเผาไหม้ และกลิ่น สายการผลิตเฉพาะของเรารับประกันมาตรฐานคุณภาพสูงสุด อนุญาตให้แบรนด์เลือกระหว่างยาชนิดถ่านและยาชนิดไม้โดยไม่มีการปนเปื้อนข้าม",
+            "bannerAlt": "ผลิตภัณฑ์ยากันยุง"
         },
         "aromas": {
-            "heading": "Customizable Aromas",
-            "description": "To enhance market appeal, we offer mosquito coils in various colors, each paired with a unique scent. These specialty coils combine protection with pleasant aromas, making them ideal for diverse markets worldwide.",
+            "heading": "กลิ่นที่ปรับแต่งได้",
+            "description": "เพื่อเพิ่มความน่าสนใจของตลาด เรานำเสนอยากันยุงในสีต่างๆ แต่ละสีจับคู่กับกลิ่นที่เป็นเอกลักษณ์ ยาพิเศษเหล่านี้รวมการป้องกันกับกลิ่นที่น่าพอใจ ทำให้เหมาะสำหรับตลาดที่หลากหลายทั่วโลก",
             "items": [
                 {
-                    "alt": "Red rose scented mosquito coil",
-                    "label": "Red Rose"
+                    "alt": "ยากันยุงกลิ่นกุหลาบแดง",
+                    "label": "กุหลาบแดง"
                 },
                 {
-                    "alt": "Green matcha scented mosquito coil",
-                    "label": "Green Matcha"
+                    "alt": "ยากันยุงกลิ่นชาเขียวมัทฉะ",
+                    "label": "ชาเขียวมัทฉะ"
                 },
                 {
-                    "alt": "Lavender purple scented mosquito coil",
-                    "label": "Lavender Purple"
+                    "alt": "ยากันยุงกลิ่นลาเวนเดอร์สีม่วง",
+                    "label": "ลาเวนเดอร์สีม่วง"
                 },
                 {
-                    "alt": "Brown natural scented mosquito coil",
-                    "label": "Brown Natural"
+                    "alt": "ยากันยุงกลิ่นธรรมชาติสีน้ำตาล",
+                    "label": "ธรรมชาติสีน้ำตาล"
                 }
             ]
         },
         "packing": {
-            "heading": "Custom Packing Solutions",
-            "subheading": "Exceptional Packaging",
-            "description": "Quality Coils Industries offers a comprehensive range of packaging designed with efficiency and effectiveness in mind. Our products are crafted to provide reliable protection against mosquitoes and other pests, ensuring a peaceful and enjoyable environment for you and your family.",
+            "heading": "โซลูชันบรรจุภัณฑ์ที่กำหนดเอง",
+            "subheading": "บรรจุภัณฑ์ที่ยอดเยี่ยม",
+            "description": "Quality Coils Industries นำเสนอบรรจุภัณฑ์ที่ครอบคลุมและออกแบบด้วยประสิทธิภาพและประสิทธิผลในใจ ผลิตภัณฑ์ของเราได้รับการสร้างขึ้นเพื่อให้การป้องกันที่เชื่อถือได้จากยุงและศัตรูพืชอื่นๆ รับประกันสภาพแวดล้อมที่สงบและน่าพอใจสำหรับคุณและครอบครัวของคุณ",
             "items": [
                 {
-                    "alt": "Tin can mosquito coil packaging",
-                    "label": "Tin Can"
+                    "alt": "บรรจุภัณฑ์ยากันยุงกระป๋อง",
+                    "label": "กระป๋อง"
                 },
                 {
-                    "alt": "Coil holder mosquito coil packaging",
-                    "label": "Coil Holder"
+                    "alt": "บรรจุภัณฑ์ยากันยุงที่วางยา",
+                    "label": "ที่วางยา"
                 },
                 {
-                    "alt": "Paper dispenser box mosquito coil packaging",
-                    "label": "Paper Dispenser Box"
+                    "alt": "บรรจุภัณฑ์ยากันยุงกล่องกระดาษ",
+                    "label": "กล่องกระดาษ"
                 }
             ]
         },
         "bases": [
             {
-                "alt": "Smokeless mosquito coil base",
-                "label": "Smokeless"
+                "alt": "ฐานยากันยุงไร้ควัน",
+                "label": "ไร้ควัน"
             },
             {
-                "alt": "Wood-based mosquito coil base",
-                "label": "Wood-Based"
+                "alt": "ฐานยากันยุงชนิดไม้",
+                "label": "ชนิดไม้"
             },
             {
-                "alt": "Charcoal-based mosquito coil base",
-                "label": "Charcoal-Based"
+                "alt": "ฐานยากันยุงชนิดถ่าน",
+                "label": "ชนิดถ่าน"
             },
             {
-                "alt": "Pre-mix powder for mosquito coil manufacturing",
-                "label": "Pre-Mix Powder"
+                "alt": "ผงผสมล่วงหน้าสำหรับการผลิตยากันยุง",
+                "label": "ผงผสมล่วงหน้า"
             }
         ],
         "carousel": {
             "smokeless": {
-                "heading": "Smokeless Mosquito Coil",
-                "subheading": "Low Smoke, Maximum Protection",
-                "description": "Our smokeless mosquito coil is ideal for indoor use and for consumers who prefer a low-smoke yet highly effective repellent. Using advanced formulation technology, these coils emit minimal smoke while ensuring long-lasting mosquito protection.",
+                "heading": "ยากันยุงไร้ควัน",
+                "subheading": "ควันน้อย การป้องกันสูงสุด",
+                "description": "ยากันยุงไร้ควันของเราเหมาะสำหรับการใช้ในร่มและสำหรับผู้บริโภคที่ต้องการยาไล่ยุงควันน้อยแต่มีประสิทธิภาพสูง การใช้เทคโนโลยีสูตรขั้นสูง ยาเหล่านี้ปล่อยควันน้อยที่สุดในขณะที่รับประกันการป้องกันยุงที่ยาวนาน",
                 "benefits": [
-                    "Ideal for indoor environments – safe for enclosed spaces with minimal air pollution",
-                    "Low-irritation formula – suitable for sensitive individuals and families",
-                    "Highly effective – provides consistent mosquito protection for hours",
-                    "Customizable aromas – lemongrass, lavender, sandalwood, or unscented"
+                    "เหมาะสำหรับสภาพแวดล้อมในร่ม – ปลอดภัยสำหรับพื้นที่ปิดด้วยมลพิษทางอากาศน้อยที่สุด",
+                    "สูตรระคายเคืองต่ำ – เหมาะสำหรับบุคคลที่มีความไวและครอบครัว",
+                    "มีประสิทธิภาพสูง – ให้การป้องกันยุงที่สม่ำเสมอเป็นเวลาหลายชั่วโมง",
+                    "กลิ่นที่ปรับแต่งได้ – ตะไคร้ ลาเวนเดอร์ ไม้จันทน์ หรือไม่มีกลิ่น"
                 ]
             },
             "wood": {
-                "heading": "Wood-Based Mosquito Coil",
-                "subheading": "Eco-Friendly, Low-Smoke Formula",
-                "description": "Our wood-based mosquito coil is a premium, environmentally friendly alternative that offers low-smoke mosquito protection. Made from natural wood-based materials, these coils ensure efficient repelling without excessive smoke emissions, making them ideal for both indoor and outdoor use.",
+                "heading": "ยากันยุงชนิดไม้",
+                "subheading": "สูตรเป็นมิตรกับสิ่งแวดล้อม ควันน้อย",
+                "description": "ยากันยุงชนิดไม้ของเราเป็นทางเลือกพรีเมียมที่เป็นมิตรกับสิ่งแวดล้อมซึ่งให้การป้องกันยุงควันน้อย ทำจากวัสดุธรรมชาติจากไม้ ยาเหล่านี้รับประกันการไล่ยุงที่มีประสิทธิภาพโดยไม่มีการปล่อยควันมากเกินไป ทำให้เหมาะสำหรับการใช้ทั้งในร่มและกลางแจ้ง",
                 "benefits": [
-                    "Produced in a dedicated green coil line – no contamination with charcoal-based products",
-                    "Low-smoke, clean-burning formula – designed for health-conscious consumers",
-                    "Eco-friendly & sustainable – made from renewable wood-based materials",
-                    "Mild yet effective – suitable for homes, restaurants, and outdoor patios"
+                    "ผลิตในสายการผลิตยาเขียวเฉพาะ – ไม่มีการปนเปื้อนกับผลิตภัณฑ์ชนิดถ่าน",
+                    "สูตรควันน้อย เผาไหม้สะอาด – ออกแบบมาสำหรับผู้บริโภคที่ใส่ใจสุขภาพ",
+                    "เป็นมิตรกับสิ่งแวดล้อมและยั่งยืน – ทำจากวัสดุจากไม้ที่หมุนเวียนได้",
+                    "อ่อนโยนแต่มีประสิทธิภาพ – เหมาะสำหรับบ้าน ร้านอาหาร และลานกลางแจ้ง"
                 ]
             },
             "charcoal": {
-                "heading": "Charcoal-Based Mosquito Coil",
-                "subheading": "High-Repellency For Outdoor Protection",
-                "description": "Our charcoal-based mosquito coil is formulated for maximum effectiveness, making it perfect for outdoor environments. It produces stronger smoke, creating a protective barrier that keeps mosquitoes away in open areas.",
+                "heading": "ยากันยุงชนิดถ่าน",
+                "subheading": "การไล่ยุงสูงสำหรับการป้องกันกลางแจ้ง",
+                "description": "ยากันยุงชนิดถ่านของเราได้รับการผสมสูตรเพื่อประสิทธิภาพสูงสุด ทำให้เหมาะสำหรับสภาพแวดล้อมกลางแจ้ง มันผลิตควันที่แข็งแกร่งกว่า สร้างกำแพงป้องกันที่ขับไล่ยุงออกไปในพื้นที่โล่ง",
                 "benefits": [
-                    "Dedicated black coil production line – ensuring purity and consistency",
-                    "Powerful repellent action – effective in high-risk mosquito areas",
-                    "Long-lasting burn time – extended protection for outdoor settings",
-                    "Best for camping, gardens & tropical climates – protects against mosquito-borne diseases"
+                    "สายการผลิตยาดำเฉพาะ – รับประกันความบริสุทธิ์และความสม่ำเสมอ",
+                    "การไล่ยุงที่ทรงพลัง – มีประสิทธิภาพในพื้นที่ยุงเสี่ยงสูง",
+                    "เวลาการเผาไหม้ที่ยาวนาน – การป้องกันที่ยาวนานสำหรับการตั้งค่ากลางแจ้ง",
+                    "ดีที่สุดสำหรับการตั้งแคมป์ สวน และสภาพอากาศเขตร้อน – ป้องกันโรคที่มียุงเป็นพาหะ"
                 ]
             },
             "premix": {
-                "heading": "Mosquito Coil Pre-Mix Powder",
-                "subheading": "Custom Formulation For OEM Manufacturing",
-                "description": "Our pre-mix powder is a ready-to-use formulation designed for mosquito coil manufacturers looking for trouble-free production. This high-quality blend eliminates the need for additional quality control testing, making it an ideal solution for brands aiming to manufacture their own coils efficiently.",
-                "challengesHeading": "Common challenges we SOLVE:",
+                "heading": "ผงผสมล่วงหน้ายากันยุง",
+                "subheading": "สูตรที่กำหนดเองสำหรับการผลิตแบบ OEM",
+                "description": "ผงผสมล่วงหน้าของเราเป็นสูตรพร้อมใช้ที่ออกแบบมาสำหรับผู้ผลิตยากันยุงที่กำลังมองหาการผลิตที่ปราศจากปัญหา การผสมคุณภาพสูงนี้ช่วยลดความจำเป็นในการทดสอบควบคุมคุณภาพเพิ่มเติม ทำให้เป็นโซลูชันที่เหมาะสำหรับแบรนด์ที่ตั้งเป้าที่จะผลิตยาของตนเองอย่างมีประสิทธิภาพ",
+                "challengesHeading": "ความท้าทายทั่วไปที่เราแก้ไข:",
                 "challenges": [
-                    "Raw material shortages",
-                    "Inconsistent raw material quality",
-                    "High labor costs",
-                    "Large storage space requirements"
+                    "การขาดแคลนวัตถุดิบ",
+                    "คุณภาพวัตถุดิบที่ไม่สม่ำเสมอ",
+                    "ต้นทุนแรงงานสูง",
+                    "ความต้องการพื้นที่จัดเก็บขนาดใหญ่"
                 ],
                 "benefits": [
-                    "Customizable formulation – tailored to specific market needs",
-                    "Easy-to-use pre-mix – ensures uniformity in production",
-                    "Compatible with both charcoal & wood-based coils",
-                    "Scientifically tested for effectiveness",
-                    "Ready-to-ship premix powder available in customer-preferred sizes"
+                    "สูตรที่ปรับแต่งได้ – ปรับแต่งตามความต้องการของตลาดเฉพาะ",
+                    "ผงผสมล่วงหน้าที่ใช้งานง่าย – รับประกันความสม่ำเสมอในการผลิต",
+                    "เข้ากันได้กับยาทั้งชนิดถ่านและชนิดไม้",
+                    "ผ่านการทดสอบทางวิทยาศาสตร์เพื่อประสิทธิภาพ",
+                    "ผงผสมล่วงหน้าพร้อมจัดส่งมีจำหน่ายในขนาดที่ลูกค้าต้องการ"
                 ]
             }
         },
         "cta": {
-            "heading": "Bring high-quality mosquito coil products to your market.",
-            "button": "Contact Us",
-            "buttonAria": "Contact us about our mosquito coil products"
+            "heading": "นำผลิตภัณฑ์ยากันยุงคุณภาพสูงมาสู่ตลาดของคุณ",
+            "button": "ติดต่อเรา",
+            "buttonAria": "ติดต่อเราเกี่ยวกับผลิตภัณฑ์ยากันยุงของเรา"
         },
         "navigation": {
-            "prevAlt": "Previous",
-            "nextAlt": "Next",
-            "prevAria": "Previous slide",
-            "nextAria": "Next slide"
+            "prevAlt": "ก่อนหน้า",
+            "nextAlt": "ถัดไป",
+            "prevAria": "สลับไปหน้าก่อนหน้า",
+            "nextAria": "สลับไปหน้าถัดไป"
         }
     },
     "oemAdvantage": {
         "meta": {
-            "title": "OEM Advantage - Quality Mosquito Coil Manufacturing",
-            "description": "Discover QCI's OEM advantage in mosquito coil manufacturing. Dedicated production lines for wood-based and charcoal coils. 50+ years expertise in Malaysia and Thailand. Custom formulations and private labeling available."
+            "title": "ข้อได้เปรียบ OEM - การผลิตยากันยุงคุณภาพ",
+            "description": "ค้นพบข้อได้เปรียบ OEM ของ QCI ในการผลิตยากันยุง สายการผลิตเฉพาะสำหรับยาชนิดไม้และชนิดถ่าน ความเชี่ยวชาญ 50+ ปีในมาเลเซียและไทย มีสูตรที่กำหนดเองและฉลากส่วนตัว"
         },
         "hero": {
-            "heading": "Learn More About Our OEM Advantage",
-            "paragraph1": "At QCI Malaysia and QCI Thailand, we take pride in being the only OEM manufacturers with dedicated production lines for wood-based and charcoal-based mosquito coils. This separation guarantees superior product quality, consistency, and customization, ensuring our clients receive the best mosquito coil solutions for their markets.",
-            "paragraph2": "With over 50 years of industry expertise, our commitment to innovation, stringent quality control, and tailored OEM solutions allows us to support brands worldwide in delivering high-performance mosquito coils that meet diverse market demands. Whether you require specific formulations, private labeling, branding options, or scalable production, our advanced manufacturing capabilities provide the reliability and efficiency your business needs.",
-            "badgeAlt": "OEM Badge"
+            "heading": "เรียนรู้เพิ่มเติมเกี่ยวกับข้อได้เปรียบ OEM ของเรา",
+            "paragraph1": "ที่ QCI Malaysia และ QCI Thailand เราภูมิใจที่เป็นผู้ผลิตแบบ OEM เพียงรายเดียวที่มีสายการผลิตเฉพาะสำหรับยากันยุงชนิดไม้และชนิดถ่าน การแยกนี้รับประกันคุณภาพผลิตภัณฑ์ที่เหนือกว่า ความสม่ำเสมอ และการปรับแต่ง รับประกันว่าลูกค้าของเราจะได้รับโซลูชันยากันยุงที่ดีที่สุดสำหรับตลาดของพวกเขา",
+            "paragraph2": "ด้วยความเชี่ยวชาญในอุตสาหกรรมกว่า 50 ปี ความมุ่งมั่นของเราในนวัตกรรม การควบคุมคุณภาพที่เข้มงวด และโซลูชัน OEM ที่ปรับแต่งช่วยให้เราสนับสนุนแบรนด์ทั่วโลกในการมอบยากันยุงประสิทธิภาพสูงที่ตรงตามความต้องการของตลาดที่หลากหลาย ไม่ว่าคุณจะต้องการสูตรเฉพาะ ฉลากส่วนตัว ตัวเลือกการสร้างแบรนด์ หรือการผลิตที่ขยายได้ ความสามารถในการผลิตขั้นสูงของเราให้ความน่าเชื่อถือและประสิทธิภาพที่ธุรกิจของคุณต้องการ",
+            "badgeAlt": "ป้าย OEM"
         },
         "whyChoose": {
-            "heading": "Why Choose QCI Malaysia & QCI Thailand for Your Mosquito Coil Manufacturing?",
+            "heading": "ทำไมต้องเลือก QCI Malaysia & QCI Thailand สำหรับการผลิตยากันยุงของคุณ?",
             "benefits": [
-                "• <strong>Industry Expertise</strong> – Over five decades of experience in mosquito coil manufacturing and formulation",
-                "• <strong>Quality & Compliance</strong> – Products meet international safety and environmental standards",
-                "• <strong>Custom OEM Solutions</strong> – Full-service product development, branding, and packaging customization",
-                "• <strong>Sustainable Practices</strong> – Eco-conscious production with minimal environmental impact",
-                "• <strong>Reliable Supply Chain</strong> – Efficient global distribution and timely deliveries"
+                "• <strong>ความเชี่ยวชาญในอุตสาหกรรม</strong> – ประสบการณ์กว่าห้าทศวรรษในการผลิตยากันยุงและการผสมสูตร",
+                "• <strong>คุณภาพและการปฏิบัติตาม</strong> – ผลิตภัณฑ์ตรงตามมาตรฐานความปลอดภัยและสิ่งแวดล้อมระหว่างประเทศ",
+                "• <strong>โซลูชัน OEM ที่กำหนดเอง</strong> – การพัฒนาผลิตภัณฑ์แบบครบวงจร การสร้างแบรนด์ และการปรับแต่งบรรจุภัณฑ์",
+                "• <strong>แนวทางที่ยั่งยืน</strong> – การผลิตที่คำนึงถึงสิ่งแวดล้อมด้วยผลกระทบต่อสิ่งแวดล้อมน้อยที่สุด",
+                "• <strong>ห่วงโซ่อุปทานที่เชื่อถือได้</strong> – การกระจายทั่วโลกที่มีประสิทธิภาพและการส่งมอบทันเวลา"
             ],
-            "closingText": "With our presence in both Malaysia and Thailand, we offer seamless production and supply chain solutions to cater to your market's unique requirements."
+            "closingText": "ด้วยการแสดงตนของเราทั้งในมาเลเซียและไทย เรามอบโซลูชันการผลิตและห่วงโซ่อุปทานที่ราบรื่นเพื่อตอบสนองความต้องการที่เป็นเอกลักษณ์ของตลาดของคุณ"
         },
         "cta": {
-            "smallTitle": "Partner With Us",
-            "heading": "Partner with QCI Malaysia & QCI Thailand today and gain a competitive edge with superior mosquito coil solutions tailored to your brand's needs.",
-            "button": "Contact Us",
-            "buttonAria": "Contact us for OEM partnership opportunities"
+            "smallTitle": "เป็นพันธมิตรกับเรา",
+            "heading": "เป็นพันธมิตรกับ QCI Malaysia & QCI Thailand วันนี้และได้รับความได้เปรียบในการแข่งขันด้วยโซลูชันยากันยุงที่เหนือกว่าซึ่งปรับแต่งตามความต้องการของแบรนด์ของคุณ",
+            "button": "ติดต่อเรา",
+            "buttonAria": "ติดต่อเราสำหรับโอกาสความร่วมมือ OEM"
         }
     },
     "machinery": {
         "meta": {
-            "title": "QCI - OEM Mosquito Coil Manufacturer"
+            "title": "QCI - ผู้ผลิตยากันยุงแบบ OEM"
         },
-        "heading": "Machinery",
-        "subheading": "Advanced Manufacturing Solutions For Mosquito Coil Production",
-        "description": "At QCI Malaysia, we rely on state-of-the-art technology to maintain the highest standards in mosquito coil manufacturing. Our production facilities are equipped with advanced one-line machines, ensuring precision, efficiency, and consistency in every coil we produce. For specialized machinery and equipment solutions, we collaborate with Yeohata, a leading manufacturer of mosquito coil production machines. Learn more about their cutting-edge technology and how it supports high-performance manufacturing.",
-        "button": "View More",
-        "buttonAria": "Visit Yeohata machinery manufacturer website",
-        "imageAlt": "Yeohata mosquito coil production machinery"
+        "heading": "เครื่องจักร",
+        "subheading": "โซลูชันการผลิตขั้นสูงสำหรับการผลิตยากันยุง",
+        "description": "ที่ QCI Malaysia เราพึ่งพาเทคโนโลยีที่ทันสมัยที่สุดเพื่อรักษามาตรฐานสูงสุดในการผลิตยากันยุง โรงงานผลิตของเราติดตั้งเครื่องจักรแบบสายเดียวขั้นสูง รับประกันความแม่นยำ ประสิทธิภาพ และความสม่ำเสมอในทุกยาที่เราผลิต สำหรับโซลูชันเครื่องจักรและอุปกรณ์เฉพาะทาง เราร่วมมือกับ Yeohata ผู้ผลิตเครื่องจักรผลิตยากันยุงชั้นนำ เรียนรู้เพิ่มเติมเกี่ยวกับเทคโนโลยีที่ล้ำสมัยของพวกเขาและวิธีการสนับสนุนการผลิตประสิทธิภาพสูง",
+        "button": "ดูเพิ่มเติม",
+        "buttonAria": "เยี่ยมชมเว็บไซต์ผู้ผลิตเครื่องจักร Yeohata",
+        "imageAlt": "เครื่องจักรผลิตยากันยุง Yeohata"
     },
     "careers": {
         "meta": {
-            "title": "Careers at QCI - Join Our Team",
-            "description": "Join Quality Coils Industries (QCI) - Malaysia and Thailand. Explore career opportunities in mosquito coil manufacturing. We offer competitive benefits, career growth, and a positive work culture."
+            "title": "อาชีพที่ QCI - เข้าร่วมทีมของเรา",
+            "description": "เข้าร่วม Quality Coils Industries (QCI) - มาเลเซียและไทย สำรวจโอกาสทางอาชีพในการผลิตยากันยุง เรามอบผลประโยชน์ที่แข่งขันได้ การเติบโตในสายอาชีพ และวัฒนธรรมการทำงานที่ดี"
         },
         "hero": {
-            "bgAlt": "QCI office and workplace environment",
-            "heading": "Join Our<br />Team",
-            "button": "Opportunities",
-            "buttonAria": "View available career opportunities"
+            "bgAlt": "สภาพแวดล้อมสำนักงานและที่ทำงาน QCI",
+            "heading": "เข้าร่วม<br />ทีมของเรา",
+            "button": "โอกาส",
+            "buttonAria": "ดูโอกาสทางอาชีพที่มีอยู่"
         },
         "intro": {
-            "image1Alt": "QCI team members at work",
-            "text1": "At QCI Malaysia and QCI Thailand, we are dedicated to innovation, quality, and excellence in mosquito coil manufacturing. Our success is powered by talented individuals who are passionate about making a difference. Whether you are an experienced professional or a fresh graduate eager to learn, we offer exciting career opportunities that foster growth and development in a dynamic industry.",
-            "image2Alt": "QCI workplace facilities",
-            "text2": "At QCI Malaysia and QCI Thailand, we cultivate a positive and supportive work environment where employees can thrive. Our facilities are designed to provide a comfortable and productive workplace, ensuring both professional and personal growth."
+            "image1Alt": "สมาชิกทีม QCI ทำงาน",
+            "text1": "ที่ QCI Malaysia และ QCI Thailand เรามุ่งมั่นในนวัตกรรม คุณภาพ และความเป็นเลิศในการผลิตยากันยุง ความสำเร็จของเราขับเคลื่อนโดยบุคคลที่มีความสามารถซึ่งมีความกระตือรือร้นในการสร้างความแตกต่าง ไม่ว่าคุณจะเป็นมืออาชีพที่มีประสบการณ์หรือบัณฑิตจบใหม่ที่กระตือรือร้นที่จะเรียนรู้ เรามอบโอกาสทางอาชีพที่น่าตื่นเต้นซึ่งส่งเสริมการเติบโตและการพัฒนาในอุตสาหกรรมที่มีชีวิตชีวา",
+            "image2Alt": "สิ่งอำนวยความสะดวกในที่ทำงาน QCI",
+            "text2": "ที่ QCI Malaysia และ QCI Thailand เราปลูกฝังสภาพแวดล้อมการทำงานเชิงบวกและให้การสนับสนุนที่พนักงานสามารถเจริญเติบโตได้ สิ่งอำนวยความสะดวกของเราได้รับการออกแบบมาเพื่อให้สถานที่ทำงานที่สะดวกสบายและมีประสิทธิผล รับประกันการเติบโตทั้งทางวิชาชีพและส่วนตัว"
         },
         "whatWeOffer": {
-            "heading": "What We Offer",
-            "subheading": "We are committed to creating a dynamic and rewarding workplace where hard work is valued, and teamwork drives our success.",
-            "centerIconAlt": "Career benefits icon",
+            "heading": "สิ่งที่เรามอบให้",
+            "subheading": "เรามุ่งมั่นในการสร้างสถานที่ทำงานที่มีชีวิตชีวาและให้รางวัลที่ซึ่งการทำงานหนักได้รับการให้คุณค่า และการทำงานเป็นทีมขับเคลื่อนความสำเร็จของเรา",
+            "centerIconAlt": "ไอคอนผลประโยชน์ทางอาชีพ",
             "benefits": {
                 "careerGrowth": {
-                    "title": "Career Growth Opportunities",
-                    "description": "Performance-based salary increments and regular career reviews.",
-                    "iconAlt": "Career growth icon"
+                    "title": "โอกาสการเติบโตในสายอาชีพ",
+                    "description": "การเพิ่มเงินเดือนตามผลงานและการทบทวนอาชีพเป็นประจำ",
+                    "iconAlt": "ไอคอนการเติบโตในสายอาชีพ"
                 },
                 "comprehensive": {
-                    "title": "Comprehensive Benefits",
-                    "description": "Medical coverage, personal accident insurance, and hospitalization benefits.",
-                    "iconAlt": "Health benefits icon"
+                    "title": "ผลประโยชน์ที่ครอบคลุม",
+                    "description": "ความคุ้มครองทางการแพทย์ ประกันอุบัติเหตุส่วนบุคคล และผลประโยชน์การเข้ารับการรักษาในโรงพยาบาล",
+                    "iconAlt": "ไอคอนผลประโยชน์ด้านสุขภาพ"
                 },
                 "workplace": {
-                    "title": "Workplace Essentials",
-                    "description": "Free uniforms provided for comfort and professionalism.",
-                    "iconAlt": "Uniforms provided icon"
+                    "title": "สิ่งจำเป็นในที่ทำงาน",
+                    "description": "ให้เครื่องแบบฟรีเพื่อความสะดวกสบายและความเป็นมืออาชีพ",
+                    "iconAlt": "ไอคอนให้เครื่องแบบ"
                 },
                 "facilities": {
-                    "title": "Work & Rest Facilities",
-                    "description": "A well-maintained environment with designated areas for productivity and relaxation.",
-                    "iconAlt": "Workplace facilities icon"
+                    "title": "สิ่งอำนวยความสะดวกในการทำงานและพักผ่อน",
+                    "description": "สภาพแวดล้อมที่ได้รับการดูแลเป็นอย่างดีพร้อมพื้นที่ที่กำหนดไว้สำหรับการทำงานและการพักผ่อน",
+                    "iconAlt": "ไอคอนสิ่งอำนวยความสะดวกในที่ทำงาน"
                 },
                 "events": {
-                    "title": "Annual Events",
-                    "description": "Enjoy our annual company dinner and trips as part of our team.",
-                    "iconAlt": "Annual events icon"
+                    "title": "กิจกรรมประจำปี",
+                    "description": "เพลิดเพลินกับงานเลี้ยงอาหารค่ำและการเดินทางของบริษัทประจำปีในฐานะส่วนหนึ่งของทีมของเรา",
+                    "iconAlt": "ไอคอนกิจกรรมประจำปี"
                 },
                 "culture": {
-                    "title": "Positive Work Culture",
-                    "description": "A team-oriented, respectful, and supportive workplace.",
-                    "iconAlt": "Team culture icon"
+                    "title": "วัฒนธรรมการทำงานเชิงบวก",
+                    "description": "สถานที่ทำงานที่เน้นทีม มีความเคารพ และให้การสนับสนุน",
+                    "iconAlt": "ไอคอนวัฒนธรรมทีม"
                 },
                 "bonuses": {
-                    "title": "Bonuses & Incentives",
-                    "description": "Performance-based rewards to recognize and appreciate employee contributions.",
-                    "iconAlt": "Bonuses icon"
+                    "title": "โบนัสและสิ่งจูงใจ",
+                    "description": "รางวัลตามผลงานเพื่อยอมรับและชื่นชมการมีส่วนร่วมของพนักงาน",
+                    "iconAlt": "ไอคอนโบนัส"
                 }
             }
         },
         "positions": {
-            "heading": "Join Us",
-            "subheading": "Career Opportunities | Available Position",
-            "description": "We are always looking for skilled professionals to join our team in various departments!",
+            "heading": "เข้าร่วมกับเรา",
+            "subheading": "โอกาสทางอาชีพ | ตำแหน่งที่เปิดรับ",
+            "description": "เรามองหามืออาชีพที่มีทักษะเพื่อเข้าร่วมทีมของเราในแผนกต่างๆ อยู่เสมอ!",
             "jobs": [
                 {
-                    "title": "Dispatch",
+                    "title": "เจ้าหน้าที่จัดส่ง",
                     "location": "[ Malaysia ]",
-                    "description": "Dispatch duties including delivering and collecting documents. Ensure all tasks are handled with care and confidentiality."
+                    "description": "หน้าที่การจัดส่งรวมถึงการส่งและเก็บเอกสาร รับประกันว่างานทั้งหมดได้รับการจัดการด้วยความระมัดระวังและความลับ"
                 },
                 {
-                    "title": "Chemist",
+                    "title": "นักเคมี",
                     "location": "[ Malaysia ]",
-                    "description": "Ensures product quality by performing daily tests on mosquito coil batches, analyzing raw materials, and coordinating with teams to meet customer and export standards."
+                    "description": "รับประกันคุณภาพผลิตภัณฑ์โดยการทดสอบชุดยากันยุงรายวัน วิเคราะห์วัตถุดิบ และประสานงานกับทีมเพื่อให้ตรงตามมาตรฐานลูกค้าและการส่งออก"
                 },
                 {
-                    "title": "Internship & Graduate Programs",
+                    "title": "โปรแกรมฝึกงานและบัณฑิตจบใหม่",
                     "location": "",
-                    "description": "We offer internship opportunities for students and recent graduates to gain hands-on experience. Our structured programs provide mentorship, training, and exposure to real-world manufacturing and business operations."
+                    "description": "เรามอบโอกาสในการฝึกงานสำหรับนักเรียนและบัณฑิตจบใหม่เพื่อรับประสบการณ์ตรง โปรแกรมที่มีโครงสร้างของเราให้การให้คำปรึกษา การฝึกอบรม และการเปิดเผยต่อการผลิตและการดำเนินธุรกิจในโลกแห่งความเป็นจริง"
                 }
             ]
         },
         "apply": {
-            "heading": "Apply Now",
+            "heading": "สมัครตอนนี้",
             "form": {
-                "name": "Name *",
-                "email": "Email *",
-                "position": "Position",
-                "positionPlaceholder": "Applying for",
-                "coverLetter": "Cover Letter",
-                "resume": "RESUME",
-                "submit": "Submit",
-                "submitting": "Submitting..."
+                "name": "ชื่อ *",
+                "email": "อีเมล *",
+                "position": "ตำแหน่ง",
+                "positionPlaceholder": "สมัครสำหรับ",
+                "coverLetter": "จดหมายนำ",
+                "resume": "ประวัติ",
+                "submit": "ส่ง",
+                "submitting": "กำลังส่ง..."
             },
             "validation": {
-                "verificationRequired": "Please complete the verification challenge",
-                "errorGeneric": "An error occurred. Please try again.",
-                "submitFailed": "Failed to submit application. Please try again later."
+                "verificationRequired": "กรุณาทำการยืนยันให้เสร็จสมบูรณ์",
+                "errorGeneric": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง",
+                "submitFailed": "ส่งใบสมัครไม่สำเร็จ กรุณาลองอีกครั้งในภายหลัง"
             }
         },
         "contact": {
-            "heading": "Contact Us",
-            "description": "Get in touch with us for any inquiries or feedback. We are here to assist you with all your questions and needs of information regarding our company product & services.",
-            "button": "Contact",
-            "buttonAria": "Contact us for more information"
+            "heading": "ติดต่อเรา",
+            "description": "ติดต่อเราสำหรับคำถามหรือความคิดเห็นใดๆ เราพร้อมช่วยเหลือคุณในทุกคำถามและความต้องการข้อมูลเกี่ยวกับผลิตภัณฑ์และบริการของบริษัทเรา",
+            "button": "ติดต่อ",
+            "buttonAria": "ติดต่อเราสำหรับข้อมูลเพิ่มเติม"
         }
     },
     "contact": {
         "meta": {
-            "title": "Contact QCI - Get in Touch",
-            "description": "Contact Quality Coils Industries (QCI) in Malaysia and Thailand. Reach out for OEM mosquito coil manufacturing, business partnerships, technical support, and inquiries."
+            "title": "ติดต่อ QCI - ติดต่อเรา",
+            "description": "ติดต่อ Quality Coils Industries (QCI) ในมาเลเซียและไทย ติดต่อเกี่ยวกับการผลิตยากันยุงแบบ OEM ความร่วมมือทางธุรกิจ การสนับสนุนทางเทคนิค และการสอบถาม"
         },
         "header": {
-            "logoAlt": "Quality Coils Industries logo",
-            "heading": "Contact Us",
+            "logoAlt": "โลโก้ Quality Coils Industries",
+            "heading": "ติดต่อเรา",
             "subheading": "Quality Coils Industries",
-            "description": "We are here to assist you with all your mosquito coil manufacturing needs. Whether you're looking for OEM solutions, partnership opportunities, or general inquiries, our team is ready to help."
+            "description": "เราพร้อมช่วยเหลือคุณในทุกความต้องการด้านการผลิตยากันยุงของคุณ ไม่ว่าคุณกำลังมองหาโซลูชัน OEM โอกาสความร่วมมือ หรือคำถามทั่วไป ทีมของเราพร้อมช่วยเหลือ"
         },
         "address": {
-            "heading": "Address",
+            "heading": "ที่อยู่",
             "malaysia": "Lot 25278, Mambang Diwan,<br />31950 Kampar, Perak,<br />West Malaysia.",
             "thailand": "333 Padang Besar Road,<br />Padang Besar, Sadao,<br />Songkhla, 90240 Thailand"
         },
         "contactInfo": {
-            "heading": "Contact",
+            "heading": "ติดต่อ",
             "malaysia": {
                 "label": "(Malaysia)",
                 "phone": "+605 465 2771",
@@ -506,32 +506,32 @@
         "social": {
             "instagram": {
                 "alt": "Instagram",
-                "aria": "Follow us on Instagram"
+                "aria": "ติดตามเราบน Instagram"
             },
             "facebook": {
                 "alt": "Facebook",
-                "aria": "Follow us on Facebook"
+                "aria": "ติดตามเราบน Facebook"
             },
             "linkedin": {
                 "alt": "LinkedIn",
-                "aria": "Follow us on LinkedIn"
+                "aria": "ติดตามเราบน LinkedIn"
             }
         },
         "form": {
-            "firstName": "First Name",
-            "lastName": "Last Name",
-            "inquiryType": "Inquiry Type *",
+            "firstName": "ชื่อ",
+            "lastName": "นามสกุล",
+            "inquiryType": "ประเภทการสอบถาม *",
             "inquiryPlaceholder": "---",
             "inquiryOptions": [
-                "Business Partnership",
-                "OEM Manufacturing",
-                "Technical Support",
-                "Others"
+                "ความร่วมมือทางธุรกิจ",
+                "การผลิตแบบ OEM",
+                "การสนับสนุนทางเทคนิค",
+                "อื่นๆ"
             ],
-            "contactNumber": "Contact Number *",
-            "email": "Email *",
-            "message": "Message",
-            "submit": "Send"
+            "contactNumber": "เบอร์ติดต่อ *",
+            "email": "อีเมล *",
+            "message": "ข้อความ",
+            "submit": "ส่ง"
         },
         "maps": {
             "malaysia": {
@@ -540,8 +540,31 @@
             },
             "thailand": {
                 "heading": "Thailand",
-                "iframeTitle": "QCI Thailand Facility"
+                "iframeTitle": "โรงงาน QCI Thailand"
             }
         }
+    },
+    "navbar": {
+        "home": "หน้าแรก",
+        "about": "เกี่ยวกับเรา",
+        "people": "ทีมงาน",
+        "products": "ผลิตภัณฑ์",
+        "machinery": "เครื่องจักร",
+        "careers": "ร่วมงานกับเรา",
+        "contact": "ติดต่อเรา"
+    },
+    "footer": {
+        "brandName": "Quality Coil Industries",
+        "brandDescription": "ผลิตยากันยุงคุณภาพสูงพร้อมความเชี่ยวชาญด้าน OEM ในมาเลเซียและไทย",
+        "contactHeading": "ติดต่อเรา",
+        "quickLinksHeading": "ลิงก์ด่วน",
+        "followUsHeading": "ติดตามเรา",
+        "addressHeading": "ที่อยู่",
+        "address": "Lot 25278, Mambang Diwan,<br />31950 Kampar, Perak,<br />West Malaysia.",
+        "mapTitle": "QCI Mambang Diawam",
+        "copyright": "© 2025 Quality Coils Industries Sdn. Bhd. (198701004701)",
+        "instagramAria": "ติดตามเราบน Instagram",
+        "facebookAria": "ติดตามเราบน Facebook",
+        "linkedinAria": "ติดตามเราบน LinkedIn"
     }
 }

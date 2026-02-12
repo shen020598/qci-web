@@ -1,5 +1,10 @@
 ---
 import { Image } from 'astro:assets';
+import { t, localePath } from '../utils/i18n';
+
+const lang = Astro.props.language || 'en';
+const translations = t(lang);
+const navTranslations = translations.navbar;
 
 const currentPath = Astro.url.pathname;
 // Extract language from path
@@ -21,7 +26,7 @@ const displayLang = langDisplay[currentLang];
 <header class="bg-primary backdrop-blur-md relative z-50">
   <div class="mx-auto px-6 md:px-12 py-8 flex items-center justify-between">
     <!-- Logo -->
-    <a href="/" class="flex items-center gap-3 pr-10 flex-2">
+    <a href={localePath('/', lang)} class="flex items-center gap-3 pr-10 flex-2">
       <Image
         src={import('../assets/qci-logo-main.png')}
         alt="Quality Coils Industries logo"
@@ -42,19 +47,19 @@ const displayLang = langDisplay[currentLang];
       class="hidden md:flex items-center gap-6 font-bold text-xl text-black flex-3 md:items-end md:justify-end"
     >
       <a
-        href="/"
+        href={localePath('/', lang)}
         class="hover:text-secondary transition-colors duration-300 font-poppins text-text-primary font-bold"
       >
-        Home
+        {navTranslations.home}
       </a>
 
       <!-- About Dropdown -->
       <div class="relative group">
         <a
-          href="/about"
+          href={localePath('/about', lang)}
           class="flex items-center gap-1 hover:text-secondary transition-colors duration-300 font-poppins text-text-primary font-bold"
         >
-          About <span class="text-sm ml-1">▼</span>
+          {navTranslations.about} <span class="text-sm ml-1">▼</span>
         </a>
 
         <!-- hover bridge -->
@@ -64,34 +69,34 @@ const displayLang = langDisplay[currentLang];
         <div class="absolute left-0 top-full hidden group-hover:block z-50">
           <div class="bg-stone-100 rounded shadow-lg w-40">
             <a
-              href="/about/people"
+              href={localePath('/people', lang)}
               class="block px-4 py-4 rounded hover:bg-stone-100 hover:text-secondary font-poppins text-text-primary"
             >
-              People
+              {navTranslations.people}
             </a>
           </div>
         </div>
       </div>
 
       <a
-        href="/products"
+        href={localePath('/products', lang)}
         class="hover:text-secondary transition-colors duration-300 font-poppins text-text-primary font-bold"
-        >Products</a
+        >{navTranslations.products}</a
       >
       <a
-        href="/machinery"
+        href={localePath('/machinery', lang)}
         class="hover:text-secondary transition-colors duration-300 font-poppins text-text-primary font-bold"
-        >Machinery</a
+        >{navTranslations.machinery}</a
       >
       <a
-        href="/careers"
+        href={localePath('/careers', lang)}
         class="hover:text-secondary transition-colors duration-300 font-poppins text-text-primary font-bold"
-        >Careers</a
+        >{navTranslations.careers}</a
       >
       <a
-        href="/contact"
+        href={localePath('/contact', lang)}
         class="hover:text-secondary transition-colors duration-300 font-poppins text-text-primary font-bold"
-        >Contact</a
+        >{navTranslations.contact}</a
       >
     </nav>
 
@@ -154,13 +159,13 @@ const displayLang = langDisplay[currentLang];
   </div>
 
   <nav class="flex flex-col gap-6 p-6 font-bold text-lg">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/about/people" class="ml-4 text-base">People</a>
-    <a href="/products">Products</a>
-    <a href="/machinery">Machinery</a>
-    <a href="/careers">Careers</a>
-    <a href="/contact">Contact</a>
+    <a href={localePath('/', lang)}>{navTranslations.home}</a>
+    <a href={localePath('/about', lang)}>{navTranslations.about}</a>
+    <a href={localePath('/about/people', lang)} class="ml-4 text-base">{navTranslations.people}</a>
+    <a href={localePath('/products', lang)}>{navTranslations.products}</a>
+    <a href={localePath('/machinery', lang)}>{navTranslations.machinery}</a>
+    <a href={localePath('/careers', lang)}>{navTranslations.careers}</a>
+    <a href={localePath('/contact', lang)}>{navTranslations.contact}</a>
   </nav>
 </div>
 

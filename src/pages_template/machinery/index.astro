@@ -10,7 +10,7 @@ const translations = t(lang).machinery;
 ---
 
 <BaseLayout title={translations.meta.title}>
-    <Navbar />
+    <Navbar language={lang} />
     <section class="bg-[#d6c6a5] py-16 lg:py-24 overflow-hidden">
         <!-- CARD -->
         <div
@@ -61,7 +61,7 @@ const translations = t(lang).machinery;
         </div>
     </section>
 
-    <Footer />
+    <Footer language={lang} />
 </BaseLayout>
 
 <script>

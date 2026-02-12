@@ -1,504 +1,504 @@
 {
     "home": {
         "meta": {
-            "title": "THAI QCI - OEM Mosquito Coil Manufacturer",
-            "description": "Quality Coils Industries (QCI) - Trusted OEM mosquito coil manufacturer since 1973. We serve global brands across Japan, Korea, USA, South America, and South Africa with innovative, high-quality mosquito coil solutions and custom formulations."
+            "title": "QCI - OEM蚊香制造商",
+            "description": "优质盘香工业（QCI）- 自1973年以来值得信赖的OEM蚊香制造商。我们为日本、韩国、美国、南美和南非的全球品牌提供创新、高质量的蚊香解决方案和定制配方。"
         },
         "hero": {
-            "welcome": "Welcome to Quality Coils Industries",
-            "title": "World-Class OEM Mosquito Coil Manufacturer",
-            "altHeroBackground": "QCI Hero Background",
-            "altHeroLeft": "Hero left",
-            "altHeroRight": "Hero right"
+            "welcome": "欢迎来到优质盘香工业",
+            "title": "世界级OEM蚊香制造商",
+            "altHeroBackground": "QCI主页背景",
+            "altHeroLeft": "主页左侧",
+            "altHeroRight": "主页右侧"
         },
         "about": {
-            "title": "About",
-            "subtitle": "Delivering Excellence since 1973",
-            "description": "Quality Coils Industries, we are a trusted OEM manufacturer specializing in high-quality mosquito coils, serving global brands across Japan, Korea, the USA, South America, and South Africa with innovative, effective, and environmentally responsible solutions. With nearly five decades of expertise, we offer custom formulations, advanced production technologies, and private labeling services to help businesses establish a strong market presence.",
-            "learnMore": "Learn More",
-            "altQciFront": "QCI Front",
-            "altAboutBackground": "About Background",
-            "altFlagJapan": "Japan flag",
-            "altFlagSouthAfrica": "South Africa flag",
-            "altFlagSouthKorea": "South Korea flag",
-            "altFlagUs": "US flag",
-            "altQciFacility": "QCI manufacturing facility exterior view"
+            "title": "关于我们",
+            "subtitle": "自1973年以来追求卓越",
+            "description": "优质盘香工业是一家值得信赖的OEM制造商，专业生产高质量蚊香，为日本、韩国、美国、南美和南非的全球品牌提供创新、有效且环保的解决方案。凭借近五十年的专业经验，我们提供定制配方、先进的生产技术和贴牌服务，帮助企业建立强大的市场地位。",
+            "learnMore": "了解更多",
+            "altQciFront": "QCI正面",
+            "altAboutBackground": "关于背景",
+            "altFlagJapan": "日本国旗",
+            "altFlagSouthAfrica": "南非国旗",
+            "altFlagSouthKorea": "韩国国旗",
+            "altFlagUs": "美国国旗",
+            "altQciFacility": "QCI制造工厂外观"
         },
         "expansion": {
-            "title": "Expanding Our Legacy",
-            "subtitle": "QCI Malaysia & QCI Thailand",
-            "malaysiaText": "QCI Malaysia, established in 1973. The pioneer in OEM mosquito coil manufacturing, committed to superior quality and innovation.",
-            "thailandText": "QCI Thailand, established in 1993. Strengthening our regional and international supply chain with advanced production capabilities.",
-            "exploreMore": "Explore More",
-            "altThaiFacility": "QCI Thailand facility",
-            "altThaiProduction": "QCI Thailand production facility interior",
-            "altThaiManufacturing": "QCI Thailand manufacturing operations"
+            "title": "拓展我们的传承",
+            "subtitle": "QCI马来西亚 & QCI泰国",
+            "malaysiaText": "QCI马来西亚成立于1973年。OEM蚊香制造的先驱者，致力于卓越品质和创新。",
+            "thailandText": "QCI泰国成立于1993年。以先进的生产能力加强我们的区域和国际供应链。",
+            "exploreMore": "探索更多",
+            "altThaiFacility": "QCI泰国工厂",
+            "altThaiProduction": "QCI泰国生产设施内部",
+            "altThaiManufacturing": "QCI泰国制造运营"
         },
         "advantage": {
-            "title": "The QCI Advantage",
-            "subtitle": "Exclusive Separate Production Lines",
-            "leftTitle": "What Sets Us Apart?",
-            "leftText": "We are the only OEM manufacturer with dedicated production lines for different mosquito coil formulations. This ensures:",
-            "altCoilWood": "Wood-based mosquito coil product",
-            "altCoilCharcoal": "Charcoal-based mosquito coil product",
+            "title": "QCI优势",
+            "subtitle": "独家分离生产线",
+            "leftTitle": "我们的与众不同之处？",
+            "leftText": "我们是唯一一家为不同蚊香配方设置专用生产线的OEM制造商。这确保了：",
+            "altCoilWood": "木基蚊香产品",
+            "altCoilCharcoal": "炭基蚊香产品",
             "benefits": [
-                "Unmatched Quality Control – Each formulation is produced separately, ensuring purity, consistency, and optimal performance.",
-                "Zero Cross-Contamination – Custom formulations remain uncompromised, catering to diverse market needs.",
-                "Greater Market Flexibility – Brands can target both eco-conscious consumers (low-smoke, indoor-friendly) and high-smoke repellency markets.",
-                "Efficient & Scalable Production – Streamlined processes for shorter lead times and a reliable global supply chain."
+                "无与伦比的质量控制 – 每种配方分别生产，确保纯度、一致性和最佳性能。",
+                "零交叉污染 – 定制配方保持纯粹，满足多样化的市场需求。",
+                "更大的市场灵活性 – 品牌可以同时针对环保意识消费者（低烟雾、适合室内）和高烟雾驱蚊市场。",
+                "高效且可扩展的生产 – 精简的流程缩短交货时间，提供可靠的全球供应链。"
             ],
-            "viewMore": "View More"
+            "viewMore": "查看更多"
         },
         "trust": {
-            "title": "Your Trusted Partner in Mosquito Coil Manufacturing",
-            "subtitle": "Built on a foundation of Quality, Commitment, and Integrity, QCI delivers mosquito coils that meet the highest industry standards:",
+            "title": "您值得信赖的蚊香制造合作伙伴",
+            "subtitle": "建立在质量、承诺和诚信的基础上，QCI提供符合最高行业标准的蚊香：",
             "quality": {
-                "alt": "Quality assurance icon",
-                "text": "Stringent manufacturing processes ensure safe, effective, and long-lasting mosquito protection."
+                "alt": "质量保证图标",
+                "text": "严格的制造流程确保安全、有效且持久的蚊虫防护。"
             },
             "commitment": {
-                "alt": "Commitment to innovation icon",
-                "text": "Continuous innovation drives our ability to enhance product efficiency and customer satisfaction."
+                "alt": "创新承诺图标",
+                "text": "持续创新推动我们提升产品效率和客户满意度的能力。"
             },
             "integrity": {
-                "alt": "Business integrity icon",
-                "text": "Transparent operations, ethical business practices, and strict regulatory compliance."
+                "alt": "商业诚信图标",
+                "text": "透明运营、道德商业实践和严格的监管合规性。"
             }
         },
         "offerings": {
-            "title": "Our Offerings",
+            "title": "我们的服务",
             "items": [
                 {
-                    "title": "Quality & Compliance",
-                    "description": "Adherence to international safety and environmental standards."
+                    "title": "质量与合规",
+                    "description": "遵守国际安全和环境标准。"
                 },
                 {
-                    "title": "Custom OEM Solutions",
-                    "description": "Full-service product development, branding, and packaging."
+                    "title": "定制OEM解决方案",
+                    "description": "全方位产品开发、品牌和包装服务。"
                 },
                 {
-                    "title": "Sustainable Practices",
-                    "description": "Eco-conscious production minimizing environmental impact."
+                    "title": "可持续实践",
+                    "description": "环保生产，最大限度减少环境影响。"
                 },
                 {
-                    "title": "Reliable Supply Chain",
-                    "description": "Global distribution with efficient and timely deliveries."
+                    "title": "可靠的供应链",
+                    "description": "高效及时的全球配送。"
                 }
             ],
-            "discoverMore": "Discover More",
-            "closingText1": "At QCI, we don't just manufacture mosquito coils.",
-            "closingText2": "We create market-leading solutions that protect homes, businesses, and communities from mosquito-borne diseases."
+            "discoverMore": "探索更多",
+            "closingText1": "在QCI，我们不仅仅是制造蚊香。",
+            "closingText2": "我们创造市场领先的解决方案，保护家庭、企业和社区免受蚊媒疾病的侵害。"
         }
     },
     "about": {
         "meta": {
-            "title": "About QCI - Leading OEM Mosquito Coil Manufacturer",
-            "description": "Quality Coils Industries (QCI) - A legacy of excellence since 1973. Learn about our OEM expertise, global reach, and commitment to producing high-quality mosquito coils in Malaysia and Thailand."
+            "title": "关于QCI - 领先的OEM蚊香制造商",
+            "description": "优质盘香工业（QCI）- 自1973年以来的卓越传承。了解我们的OEM专业知识、全球影响力，以及在马来西亚和泰国生产高质量蚊香的承诺。"
         },
         "hero": {
-            "title": "A Legacy of Excellence",
-            "altBackground": "QCI Malaysia and Thailand facilities"
+            "title": "卓越的传承",
+            "altBackground": "QCI马来西亚和泰国工厂"
         },
         "intro": {
-            "label": "QCI Malaysia & QCI Thailand: Trusted OEM Partners Since 1973",
-            "description": "QCI is a leading OEM manufacturer specializing in high-quality mosquito coils, serving global brands with innovative, effective, and environmentally responsible solutions. With nearly five decades of expertise, we provide custom formulations, cutting-edge production technologies, and private labeling services to empower businesses worldwide.",
-            "malaysiaText": "QCI Malaysia, established in 1973 was pioneering in OEM mosquito coil manufacturing, setting the industry standard for quality and innovation.",
-            "thailandText": "QCI Thailand, established 1993 was us strengthening our regional and international supply chain with advanced production capabilities and strategic market access."
+            "label": "QCI马来西亚 & QCI泰国：自1973年以来值得信赖的OEM合作伙伴",
+            "description": "QCI是一家领先的OEM制造商，专业生产高质量蚊香，为全球品牌提供创新、有效且环保的解决方案。凭借近五十年的专业经验，我们提供定制配方、尖端生产技术和贴牌服务，赋予全球企业更强的竞争力。",
+            "malaysiaText": "QCI马来西亚成立于1973年，开创了OEM蚊香制造的先河，为行业树立了质量和创新的标准。",
+            "thailandText": "QCI泰国成立于1993年，通过先进的生产能力和战略性的市场准入加强了我们的区域和国际供应链。"
         },
         "commitment": {
-            "title": "Our Commitment",
-            "description": "At QCI, mosquito control should never come at the expense of safety or sustainability. That's why our products are developed using scientifically tested ingredients and manufactured under strict quality control measures to meet international regulatory standards. We continuously invest in research and development to create innovative, long-lasting mosquito coils that offer superior protection against vector-borne diseases.",
-            "altLab": "QCI laboratory quality control testing"
+            "title": "我们的承诺",
+            "description": "在QCI，我们认为蚊虫控制永远不应以牺牲安全或可持续性为代价。这就是为什么我们的产品使用经过科学测试的成分开发，并在严格的质量控制措施下制造，以符合国际监管标准。我们持续投资于研发，创造创新、持久的蚊香，提供针对病媒传播疾病的卓越防护。",
+            "altLab": "QCI实验室质量控制测试"
         },
         "expertise": {
-            "title": "OEM Expertise & Global Reach",
-            "subtitle": "As an experienced OEM manufacturer, we partner with brands worldwide to produce customized mosquito coils tailored to specific market needs.",
+            "title": "OEM专业知识与全球影响力",
+            "subtitle": "作为经验丰富的OEM制造商，我们与全球品牌合作，生产针对特定市场需求定制的蚊香。",
             "formulation": {
-                "title": "Formulation",
-                "subtitle": "A specific formulation for enhanced mosquito repellency",
-                "description": "Our proprietary formula provides long-lasting protection against mosquito bites, ensuring comfort and peace of mind.",
-                "alt": "Custom formulation icon"
+                "title": "配方",
+                "subtitle": "增强驱蚊效果的特定配方",
+                "description": "我们的专有配方提供持久的蚊虫叮咬防护，确保舒适和安心。",
+                "alt": "定制配方图标"
             },
             "scent": {
-                "title": "Scent",
-                "subtitle": "A unique scent to suit our customers' preferences",
-                "description": "Customize the scent profile to match our customers' preferences, making repellent use a pleasant and personalized experience.",
-                "alt": "Custom scent icon"
+                "title": "香味",
+                "subtitle": "符合客户喜好的独特香味",
+                "description": "定制香味特征以匹配客户的偏好，使驱蚊剂的使用成为愉快和个性化的体验。",
+                "alt": "定制香味图标"
             },
             "branding": {
-                "title": "Branding",
-                "subtitle": "Custom branding and private labeling",
-                "description": "Stand out in the market with distinctive branding and private labeling options tailored to your brand's identity and customer expectations.",
-                "alt": "Custom branding icon"
+                "title": "品牌",
+                "subtitle": "定制品牌和贴牌",
+                "description": "通过为您的品牌身份和客户期望量身定制的独特品牌和贴牌选项在市场中脱颖而出。",
+                "alt": "定制品牌图标"
             },
             "packaging": {
-                "title": "Packaging",
-                "subtitle": "Specialized packaging solutions",
-                "description": "Choose from an array of packaging solutions designed to protect the product, enhance its appeal, and ensure convenience for your customers.",
-                "alt": "Custom packaging icon"
+                "title": "包装",
+                "subtitle": "专业包装解决方案",
+                "description": "从一系列包装解决方案中选择，旨在保护产品、增强其吸引力并确保为您的客户提供便利。",
+                "alt": "定制包装图标"
             },
-            "bottomText": "Our team delivers tailored solutions to give your brand a competitive edge. With state-of-the-art production facilities in Malaysia and Thailand, we efficiently fulfill bulk orders while maintaining product integrity."
+            "bottomText": "我们的团队提供量身定制的解决方案，为您的品牌提供竞争优势。凭借在马来西亚和泰国的最先进生产设施，我们在保持产品完整性的同时高效完成批量订单。"
         },
         "quality": {
-            "title": "Quality Control & Production Process",
-            "subtitle": "Ensuring Excellence In Every Step",
-            "description": "Our mosquito coil manufacturing follows strict ISO 9001:2008 quality standards. Every step is monitored to maintain consistency, safety, and efficiency.",
-            "altBackground": "QCI mosquito coil stamping production process"
+            "title": "质量控制与生产流程",
+            "subtitle": "确保每一步的卓越",
+            "description": "我们的蚊香制造遵循严格的ISO 9001:2008质量标准。每个步骤都受到监控，以保持一致性、安全性和效率。",
+            "altBackground": "QCI蚊香冲压生产过程"
         },
         "team": {
-            "title": "Team",
-            "name": "Mr. Yeoh Hon Poh - Chairman / Founder",
-            "description": "Meet Mr. Yeoh, the visionary entrepreneur behind QCI. With an unwavering commitment to innovation and sustainability, Mr. Yeoh has revolutionized the industry, ensuring families can enjoy mosquito-free environments. His journey from humble beginnings to leading a top-tier manufacturing powerhouse is filled with inspiring milestones.",
-            "learnMore": "Learn More",
-            "alt": "Mr. Yeoh Hon Poh, QCI Chairman and Founder"
+            "title": "团队",
+            "name": "杨汉保先生 - 董事长/创始人",
+            "description": "认识杨先生，QCI背后富有远见的企业家。凭借对创新和可持续发展的坚定承诺，杨先生彻底改变了这个行业，确保家庭能够享受无蚊环境。他从卑微的起点到领导一流制造强国的旅程充满了鼓舞人心的里程碑。",
+            "learnMore": "了解更多",
+            "alt": "杨汉保先生，QCI董事长兼创始人"
         },
         "partner": {
-            "title": "Partner with QCI Malaysia & QCI Thailand",
-            "description": "Join us in building a safer, mosquito-free future today.",
-            "contactUs": "Contact Us"
+            "title": "与QCI马来西亚 & QCI泰国合作",
+            "description": "今天就加入我们，共同建设一个更安全、无蚊的未来。",
+            "contactUs": "联系我们"
         }
     },
     "people": {
         "meta": {
-            "title": "Our Team - QCI Leadership & Management",
-            "description": "Meet the leadership team behind Quality Coils Industries (QCI). Our experienced executives drive innovation, quality, and sustainable manufacturing in mosquito coil production."
+            "title": "我们的团队 - QCI领导层与管理层",
+            "description": "认识优质盘香工业（QCI）背后的领导团队。我们经验丰富的高管推动蚊香生产的创新、质量和可持续制造。"
         },
         "heading": {
-            "title": "Meet The Team"
+            "title": "认识团队"
         },
         "yeoh": {
-            "alt": "Yeoh Hon Poh, Founder and Chairman of QCI",
-            "position": "Founder & Chairman",
-            "name": "Yeoh Hon Poh",
-            "description": "Mr. Yeoh brings over 50 years of leadership experience in the manufacturing and consumer goods industry. Under his strategic vision, QCI Malaysia has expanded its global presence, solidifying its reputation as a leading OEM manufacturer of mosquito coils. His expertise in corporate governance and business development ensures the company's continuous growth and commitment to excellence"
+            "alt": "杨汉保，QCI主席/创始人",
+            "position": "主席/创始人",
+            "name": "杨汉保",
+            "description": "杨先生在制造业和消费品行业拥有超过50年的领导经验。在他的战略愿景下，QCI马来西亚扩大了全球影响力，巩固了其作为领先OEM蚊香制造商的声誉。他在企业治理和业务发展方面的专业知识确保了公司的持续增长和对卓越的承诺。"
         },
         "andrew": {
-            "alt": "Andrew Yeoh, Managing Director of QCI",
-            "position": "Managing Director",
-            "name": "Andrew Yeoh",
-            "description": "With a background in manufacturing and business management, Mr. Andrew has been instrumental in driving QCI Malaysia's innovation and operational efficiency. His leadership focuses on sustainable manufacturing practices, quality assurance, and international market expansion. Under his direction, QCI has strengthened partnerships with global brands, delivering high-performance mosquito coils that meet stringent regulatory standards."
+            "alt": "杨晋一，QCI常务董事",
+            "position": "常务董事",
+            "name": "杨晋一",
+            "description": "凭借制造和商业管理背景，杨先生在推动QCI马来西亚的创新和运营效率方面发挥了关键作用。他的领导专注于可持续制造实践、质量保证和国际市场扩张。在他的指导下，QCI加强了与全球品牌的合作伙伴关系，提供符合严格监管标准的高性能蚊香。"
         },
         "wong": {
-            "alt": "Wong Hon Kai, Chief Financial Officer of QCI",
-            "position": "Chief Financial Officer",
-            "name": "Wong Hon Kai",
-            "description": "With extensive experience in corporate finance and risk management, Mr Wong manages QCI Malaysia's financial strategy and long-term sustainability. His expertise in financial planning, compliance, and global trade ensures the company maintains financial stability while pursuing strategic growth initiatives."
+            "alt": "黄汉佳，QCI首席财务官",
+            "position": "首席财务官",
+            "name": "黄汉佳",
+            "description": "凭借在企业财务和风险管理方面的丰富经验，黄先生管理QCI马来西亚的财务战略和长期可持续性。他在财务规划、合规和全球贸易方面的专业知识确保公司在追求战略增长计划的同时保持财务稳定。"
         },
         "ng": {
-            "alt": "Ng Jun Kee, General Manager of QCI",
-            "position": "General Manager",
-            "name": "Ng Jun Kee",
-            "description": "A specialist in manufacturing and supply chain management, Mr Ng oversees QCI's production operations, ensuring seamless execution and quality control. With decades of experience in industrial automation and process optimization, he has played a crucial role in developing QCI's exclusive separate production lines for wood-based and charcoal-based coils, enhancing efficiency and product integrity."
+            "alt": "黄俊棋，QCI总经理",
+            "position": "总经理",
+            "name": "黄俊棋",
+            "description": "作为制造和供应链管理专家，黄先生监督QCI的生产运营，确保无缝执行和质量控制。凭借数十年在工业自动化和流程优化方面的经验，他在开发QCI独家的木基和炭基盘香分离生产线方面发挥了至关重要的作用，提高了效率和产品完整性。"
         }
     },
     "products": {
         "meta": {
-            "title": "QCI Products - High-Performance Mosquito Coils",
-            "description": "Quality Coils Industries offers premium mosquito coils including smokeless, wood-based, charcoal-based coils and pre-mix powder. Custom OEM solutions with various colors, aromas, and packaging options for global markets."
+            "title": "QCI产品 - 高性能蚊香",
+            "description": "优质盘香工业提供优质蚊香，包括无烟、木基、炭基蚊香和预混粉。为全球市场提供各种颜色、香味和包装选项的定制OEM解决方案。"
         },
         "hero": {
-            "bgAlt": "Products background",
-            "heading": "Our Products",
-            "subheading": "High-Performance Mosquito Coils for Every Market",
-            "description": "At QCI, we specialize in manufacturing high-performance mosquito coils designed for maximum protection, efficiency, and market adaptability. With over 50 years of expertise, we cater to various product specifications, including different colors, active ingredients, sizes, burning times, and aromas. Our dedicated production lines ensure the highest quality standards, allowing brands to choose between charcoal-based coils and wood-based coils without cross-contamination",
-            "bannerAlt": "Mosquito coil product"
+            "bgAlt": "产品背景",
+            "heading": "我们的产品",
+            "subheading": "适合每个市场的高性能蚊香",
+            "description": "在QCI，我们专业生产高性能蚊香，旨在提供最大的保护、效率和市场适应性。凭借超过50年的专业知识，我们满足各种产品规格，包括不同的颜色、活性成分、尺寸、燃烧时间和香味。我们的专用生产线确保最高质量标准，允许品牌在炭基盘香和木基盘香之间进行选择，而不会交叉污染。",
+            "bannerAlt": "蚊香产品"
         },
         "aromas": {
-            "heading": "Customizable Aromas",
-            "description": "To enhance market appeal, we offer mosquito coils in various colors, each paired with a unique scent. These specialty coils combine protection with pleasant aromas, making them ideal for diverse markets worldwide.",
+            "heading": "可定制香味",
+            "description": "为了增强市场吸引力，我们提供各种颜色的蚊香，每种都搭配独特的香味。这些特色蚊香将保护与宜人的香气相结合，非常适合全球多样化的市场。",
             "items": [
                 {
-                    "alt": "Red rose scented mosquito coil",
-                    "label": "Red Rose"
+                    "alt": "红色玫瑰香味蚊香",
+                    "label": "红玫瑰"
                 },
                 {
-                    "alt": "Green matcha scented mosquito coil",
-                    "label": "Green Matcha"
+                    "alt": "绿色抹茶香味蚊香",
+                    "label": "绿抹茶"
                 },
                 {
-                    "alt": "Lavender purple scented mosquito coil",
-                    "label": "Lavender Purple"
+                    "alt": "薰衣草紫香味蚊香",
+                    "label": "薰衣草紫"
                 },
                 {
-                    "alt": "Brown natural scented mosquito coil",
-                    "label": "Brown Natural"
+                    "alt": "棕色天然香味蚊香",
+                    "label": "棕色天然"
                 }
             ]
         },
         "packing": {
-            "heading": "Custom Packing Solutions",
-            "subheading": "Exceptional Packaging",
-            "description": "Quality Coils Industries offers a comprehensive range of packaging designed with efficiency and effectiveness in mind. Our products are crafted to provide reliable protection against mosquitoes and other pests, ensuring a peaceful and enjoyable environment for you and your family.",
+            "heading": "定制包装解决方案",
+            "subheading": "卓越包装",
+            "description": "优质盘香工业提供全面的包装系列，设计注重效率和有效性。我们的产品旨在提供可靠的蚊虫和其他害虫防护，确保您和您的家人拥有宁静愉快的环境。",
             "items": [
                 {
-                    "alt": "Tin can mosquito coil packaging",
-                    "label": "Tin Can"
+                    "alt": "铁罐蚊香包装",
+                    "label": "铁罐"
                 },
                 {
-                    "alt": "Coil holder mosquito coil packaging",
-                    "label": "Coil Holder"
+                    "alt": "盘香架蚊香包装",
+                    "label": "盘香架"
                 },
                 {
-                    "alt": "Paper dispenser box mosquito coil packaging",
-                    "label": "Paper Dispenser Box"
+                    "alt": "纸质分配盒蚊香包装",
+                    "label": "纸质分配盒"
                 }
             ]
         },
         "bases": [
             {
-                "alt": "Smokeless mosquito coil base",
-                "label": "Smokeless"
+                "alt": "无烟蚊香基",
+                "label": "无烟"
             },
             {
-                "alt": "Wood-based mosquito coil base",
-                "label": "Wood-Based"
+                "alt": "木基蚊香基",
+                "label": "木基"
             },
             {
-                "alt": "Charcoal-based mosquito coil base",
-                "label": "Charcoal-Based"
+                "alt": "炭基蚊香基",
+                "label": "炭基"
             },
             {
-                "alt": "Pre-mix powder for mosquito coil manufacturing",
-                "label": "Pre-Mix Powder"
+                "alt": "蚊香制造预混粉",
+                "label": "预混粉"
             }
         ],
         "carousel": {
             "smokeless": {
-                "heading": "Smokeless Mosquito Coil",
-                "subheading": "Low Smoke, Maximum Protection",
-                "description": "Our smokeless mosquito coil is ideal for indoor use and for consumers who prefer a low-smoke yet highly effective repellent. Using advanced formulation technology, these coils emit minimal smoke while ensuring long-lasting mosquito protection.",
+                "heading": "无烟蚊香",
+                "subheading": "低烟雾，最大保护",
+                "description": "我们的无烟蚊香适合室内使用，适合喜欢低烟雾但高效驱蚊剂的消费者。采用先进的配方技术，这些蚊香产生最少的烟雾，同时确保持久的蚊虫防护。",
                 "benefits": [
-                    "Ideal for indoor environments – safe for enclosed spaces with minimal air pollution",
-                    "Low-irritation formula – suitable for sensitive individuals and families",
-                    "Highly effective – provides consistent mosquito protection for hours",
-                    "Customizable aromas – lemongrass, lavender, sandalwood, or unscented"
+                    "适合室内环境 – 适用于封闭空间，空气污染最小，安全可靠",
+                    "低刺激配方 – 适合敏感人群和家庭",
+                    "高效 – 提供持续数小时的蚊虫防护",
+                    "可定制香味 – 柠檬草、薰衣草、檀香或无香"
                 ]
             },
             "wood": {
-                "heading": "Wood-Based Mosquito Coil",
-                "subheading": "Eco-Friendly, Low-Smoke Formula",
-                "description": "Our wood-based mosquito coil is a premium, environmentally friendly alternative that offers low-smoke mosquito protection. Made from natural wood-based materials, these coils ensure efficient repelling without excessive smoke emissions, making them ideal for both indoor and outdoor use.",
+                "heading": "木基蚊香",
+                "subheading": "环保、低烟雾配方",
+                "description": "我们的木基蚊香是一种优质、环保的替代品，提供低烟雾蚊虫防护。由天然木基材料制成，这些蚊香确保有效驱蚊，无过度烟雾排放，非常适合室内和户外使用。",
                 "benefits": [
-                    "Produced in a dedicated green coil line – no contamination with charcoal-based products",
-                    "Low-smoke, clean-burning formula – designed for health-conscious consumers",
-                    "Eco-friendly & sustainable – made from renewable wood-based materials",
-                    "Mild yet effective – suitable for homes, restaurants, and outdoor patios"
+                    "在专用绿色盘香生产线上生产 – 不与炭基产品交叉污染",
+                    "低烟雾、清洁燃烧配方 – 专为注重健康的消费者设计",
+                    "环保且可持续 – 由可再生木基材料制成",
+                    "温和但有效 – 适用于家庭、餐厅和户外露台"
                 ]
             },
             "charcoal": {
-                "heading": "Charcoal-Based Mosquito Coil",
-                "subheading": "High-Repellency For Outdoor Protection",
-                "description": "Our charcoal-based mosquito coil is formulated for maximum effectiveness, making it perfect for outdoor environments. It produces stronger smoke, creating a protective barrier that keeps mosquitoes away in open areas.",
+                "heading": "炭基蚊香",
+                "subheading": "户外防护的高效驱蚊",
+                "description": "我们的炭基蚊香配方具有最大效果，非常适合户外环境。它产生更强的烟雾，在开放区域创造保护屏障，驱赶蚊虫。",
                 "benefits": [
-                    "Dedicated black coil production line – ensuring purity and consistency",
-                    "Powerful repellent action – effective in high-risk mosquito areas",
-                    "Long-lasting burn time – extended protection for outdoor settings",
-                    "Best for camping, gardens & tropical climates – protects against mosquito-borne diseases"
+                    "专用黑色盘香生产线 – 确保纯度和一致性",
+                    "强大的驱蚊作用 – 在高风险蚊虫区域有效",
+                    "持久燃烧时间 – 为户外环境提供延长保护",
+                    "最适合露营、花园和热带气候 – 防护蚊媒疾病"
                 ]
             },
             "premix": {
-                "heading": "Mosquito Coil Pre-Mix Powder",
-                "subheading": "Custom Formulation For OEM Manufacturing",
-                "description": "Our pre-mix powder is a ready-to-use formulation designed for mosquito coil manufacturers looking for trouble-free production. This high-quality blend eliminates the need for additional quality control testing, making it an ideal solution for brands aiming to manufacture their own coils efficiently.",
-                "challengesHeading": "Common challenges we SOLVE:",
+                "heading": "蚊香预混粉",
+                "subheading": "OEM制造的定制配方",
+                "description": "我们的预混粉是一种即用型配方，专为寻求无故障生产的蚊香制造商设计。这种高质量的混合物消除了额外质量控制测试的需要，使其成为旨在高效制造自己蚊香的品牌的理想解决方案。",
+                "challengesHeading": "我们解决的常见挑战：",
                 "challenges": [
-                    "Raw material shortages",
-                    "Inconsistent raw material quality",
-                    "High labor costs",
-                    "Large storage space requirements"
+                    "原材料短缺",
+                    "原材料质量不一致",
+                    "高人工成本",
+                    "大型存储空间要求"
                 ],
                 "benefits": [
-                    "Customizable formulation – tailored to specific market needs",
-                    "Easy-to-use pre-mix – ensures uniformity in production",
-                    "Compatible with both charcoal & wood-based coils",
-                    "Scientifically tested for effectiveness",
-                    "Ready-to-ship premix powder available in customer-preferred sizes"
+                    "可定制配方 – 针对特定市场需求量身定制",
+                    "易于使用的预混 – 确保生产的均匀性",
+                    "兼容炭基和木基蚊香",
+                    "经过科学测试的有效性",
+                    "可按客户首选尺寸提供的即发货预混粉"
                 ]
             }
         },
         "cta": {
-            "heading": "Bring high-quality mosquito coil products to your market.",
-            "button": "Contact Us",
-            "buttonAria": "Contact us about our mosquito coil products"
+            "heading": "将高质量蚊香产品带到您的市场。",
+            "button": "联系我们",
+            "buttonAria": "联系我们了解我们的蚊香产品"
         },
         "navigation": {
-            "prevAlt": "Previous",
-            "nextAlt": "Next",
-            "prevAria": "Previous slide",
-            "nextAria": "Next slide"
+            "prevAlt": "上一张",
+            "nextAlt": "下一张",
+            "prevAria": "上一张幻灯片",
+            "nextAria": "下一张幻灯片"
         }
     },
     "oemAdvantage": {
         "meta": {
-            "title": "OEM Advantage - Quality Mosquito Coil Manufacturing",
-            "description": "Discover QCI's OEM advantage in mosquito coil manufacturing. Dedicated production lines for wood-based and charcoal coils. 50+ years expertise in Malaysia and Thailand. Custom formulations and private labeling available."
+            "title": "OEM优势 - 优质蚊香制造",
+            "description": "探索QCI在蚊香制造方面的OEM优势。专用于木基和炭基蚊香的生产线。在马来西亚和泰国拥有50多年的专业知识。提供定制配方和贴牌服务。"
         },
         "hero": {
-            "heading": "Learn More About Our OEM Advantage",
-            "paragraph1": "At QCI Malaysia and QCI Thailand, we take pride in being the only OEM manufacturers with dedicated production lines for wood-based and charcoal-based mosquito coils. This separation guarantees superior product quality, consistency, and customization, ensuring our clients receive the best mosquito coil solutions for their markets.",
-            "paragraph2": "With over 50 years of industry expertise, our commitment to innovation, stringent quality control, and tailored OEM solutions allows us to support brands worldwide in delivering high-performance mosquito coils that meet diverse market demands. Whether you require specific formulations, private labeling, branding options, or scalable production, our advanced manufacturing capabilities provide the reliability and efficiency your business needs.",
-            "badgeAlt": "OEM Badge"
+            "heading": "了解更多关于我们的OEM优势",
+            "paragraph1": "在QCI马来西亚和QCI泰国，我们自豪地成为唯一一家为木基和炭基蚊香设置专用生产线的OEM制造商。这种分离保证了卓越的产品质量、一致性和定制化，确保我们的客户获得最适合其市场的蚊香解决方案。",
+            "paragraph2": "凭借超过50年的行业专业知识，我们对创新、严格质量控制和定制OEM解决方案的承诺使我们能够支持全球品牌提供满足多样化市场需求的高性能蚊香。无论您需要特定配方、贴牌、品牌选项还是可扩展生产，我们先进的制造能力都能为您的业务提供所需的可靠性和效率。",
+            "badgeAlt": "OEM徽章"
         },
         "whyChoose": {
-            "heading": "Why Choose QCI Malaysia & QCI Thailand for Your Mosquito Coil Manufacturing?",
+            "heading": "为什么选择QCI马来西亚 & QCI泰国进行蚊香制造？",
             "benefits": [
-                "• <strong>Industry Expertise</strong> – Over five decades of experience in mosquito coil manufacturing and formulation",
-                "• <strong>Quality & Compliance</strong> – Products meet international safety and environmental standards",
-                "• <strong>Custom OEM Solutions</strong> – Full-service product development, branding, and packaging customization",
-                "• <strong>Sustainable Practices</strong> – Eco-conscious production with minimal environmental impact",
-                "• <strong>Reliable Supply Chain</strong> – Efficient global distribution and timely deliveries"
+                "• <strong>行业专业知识</strong> – 在蚊香制造和配方方面拥有超过五十年的经验",
+                "• <strong>质量与合规</strong> – 产品符合国际安全和环境标准",
+                "• <strong>定制OEM解决方案</strong> – 全方位产品开发、品牌和包装定制",
+                "• <strong>可持续实践</strong> – 环保生产，环境影响最小",
+                "• <strong>可靠的供应链</strong> – 高效的全球配送和及时交付"
             ],
-            "closingText": "With our presence in both Malaysia and Thailand, we offer seamless production and supply chain solutions to cater to your market's unique requirements."
+            "closingText": "凭借我们在马来西亚和泰国的业务，我们提供无缝的生产和供应链解决方案，以满足您市场的独特需求。"
         },
         "cta": {
-            "smallTitle": "Partner With Us",
-            "heading": "Partner with QCI Malaysia & QCI Thailand today and gain a competitive edge with superior mosquito coil solutions tailored to your brand's needs.",
-            "button": "Contact Us",
-            "buttonAria": "Contact us for OEM partnership opportunities"
+            "smallTitle": "与我们合作",
+            "heading": "今天就与QCI马来西亚 & QCI泰国合作，通过为您的品牌需求量身定制的卓越蚊香解决方案获得竞争优势。",
+            "button": "联系我们",
+            "buttonAria": "联系我们了解OEM合作机会"
         }
     },
     "machinery": {
         "meta": {
-            "title": "QCI - OEM Mosquito Coil Manufacturer"
+            "title": "QCI - OEM蚊香制造商"
         },
-        "heading": "Machinery",
-        "subheading": "Advanced Manufacturing Solutions For Mosquito Coil Production",
-        "description": "At QCI Malaysia, we rely on state-of-the-art technology to maintain the highest standards in mosquito coil manufacturing. Our production facilities are equipped with advanced one-line machines, ensuring precision, efficiency, and consistency in every coil we produce. For specialized machinery and equipment solutions, we collaborate with Yeohata, a leading manufacturer of mosquito coil production machines. Learn more about their cutting-edge technology and how it supports high-performance manufacturing.",
-        "button": "View More",
-        "buttonAria": "Visit Yeohata machinery manufacturer website",
-        "imageAlt": "Yeohata mosquito coil production machinery"
+        "heading": "机械设备",
+        "subheading": "蚊香生产的先进制造解决方案",
+        "description": "在QCI马来西亚，我们依靠最先进的技术来保持蚊香制造的最高标准。我们的生产设施配备了先进的一体化机器，确保我们生产的每个蚊香都精确、高效且一致。对于专业机械和设备解决方案，我们与Yeohata合作，Yeohata是蚊香生产机器的领先制造商。了解更多关于他们的尖端技术以及它如何支持高性能制造。",
+        "button": "查看更多",
+        "buttonAria": "访问Yeohata机械制造商网站",
+        "imageAlt": "Yeohata蚊香生产机械"
     },
     "careers": {
         "meta": {
-            "title": "Careers at QCI - Join Our Team",
-            "description": "Join Quality Coils Industries (QCI) - Malaysia and Thailand. Explore career opportunities in mosquito coil manufacturing. We offer competitive benefits, career growth, and a positive work culture."
+            "title": "QCI职业 - 加入我们的团队",
+            "description": "加入优质盘香工业（QCI）- 马来西亚和泰国。探索蚊香制造的职业机会。我们提供有竞争力的福利、职业发展和积极的工作文化。"
         },
         "hero": {
-            "bgAlt": "QCI office and workplace environment",
-            "heading": "Join Our<br />Team",
-            "button": "Opportunities",
-            "buttonAria": "View available career opportunities"
+            "bgAlt": "QCI办公室和工作环境",
+            "heading": "加入我们的<br />团队",
+            "button": "职业机会",
+            "buttonAria": "查看可用的职业机会"
         },
         "intro": {
-            "image1Alt": "QCI team members at work",
-            "text1": "At QCI Malaysia and QCI Thailand, we are dedicated to innovation, quality, and excellence in mosquito coil manufacturing. Our success is powered by talented individuals who are passionate about making a difference. Whether you are an experienced professional or a fresh graduate eager to learn, we offer exciting career opportunities that foster growth and development in a dynamic industry.",
-            "image2Alt": "QCI workplace facilities",
-            "text2": "At QCI Malaysia and QCI Thailand, we cultivate a positive and supportive work environment where employees can thrive. Our facilities are designed to provide a comfortable and productive workplace, ensuring both professional and personal growth."
+            "image1Alt": "QCI团队成员工作中",
+            "text1": "在QCI马来西亚和QCI泰国，我们致力于蚊香制造的创新、质量和卓越。我们的成功源于充满激情、希望有所作为的才华横溢的个人。无论您是经验丰富的专业人士还是渴望学习的应届毕业生，我们都提供令人兴奋的职业机会，在充满活力的行业中促进成长和发展。",
+            "image2Alt": "QCI工作场所设施",
+            "text2": "在QCI马来西亚和QCI泰国，我们培养积极和支持性的工作环境，让员工能够茁壮成长。我们的设施旨在提供舒适和高效的工作场所，确保专业和个人成长。"
         },
         "whatWeOffer": {
-            "heading": "What We Offer",
-            "subheading": "We are committed to creating a dynamic and rewarding workplace where hard work is valued, and teamwork drives our success.",
-            "centerIconAlt": "Career benefits icon",
+            "heading": "我们提供什么",
+            "subheading": "我们致力于创造一个充满活力且有回报的工作场所，在这里辛勤工作受到重视，团队合作推动我们的成功。",
+            "centerIconAlt": "职业福利图标",
             "benefits": {
                 "careerGrowth": {
-                    "title": "Career Growth Opportunities",
-                    "description": "Performance-based salary increments and regular career reviews.",
-                    "iconAlt": "Career growth icon"
+                    "title": "职业发展机会",
+                    "description": "基于绩效的薪资增长和定期职业评估。",
+                    "iconAlt": "职业发展图标"
                 },
                 "comprehensive": {
-                    "title": "Comprehensive Benefits",
-                    "description": "Medical coverage, personal accident insurance, and hospitalization benefits.",
-                    "iconAlt": "Health benefits icon"
+                    "title": "全面福利",
+                    "description": "医疗保险、个人意外保险和住院福利。",
+                    "iconAlt": "健康福利图标"
                 },
                 "workplace": {
-                    "title": "Workplace Essentials",
-                    "description": "Free uniforms provided for comfort and professionalism.",
-                    "iconAlt": "Uniforms provided icon"
+                    "title": "工作场所必需品",
+                    "description": "提供免费制服，舒适且专业。",
+                    "iconAlt": "提供制服图标"
                 },
                 "facilities": {
-                    "title": "Work & Rest Facilities",
-                    "description": "A well-maintained environment with designated areas for productivity and relaxation.",
-                    "iconAlt": "Workplace facilities icon"
+                    "title": "工作与休息设施",
+                    "description": "维护良好的环境，设有专门的生产力和休闲区域。",
+                    "iconAlt": "工作场所设施图标"
                 },
                 "events": {
-                    "title": "Annual Events",
-                    "description": "Enjoy our annual company dinner and trips as part of our team.",
-                    "iconAlt": "Annual events icon"
+                    "title": "年度活动",
+                    "description": "作为我们团队的一部分，享受我们的年度公司晚宴和旅行。",
+                    "iconAlt": "年度活动图标"
                 },
                 "culture": {
-                    "title": "Positive Work Culture",
-                    "description": "A team-oriented, respectful, and supportive workplace.",
-                    "iconAlt": "Team culture icon"
+                    "title": "积极的工作文化",
+                    "description": "团队导向、尊重和支持的工作场所。",
+                    "iconAlt": "团队文化图标"
                 },
                 "bonuses": {
-                    "title": "Bonuses & Incentives",
-                    "description": "Performance-based rewards to recognize and appreciate employee contributions.",
-                    "iconAlt": "Bonuses icon"
+                    "title": "奖金与激励",
+                    "description": "基于绩效的奖励，以认可和欣赏员工的贡献。",
+                    "iconAlt": "奖金图标"
                 }
             }
         },
         "positions": {
-            "heading": "Join Us",
-            "subheading": "Career Opportunities | Available Position",
-            "description": "We are always looking for skilled professionals to join our team in various departments!",
+            "heading": "加入我们",
+            "subheading": "职业机会 | 可用职位",
+            "description": "我们一直在寻找各部门的熟练专业人士加入我们的团队！",
             "jobs": [
                 {
-                    "title": "Dispatch",
-                    "location": "[ Malaysia ]",
-                    "description": "Dispatch duties including delivering and collecting documents. Ensure all tasks are handled with care and confidentiality."
+                    "title": "调度员",
+                    "location": "[ 马来西亚 ]",
+                    "description": "调度职责，包括递送和收集文件。确保所有任务都得到谨慎和保密的处理。"
                 },
                 {
-                    "title": "Chemist",
-                    "location": "[ Malaysia ]",
-                    "description": "Ensures product quality by performing daily tests on mosquito coil batches, analyzing raw materials, and coordinating with teams to meet customer and export standards."
+                    "title": "化学师",
+                    "location": "[ 马来西亚 ]",
+                    "description": "通过对蚊香批次进行日常测试、分析原材料并与团队协调以满足客户和出口标准来确保产品质量。"
                 },
                 {
-                    "title": "Internship & Graduate Programs",
+                    "title": "实习和毕业生项目",
                     "location": "",
-                    "description": "We offer internship opportunities for students and recent graduates to gain hands-on experience. Our structured programs provide mentorship, training, and exposure to real-world manufacturing and business operations."
+                    "description": "我们为学生和应届毕业生提供实习机会，获得实践经验。我们的结构化项目提供指导、培训，并接触真实世界的制造和业务运营。"
                 }
             ]
         },
         "apply": {
-            "heading": "Apply Now",
+            "heading": "立即申请",
             "form": {
-                "name": "Name *",
-                "email": "Email *",
-                "position": "Position",
-                "positionPlaceholder": "Applying for",
-                "coverLetter": "Cover Letter",
-                "resume": "RESUME",
-                "submit": "Submit",
-                "submitting": "Submitting..."
+                "name": "姓名 *",
+                "email": "电子邮件 *",
+                "position": "职位",
+                "positionPlaceholder": "申请",
+                "coverLetter": "求职信",
+                "resume": "简历",
+                "submit": "提交",
+                "submitting": "提交中..."
             },
             "validation": {
-                "verificationRequired": "Please complete the verification challenge",
-                "errorGeneric": "An error occurred. Please try again.",
-                "submitFailed": "Failed to submit application. Please try again later."
+                "verificationRequired": "请完成验证挑战",
+                "errorGeneric": "发生错误。请重试。",
+                "submitFailed": "提交申请失败。请稍后再试。"
             }
         },
         "contact": {
-            "heading": "Contact Us",
-            "description": "Get in touch with us for any inquiries or feedback. We are here to assist you with all your questions and needs of information regarding our company product & services.",
-            "button": "Contact",
-            "buttonAria": "Contact us for more information"
+            "heading": "联系我们",
+            "description": "如有任何咨询或反馈，请与我们联系。我们在这里协助您解答有关我们公司产品和服务的所有问题和信息需求。",
+            "button": "联系",
+            "buttonAria": "联系我们了解更多信息"
         }
     },
     "contact": {
         "meta": {
-            "title": "Contact QCI - Get in Touch",
-            "description": "Contact Quality Coils Industries (QCI) in Malaysia and Thailand. Reach out for OEM mosquito coil manufacturing, business partnerships, technical support, and inquiries."
+            "title": "联系QCI - 取得联系",
+            "description": "联系马来西亚和泰国的优质盘香工业（QCI）。了解OEM蚊香制造、商业合作、技术支持和咨询。"
         },
         "header": {
-            "logoAlt": "Quality Coils Industries logo",
-            "heading": "Contact Us",
-            "subheading": "Quality Coils Industries",
-            "description": "We are here to assist you with all your mosquito coil manufacturing needs. Whether you're looking for OEM solutions, partnership opportunities, or general inquiries, our team is ready to help."
+            "logoAlt": "优质盘香工业标志",
+            "heading": "联系我们",
+            "subheading": "优质盘香工业",
+            "description": "我们在这里协助您满足所有蚊香制造需求。无论您是在寻找OEM解决方案、合作机会还是一般咨询，我们的团队随时准备提供帮助。"
         },
         "address": {
-            "heading": "Address",
+            "heading": "地址",
             "malaysia": "Lot 25278, Mambang Diwan,<br />31950 Kampar, Perak,<br />West Malaysia.",
             "thailand": "333 Padang Besar Road,<br />Padang Besar, Sadao,<br />Songkhla, 90240 Thailand"
         },
         "contactInfo": {
-            "heading": "Contact",
+            "heading": "联系方式",
             "malaysia": {
-                "label": "(Malaysia)",
+                "label": "(马来西亚)",
                 "phone": "+605 465 2771",
                 "email": "info@qci.com.my"
             },
             "thailand": {
-                "label": "(Thailand)",
+                "label": "(泰国)",
                 "phone": "+66 74 521 465 | +66 816 6090",
                 "email": "info_qcipb@qci.com.my"
             }
@@ -506,42 +506,65 @@
         "social": {
             "instagram": {
                 "alt": "Instagram",
-                "aria": "Follow us on Instagram"
+                "aria": "在Instagram上关注我们"
             },
             "facebook": {
                 "alt": "Facebook",
-                "aria": "Follow us on Facebook"
+                "aria": "在Facebook上关注我们"
             },
             "linkedin": {
                 "alt": "LinkedIn",
-                "aria": "Follow us on LinkedIn"
+                "aria": "在LinkedIn上关注我们"
             }
         },
         "form": {
-            "firstName": "First Name",
-            "lastName": "Last Name",
-            "inquiryType": "Inquiry Type *",
+            "firstName": "名字",
+            "lastName": "姓氏",
+            "inquiryType": "咨询类型 *",
             "inquiryPlaceholder": "---",
             "inquiryOptions": [
-                "Business Partnership",
-                "OEM Manufacturing",
-                "Technical Support",
-                "Others"
+                "商业合作",
+                "OEM制造",
+                "技术支持",
+                "其他"
             ],
-            "contactNumber": "Contact Number *",
-            "email": "Email *",
-            "message": "Message",
-            "submit": "Send"
+            "contactNumber": "联系电话 *",
+            "email": "电子邮件 *",
+            "message": "留言",
+            "submit": "发送"
         },
         "maps": {
             "malaysia": {
-                "heading": "Malaysia",
+                "heading": "马来西亚",
                 "iframeTitle": "QCI Mambang Diawam"
             },
             "thailand": {
-                "heading": "Thailand",
-                "iframeTitle": "QCI Thailand Facility"
+                "heading": "泰国",
+                "iframeTitle": "QCI泰国工厂"
             }
         }
+    },
+    "navbar": {
+        "home": "首页",
+        "about": "关于我们",
+        "people": "团队",
+        "products": "产品",
+        "machinery": "机械设备",
+        "careers": "职业机会",
+        "contact": "联系我们"
+    },
+    "footer": {
+        "brandName": "优质盘香工业",
+        "brandDescription": "在马来西亚和泰国制造高质量蚊香，并提供OEM专业服务。",
+        "contactHeading": "联系方式",
+        "quickLinksHeading": "快速链接",
+        "followUsHeading": "关注我们",
+        "addressHeading": "地址",
+        "address": "Lot 25278, Mambang Diwan,<br />31950 Kampar, Perak,<br />West Malaysia.",
+        "mapTitle": "QCI Mambang Diawam",
+        "copyright": "© 2025 Quality Coils Industries Sdn. Bhd. (198701004701)",
+        "instagramAria": "在Instagram上关注我们",
+        "facebookAria": "在Facebook上关注我们",
+        "linkedinAria": "在LinkedIn上关注我们"
     }
 }

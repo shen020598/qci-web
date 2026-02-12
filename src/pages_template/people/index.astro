@@ -13,7 +13,7 @@ const translations = t(lang).people;
     title={translations.meta.title}
     description={translations.meta.description}
 >
-    <Navbar />
+    <Navbar language={lang} />
     <section class="bg-[#edf7f7] py-16 lg:py-24">
         <div class="max-w-9xl mx-auto px-6 lg:px-12">
             <!-- TITLE -->
@@ -145,5 +145,5 @@ const translations = t(lang).people;
             </div>
         </div>
     </section>
-    <Footer />
+    <Footer language={lang} />
 </BaseLayout>

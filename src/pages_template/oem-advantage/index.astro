@@ -12,7 +12,7 @@ const translations = t(lang).oemAdvantage;
     title={translations.meta.title}
     description={translations.meta.description}
 >
-    <Navbar />
+    <Navbar language={lang} />
     <main>
     <section class="bg-[#d8c9a6] py-20">
         <div class="max-w-6xl mx-auto px-6">
@@ -92,5 +92,5 @@ const translations = t(lang).oemAdvantage;
         </div>
     </section>
     </main>
-    <Footer />
+    <Footer language={lang} />
 </BaseLayout>
