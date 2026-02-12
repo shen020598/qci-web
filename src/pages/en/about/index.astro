@@ -2,17 +2,25 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
+import { Image } from 'astro:assets';
 ---
 
-<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+<BaseLayout 
+    title="About QCI - Leading OEM Mosquito Coil Manufacturer" 
+    description="Quality Coils Industries (QCI) - A legacy of excellence since 1973. Learn about our OEM expertise, global reach, and commitment to producing high-quality mosquito coils in Malaysia and Thailand."
+>
     <Navbar />
     <section>
         <!-- HERO BANNER -->
         <div class="relative h-[340px] md:h-[600px] overflow-hidden">
             <!-- Background -->
-            <img
-                src="/assets/about/thai-malaysia-bg.png"
+            <Image
+                src={import('../../../assets/about/thai-malaysia-bg.png')}
+                alt="QCI Malaysia and Thailand facilities"
                 class="w-full h-full object-cover object-top"
+                loading="eager"
+                width={1200}
+                height={400}
             />
 
             <!-- Overlay -->
@@ -126,9 +134,13 @@ import Footer from "../../../components/Footer.astro";
                 </div>
 
                 <!-- RIGHT IMAGE -->
-                <img
-                    src="/assets/about/lab-experiment.jpg"
+                <Image
+                    src={import('../../../assets/about/lab-experiment.jpg')}
+                    alt="QCI laboratory quality control testing"
                     class="h-full object-cover reveal-right"
+                    loading="lazy"
+                    width={700}
+                    height={525}
                 />
             </div>
         </div>
@@ -170,9 +182,13 @@ import Footer from "../../../components/Footer.astro";
                 <div class="grid md:grid-cols-2 gap-y-16 gap-x-16">
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
-                        <img
-                            src="/assets/about/about-formulation.png"
+                        <Image
+                            src={import('../../../assets/about/about-formulation.png')}
+                            alt="Custom formulation icon"
                             class="mx-auto w-30"
+                            loading="lazy"
+                            width={100}
+                            height={100}
                         />
                         <h3 class="text-xl md:text-3xl font-bold">
                             Formulation
@@ -192,9 +208,13 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
-                        <img
-                            src="/assets/about/about-scent.png"
+                        <Image
+                            src={import('../../../assets/about/about-scent.png')}
+                            alt="Custom scent icon"
                             class="mx-auto w-30"
+                            loading="lazy"
+                            width={100}
+                            height={100}
                         />
                         <h3 class="text-xl md:text-3xl font-bold">Scent</h3>
                         <p class="underline text-lg md:text-xl leading-tight">
@@ -211,9 +231,13 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
-                        <img
-                            src="/assets/about/about-brand.png"
+                        <Image
+                            src={import('../../../assets/about/about-brand.png')}
+                            alt="Custom branding icon"
                             class="mx-auto w-30"
+                            loading="lazy"
+                            width={100}
+                            height={100}
                         />
                         <h3 class="text-xl md:text-3xl font-bold">Branding</h3>
                         <p class="underline text-lg md:text-xl leading-tight">
@@ -230,9 +254,13 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- ITEM -->
                     <div class="space-y-4 px-6 reveal mb-6">
-                        <img
-                            src="/assets/about/about-packaging.png"
+                        <Image
+                            src={import('../../../assets/about/about-packaging.png')}
+                            alt="Custom packaging icon"
                             class="mx-auto w-30"
+                            loading="lazy"
+                            width={100}
+                            height={100}
                         />
                         <h3 class="text-xl md:text-3xl font-bold">Packaging</h3>
                         <p class="underline text-lg md:text-xl leading-tight">
@@ -267,9 +295,13 @@ import Footer from "../../../components/Footer.astro";
     <section class="relative">
         <!-- Background Image -->
         <div class="relative h-[420px] md:h-[520px] lg:h-[600px]">
-            <img
-                src="/assets/about/stamping-process.jpg"
+            <Image
+                src={import('../../../assets/about/stamping-process.jpg')}
+                alt="QCI mosquito coil stamping production process"
                 class="mx-auto w-full object-cover h-full"
+                loading="lazy"
+                width={1200}
+                height={400}
             />
 
             <!-- Optional subtle dark overlay -->
@@ -363,16 +395,13 @@ import Footer from "../../../components/Footer.astro";
                     </p>
 
                     <!-- Button -->
-                    <button
-                        class="bg-[#4a4a4a] text-white
-          px-6 py-3
-          rounded
-          text-sm md:text-base
-          hover:opacity-90
-          transition"
+                    <a
+                        href="/en/people"
+                        class="bg-[#4a4a4a] text-white px-6 py-3 rounded text-sm md:text-base hover:opacity-90 transition inline-block"
+                        aria-label="Learn more about Mr. Yeoh Hon Poh"
                     >
-                        > Learn More
-                    </button>
+                        Learn More
+                    </a>
                 </div>
 
                 <!-- RIGHT IMAGE -->
@@ -388,11 +417,13 @@ import Footer from "../../../components/Footer.astro";
                     </div>
 
                     <!-- Portrait -->
-                    <img
-                        src="/assets/about/mr-yeoh-hon-poh.jpg"
-                        class="w-72 md:w-80 lg:w-96
-            object-cover
-            md:ml-12"
+                    <Image
+                        src={import('../../../assets/about/mr-yeoh-hon-poh.jpg')}
+                        alt="Mr. Yeoh Hon Poh, QCI Chairman and Founder"
+                        class="w-72 md:w-80 lg:w-96 object-cover md:ml-12"
+                        loading="lazy"
+                        width={320}
+                        height={427}
                     />
                 </div>
             </div>
@@ -426,17 +457,13 @@ import Footer from "../../../components/Footer.astro";
                         Join us in building a safer, mosquito-free future today.
                     </p>
 
-                    <button
-                        class="bg-[#6f8f85]
-          text-white
-          px-6 py-3
-          rounded
-          text-sm md:text-base
-          hover:opacity-90
-          transition"
+                    <a
+                        href="/en/contact"
+                        class="bg-[#6f8f85] text-white px-6 py-3 rounded text-sm md:text-base hover:opacity-90 transition inline-block"
+                        aria-label="Read more about partnering with QCI"
                     >
-                        Read More
-                    </button>
+                        Contact Us
+                    </a>
                 </div>
             </div>
         </div>

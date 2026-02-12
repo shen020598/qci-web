@@ -5,7 +5,10 @@ import Footer from "../../components/Footer.astro";
 import { Image } from 'astro:assets';
 ---
 
-<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+<BaseLayout 
+    title="QCI - OEM Mosquito Coil Manufacturer" 
+    description="Quality Coils Industries (QCI) - Trusted OEM mosquito coil manufacturer since 1973. We serve global brands across Japan, Korea, USA, South America, and South Africa with innovative, high-quality mosquito coil solutions and custom formulations."
+>
     <Navbar />
 
     <section
@@ -14,7 +17,7 @@ import { Image } from 'astro:assets';
         <!-- Background Image -->
         <div class="absolute inset-0">
             <Image
-                src={import('../../../public/assets/home/hero_bg.jpg')}
+                src={import('../../assets/home/hero_bg.jpg')}
                 alt="QCI Hero Background"
                 class="w-full h-full object-top object-cover"
                 loading="lazy"
@@ -39,13 +42,13 @@ import { Image } from 'astro:assets';
         <div class="absolute text-center w-full flex max-w-9xl justify-between">
             <!-- Left Image (Fly in) -->
             <Image
-                src={import('../../../public/assets/home/hero_1.jpg')}
+                src={import('../../assets/home/hero_1.png')}
                 alt="Hero left"
                 class="hidden 2xl:block w-48 mb-120 shadow-xl rounded border-4 border-white animate-fly-left shadow-xs shadow-black"
             />
             <!-- Right Image (Fly in) -->
             <Image
-                src={import('../../../public/assets/home/hero_2.jpg')}
+                src={import('../../assets/home/hero_2.jpg')}
                 alt="Hero right"
                 class="hidden 2xl:block mt-120 w-48 shadow-xl rounded border-4 border-white animate-fly-right shadow-xs shadow-black"
             />
@@ -57,7 +60,7 @@ import { Image } from 'astro:assets';
             <Image
                 alt="About Background"
                 loading="lazy"
-                src={import('../../../public/assets/home/about-anim.gif')}
+                src={import('../../assets/home/about-anim.gif')}
                 class="w-full h-full object-cover opacity-40"
             />
             <div class="absolute inset-0 bg-[#b7a27a]/80"></div>
@@ -73,7 +76,7 @@ import { Image } from 'astro:assets';
                 <!-- Left Image -->
                 <div class="flex flex-1">
                     <Image
-                        src={import('../../../public/assets/home/qci-front-1.jpg')}
+                        src={import('../../assets/home/qci-front-1.jpg')}
                         alt="QCI Front"
                         class="rounded shadow-2xl border-4 border-white reveal-left h-130 w-auto"
                     />
@@ -101,35 +104,49 @@ import { Image } from 'astro:assets';
                         strong market presence.
                     </p>
 
-                    <button
-                        class="bg-teal-700 text-white px-6 py-3 rounded-full shadow reveal"
+                    <a
+                        href="/en/about"
+                        class="bg-teal-700 text-white px-6 py-3 rounded-full shadow reveal inline-block"
+                        aria-label="Learn more about Quality Coils Industries"
                     >
                         Learn More
-                    </button>
+                    </a>
 
                     <!-- Flags -->
                     <div
                         class="grid grid-cols-2 gap-4 w-100 mx-auto md:mx-0 md:absolute md:right-0"
                     >
                         <Image
-                            src={import('../../../public/assets/home/flag-japan.gif')}
+                            src={import('../../assets/home/flag-japan.gif')}
                             alt="Japan flag"
                             class="shadow-md reveal w-100 h-30"
+                            width={400}
+                            height={120}
+                            loading="lazy"
                         />
                         <Image
-                            src={import('../../../public/assets/home/flag-south-africa.gif')}
+                            src={import('../../assets/home/flag-south-africa.gif')}
                             alt="South Africa flag"
                             class="shadow-md reveal w-100 h-30"
+                            width={400}
+                            height={120}
+                            loading="lazy"
                         />
                         <Image
-                            src={import('../../../public/assets/home/flag-south-korea.gif')}
+                            src={import('../../assets/home/flag-south-korea.gif')}
                             alt="South Korea flag"
                             class="shadow-md reveal w-100 h-30"
+                            width={400}
+                            height={120}
+                            loading="lazy"
                         />
                         <Image
-                            src={import('../../../public/assets/home/flag-us.gif')}
+                            src={import('../../assets/home/flag-us.gif')}
                             alt="US flag"
                             class="shadow-md reveal w-100 h-30"
+                            width={400}
+                            height={120}
+                            loading="lazy"
                         />
                     </div>
                 </div>
@@ -137,9 +154,11 @@ import { Image } from 'astro:assets';
 
             <!-- Bottom Image -->
             <div class="flex 2xl:ml-30 mt-12">
-                <img
-                    src="/assets/home/qci-front-2.jpg"
+                <Image
+                    src={import('../../assets/home/qci-front-2.jpg')}
+                    alt="QCI manufacturing facility exterior view"
                     class="border-3 border-white shadow-md shadow-black w-full md:w-auto max-w-3xl reveal"
+                    loading="lazy"
                 />
             </div>
         </div>
@@ -178,32 +197,40 @@ import { Image } from 'astro:assets';
 
                     <div class="flex justify-between gap-6 items-start">
                         <!-- Small Image -->
-                        <img
-                            src="/assets/home/thai-front-1.jpg"
+                        <Image
+                            src={import('../../assets/home/thai-front-1.jpg')}
+                            alt="QCI Thailand facility"
                             class="shadow-lg border-4 border-white reveal-left w-60"
+                            loading="lazy"
                         />
 
                         <!-- Button -->
-                        <button
-                            class="h-fit bg-gray-700 text-white px-6 py-3 rounded shadow hover:scale-105 transition reveal text-sm md:text-xl"
+                        <a
+                            href="/en/about"
+                            class="h-fit bg-gray-700 text-white px-6 py-3 rounded shadow hover:scale-105 transition reveal text-sm md:text-xl inline-block"
+                            aria-label="Explore more about QCI Malaysia and Thailand facilities"
                         >
-                            > Explore More
-                        </button>
+                            Explore More
+                        </a>
                     </div>
                 </div>
 
                 <!-- RIGHT IMAGE COLLAGE -->
                 <div class="relative flex-col 2xl:h-[750px]">
                     <!-- Top Image -->
-                    <img
-                        src="/assets/home/thai-front-2.jpg"
+                    <Image
+                        src={import('../../assets/home/thai-front-2.jpg')}
+                        alt="QCI Thailand production facility interior"
                         class="2xl:absolute left-20 w-130 border-4 mb-10 border-teal-600 shadow-xl reveal-right"
+                        loading="lazy"
                     />
 
                     <!-- Bottom Image -->
-                    <img
-                        src="/assets/home/thai-front-3.jpg"
+                    <Image
+                        src={import('../../assets/home/thai-front-3.jpg')}
+                        alt="QCI Thailand manufacturing operations"
                         class="2xl:absolute top-110 left-80 w-130 border-4 border-teal-600 shadow-xl reveal-right"
+                        loading="lazy"
                     />
                 </div>
             </div>
@@ -238,22 +265,19 @@ import { Image } from 'astro:assets';
                 <div class="flex justify-center reveal">
                     <div class="relative w-100 h-100 group cursor-pointer">
                         <!-- Image 1 -->
-                        <img
-                            src="/assets/home/coil-wood.png"
-                            class="absolute inset-0 w-full h-full object-cover
-                   border-4 border-[#355f52] shadow-xl
-                   transition-opacity duration-500
-                   group-hover:opacity-0"
+                        <Image
+                            src={import('../../assets/home/coil-wood.png')}
+                            alt="Wood-based mosquito coil product"
+                            class="absolute inset-0 w-full h-full object-cover border-4 border-[#355f52] shadow-xl transition-opacity duration-500 group-hover:opacity-0"
+                            loading="lazy"
                         />
 
                         <!-- Image 2 -->
-                        <img
-                            src="/assets/home/coil-charcoal.png"
-                            class="absolute inset-0 w-full h-full object-cover
-                   border-4 border-[#355f52] shadow-xl
-                   opacity-0
-                   transition-opacity duration-500
-                   group-hover:opacity-100"
+                        <Image
+                            src={import('../../assets/home/coil-charcoal.png')}
+                            alt="Charcoal-based mosquito coil product"
+                            class="absolute inset-0 w-full h-full object-cover border-4 border-[#355f52] shadow-xl opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                            loading="lazy"
                         />
                     </div>
                 </div>
@@ -290,11 +314,13 @@ import { Image } from 'astro:assets';
 
             <!-- Button -->
             <div class="mt-14">
-                <button
-                    class="bg-gray-800 text-white px-8 py-3 rounded shadow hover:scale-105 transition reveal"
+                <a
+                    href="/en/oem-advantage"
+                    class="bg-gray-800 text-white px-8 py-3 rounded shadow hover:scale-105 transition reveal inline-block"
+                    aria-label="View more about QCI's exclusive production lines advantage"
                 >
-                    > View More
-                </button>
+                    View More
+                </a>
             </div>
         </div>
     </section>
@@ -317,9 +343,11 @@ import { Image } from 'astro:assets';
                 <!-- CARD 1 -->
                 <div class="group cursor-pointer">
                     <div class="feature-card">
-                        <img
-                            src="/assets/home/trust-quality.png"
+                        <Image
+                            src={import('../../assets/home/trust-quality.png')}
+                            alt="Quality assurance icon"
                             class="w-40 2xl:w-100 mb-10 mx-auto"
+                            loading="lazy"
                         />
                         <p class="feature-text text-2xl">
                             Stringent manufacturing processes ensure safe,
@@ -331,9 +359,11 @@ import { Image } from 'astro:assets';
                 <!-- CARD 2 -->
                 <div class="group cursor-pointer">
                     <div class="feature-card">
-                        <img
-                            src="/assets/home/trust-commitment.png"
+                        <Image
+                            src={import('../../assets/home/trust-commitment.png')}
+                            alt="Commitment to innovation icon"
                             class="w-40 2xl:w-100 mb-10 mx-auto"
+                            loading="lazy"
                         />
                         <p class="feature-text text-2xl">
                             Continuous innovation drives our ability to enhance
@@ -345,9 +375,11 @@ import { Image } from 'astro:assets';
                 <!-- CARD 3 -->
                 <div class="group cursor-pointer">
                     <div class="feature-card">
-                        <img
-                            src="/assets/home/trust-integrity.png"
+                        <Image
+                            src={import('../../assets/home/trust-integrity.png')}
+                            alt="Business integrity icon"
                             class="w-40 2xl:w-100 mb-10 mx-auto"
+                            loading="lazy"
                         />
                         <p class="feature-text text-2xl">
                             Transparent operations, ethical business practices,
@@ -428,21 +460,25 @@ import { Image } from 'astro:assets';
                 <div
                     class="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
                 >
-                    <button
-                        class="bg-green-700 text-white px-6 py-3 text-2xl rounded shadow hover:scale-105 transition"
+                    <a
+                        href="/en/products"
+                        class="bg-green-700 text-white px-6 py-3 text-2xl rounded shadow hover:scale-105 transition inline-block"
+                        aria-label="Discover more about our product offerings and services"
                     >
-                        Discover more
-                    </button>
+                        Discover More
+                    </a>
                 </div>
             </div>
 
             <!-- Mobile button -->
             <div class="md:hidden mt-10">
-                <button
-                    class="bg-green-700 text-white px-6 py-3 rounded shadow"
+                <a
+                    href="/en/products"
+                    class="bg-green-700 text-white px-6 py-3 rounded shadow inline-block"
+                    aria-label="Discover more about our product offerings and services"
                 >
-                    Discover more
-                </button>
+                    Discover More
+                </a>
             </div>
 
             <!-- Bottom Text -->

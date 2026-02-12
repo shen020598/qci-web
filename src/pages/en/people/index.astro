@@ -2,9 +2,13 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
+import { Image } from 'astro:assets';
 ---
 
-<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+<BaseLayout 
+    title="Our Team - QCI Leadership & Management" 
+    description="Meet the leadership team behind Quality Coils Industries (QCI). Our experienced executives drive innovation, quality, and sustainable manufacturing in mosquito coil production."
+>
     <Navbar />
     <section class="bg-[#edf7f7] py-16 lg:py-24">
         <div class="max-w-9xl mx-auto px-6 lg:px-12">
@@ -29,9 +33,14 @@ import Footer from "../../../components/Footer.astro";
             <div class="grid md:grid-cols-2 gap-18 lg:gap-25 max-w-6xl mx-auto">
                 <!-- CARD -->
                 <div class="bg-[#d8c9a6] p-3 rounded">
-                    <img
-                        src="/assets/people/yeoh.png"
+                    <Image
+                        src={import('../../../assets/people/yeoh.png')}
+                        alt="Yeoh Hon Poh, Founder and Chairman of QCI"
                         class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading="lazy"
+                        width={450}
+                        height={300}
                     />
 
                     <div class="p-6 lg:p-8">
@@ -58,9 +67,14 @@ import Footer from "../../../components/Footer.astro";
 
                 <!-- CARD -->
                 <div class="bg-[#d8c9a6] p-3 rounded">
-                    <img
-                        src="/assets/people/andrew.png"
+                    <Image
+                        src={import('../../../assets/people/andrew.png')}
+                        alt="Andrew Yeoh, Managing Director of QCI"
                         class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading="lazy"
+                        width={450}
+                        height={300}
                     />
 
                     <div class="p-6 lg:p-8">
@@ -88,9 +102,14 @@ import Footer from "../../../components/Footer.astro";
 
                 <!-- CARD -->
                 <div class="bg-[#d8c9a6] p-3 rounded">
-                    <img
-                        src="/assets/people/wong.png"
+                    <Image
+                        src={import('../../../assets/people/wong.png')}
+                        alt="Wong Hon Kai, Chief Financial Officer of QCI"
                         class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading=lazy"
+                        width={450}
+                        height={300}
                     />
 
                     <div class="p-6 lg:p-8">
@@ -116,9 +135,14 @@ import Footer from "../../../components/Footer.astro";
 
                 <!-- CARD -->
                 <div class="bg-[#d8c9a6] p-3 rounded">
-                    <img
-                        src="/assets/people/ng.png"
+                    <Image
+                        src={import('../../../assets/people/ng.png')}
+                        alt="Ng Jun Kee, General Manager of QCI"
                         class="w-full object-cover"
+                        fetchpriority={"high"}
+                        loading=lazy"
+                        width={450}
+                        height={300}
                     />
 
                     <div class="p-6 lg:p-8">

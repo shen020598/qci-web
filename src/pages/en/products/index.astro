@@ -2,16 +2,25 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
+import { Image } from "astro:assets";
 ---
 
-<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+<BaseLayout
+    title="QCI Products - High-Performance Mosquito Coils"
+    description="Quality Coils Industries offers premium mosquito coils including smokeless, wood-based, charcoal-based coils and pre-mix powder. Custom OEM solutions with various colors, aromas, and packaging options for global markets."
+>
     <Navbar />
     <section class="relative">
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img
-                src="/assets/products/bg.gif"
+            <Image
+                src={import("../../../assets/products/bg.jpg")}
+                fetchpriority={"high"}
+                alt="Products background"
                 class="w-full h-full object-cover"
+                loading="eager"
+                width={1920}
+                height={600}
             />
 
             <!-- Beige tint overlay -->
@@ -53,9 +62,13 @@ import Footer from "../../../components/Footer.astro";
 
                 <!-- RIGHT IMAGE -->
                 <div class="flex justify-center md:justify-end">
-                    <img
-                        src="/assets/products/banner-coil.png"
+                    <Image
+                        src={import("../../../assets/products/banner-coil.png")}
+                        alt="Mosquito coil product"
                         class="w-48 md:w-56 lg:w-64 object-cover shadow-md reveal-right"
+                        loading="eager"
+                        width={256}
+                        height={256}
                     />
                 </div>
             </div>
@@ -91,26 +104,38 @@ import Footer from "../../../components/Footer.astro";
                     >
                         <!-- ITEM -->
                         <div class="reveal">
-                            <img
-                                src="/assets/products/coil-red.png"
+                            <Image
+                                src={import("../../../assets/products/coil-red.png")}
+                                alt="Red rose scented mosquito coil"
                                 class="mx-auto mb-3 w-200"
+                                loading="lazy"
+                                width={300}
+                                height={300}
                             />
                             <p class="font-semibold text-2xl">Red Rose</p>
                         </div>
 
                         <!-- ITEM -->
                         <div class="reveal">
-                            <img
-                                src="/assets/products/coil-green.png"
+                            <Image
+                                src={import("../../../assets/products/coil-green.png")}
+                                alt="Green matcha scented mosquito coil"
                                 class="mx-auto mb-3 w-200"
+                                loading="lazy"
+                                width={300}
+                                height={300}
                             />
                             <p class="font-semibold text-2xl">Green Matcha</p>
                         </div>
                         <!-- ITEM -->
                         <div class="reveal">
-                            <img
-                                src="/assets/products/coil-purple.png"
+                            <Image
+                                src={import("../../../assets/products/coil-purple.png")}
+                                alt="Lavender purple scented mosquito coil"
                                 class="mx-auto mb-3 w-200"
+                                loading="lazy"
+                                width={300}
+                                height={300}
                             />
                             <p class="font-semibold text-2xl">
                                 Lavender Purple
@@ -119,9 +144,13 @@ import Footer from "../../../components/Footer.astro";
 
                         <!-- ITEM -->
                         <div class="reveal">
-                            <img
-                                src="/assets/products/coil-brown.png"
+                            <Image
+                                src={import("../../../assets/products/coil-brown.png")}
+                                alt="Brown natural scented mosquito coil"
                                 class="mx-auto mb-3 w-200"
+                                loading="lazy"
+                                width={300}
+                                height={300}
                             />
                             <p class="font-semibold text-2xl">Brown Natural</p>
                         </div>
@@ -137,7 +166,7 @@ import Footer from "../../../components/Footer.astro";
                 <!-- RIGHT: TEXT -->
                 <div>
                     <h3
-                        class="text-xl md:text-2xl font-bold mb-3 text-[#2b2623] reveal"
+                        class="text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-[#1f1f1f] reveal"
                     >
                         Custom Packing Solutions
                     </h3>
@@ -147,7 +176,7 @@ import Footer from "../../../components/Footer.astro";
                     </p>
 
                     <p
-                        class="text-sm md:text-base leading-relaxed text-[#3f3a36] max-w-9xl reveal"
+                        class="text-sm md:text-base lg:text-2xl leading-tight text-[#2f2f2f] reveal"
                     >
                         Quality Coils Industries offers a comprehensive range of
                         packaging designed with efficiency and effectiveness in
@@ -163,30 +192,39 @@ import Footer from "../../../components/Footer.astro";
                 >
                     <!-- Item -->
                     <div class="reveal-left">
-                        <img
-                            src="/assets/products/box-tin-can.png"
+                        <Image
+                            src={import("../../../assets/products/box-tin-can.png")}
+                            alt="Tin can mosquito coil packaging"
                             class="mx-auto mb-4 w-80"
-                            alt="Tin Can"
+                            loading="lazy"
+                            width={400}
+                            height={400}
                         />
                         <p class="font-semibold text-[#2b2623]">Tin Can</p>
                     </div>
 
                     <!-- Item -->
                     <div class="reveal">
-                        <img
-                            src="/assets/products/box-coil-holder.png"
+                        <Image
+                            src={import("../../../assets/products/box-coil-holder.png")}
+                            alt="Coil holder mosquito coil packaging"
                             class="mx-auto mb-4 w-80"
-                            alt="Coil Holder"
+                            loading="lazy"
+                            width={400}
+                            height={400}
                         />
                         <p class="font-semibold text-[#2b2623]">Coil Holder</p>
                     </div>
 
                     <!-- Item -->
                     <div class="reveal-right">
-                        <img
-                            src="/assets/products/box-dispenser.png"
+                        <Image
+                            src={import("../../../assets/products/box-dispenser.png")}
+                            alt="Paper dispenser box mosquito coil packaging"
                             class="mx-auto mb-4 w-80"
-                            alt="Paper Dispenser Box"
+                            loading="lazy"
+                            width={400}
+                            height={400}
                         />
                         <p class="font-semibold text-[#2b2623]">
                             Paper Dispenser Box
@@ -205,10 +243,13 @@ import Footer from "../../../components/Footer.astro";
                 >
                     <!-- ITEM -->
                     <div class="reveal">
-                        <img
-                            src="/assets/products/base-smokeless.jpg"
+                        <Image
+                            src={import("../../../assets/products/base-smokeless.jpg")}
+                            alt="Smokeless mosquito coil base"
                             class="mx-auto mb-6 object-cover"
-                            alt="Smokeless"
+                            loading="lazy"
+                            width={300}
+                            height={300}
                         />
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 rounded-xl inline-block text-3xl min-w-[180px]"
@@ -219,10 +260,13 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- ITEM -->
                     <div class="reveal">
-                        <img
-                            src="/assets/products/base-wood.jpg"
+                        <Image
+                            src={import("../../../assets/products/base-wood.jpg")}
+                            alt="Wood-based mosquito coil base"
                             class="mx-auto mb-6 object-cover"
-                            alt="Wood Based"
+                            loading="lazy"
+                            width={300}
+                            height={300}
                         />
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 text-3xl rounded-xl inline-block min-w-[180px]"
@@ -233,10 +277,13 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- ITEM -->
                     <div class="reveal">
-                        <img
-                            src="/assets/products/base-charcoal.jpg"
+                        <Image
+                            src={import("../../../assets/products/base-charcoal.jpg")}
+                            alt="Charcoal-based mosquito coil base"
                             class="mx-auto mb-6 object-cover"
-                            alt="Charcoal Based"
+                            loading="lazy"
+                            width={300}
+                            height={300}
                         />
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 text-3xl rounded-xl inline-block min-w-[180px]"
@@ -247,10 +294,13 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- ITEM -->
                     <div class="reveal">
-                        <img
-                            src="/assets/products/base-pre-mix-powder.jpg"
+                        <Image
+                            src={import("../../../assets/products/base-pre-mix-powder.jpg")}
+                            alt="Pre-mix powder for mosquito coil manufacturing"
                             class="mx-auto mb-6 object-cover"
-                            alt="Pre Mix Powder"
+                            loading="lazy"
+                            width={300}
+                            height={300}
                         />
                         <div
                             class="bg-[#7fa99a] text-[#1f1f1f] font-semibold py-4 px-8 text-3xl rounded-xl inline-block min-w-[180px]"
@@ -493,19 +543,29 @@ import Footer from "../../../components/Footer.astro";
                 <!-- ARROWS -->
                 <button
                     class="prev absolute left-0 top-1/2 -translate-y-1/2 opacity-70 hover:opacity-100 z-10"
+                    aria-label="Previous slide"
                 >
-                    <img
-                        src="/assets/products/left-arrow.png"
+                    <Image
+                        src={import("../../../assets/products/left-arrow.png")}
+                        alt="Previous"
                         class="w-6 md:w-12"
+                        loading="lazy"
+                        width={48}
+                        height={48}
                     />
                 </button>
 
                 <button
                     class="next absolute right-0 top-1/2 -translate-y-1/2 opacity-70 hover:opacity-100 z-10"
+                    aria-label="Next slide"
                 >
-                    <img
-                        src="/assets/products/right-arrow.png"
+                    <Image
+                        src={import("../../../assets/products/right-arrow.png")}
+                        alt="Next"
                         class="w-6 md:w-12"
+                        loading="lazy"
+                        width={48}
+                        height={48}
                     />
                 </button>
             </div>
@@ -523,10 +583,11 @@ import Footer from "../../../components/Footer.astro";
 
             <!-- BUTTON -->
             <a
-                href="/contact"
+                href="/en/contact"
                 class="inline-block bg-[#1f1f1f] text-white px-8 py-3 rounded-md text-md md:text-lg hover:opacity-90 transition reveal"
+                aria-label="Contact us about our mosquito coil products"
             >
-                More
+                Contact Us
             </a>
         </div>
     </section>

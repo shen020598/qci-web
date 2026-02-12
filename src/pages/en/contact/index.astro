@@ -2,241 +2,318 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
+import { Image } from "astro:assets";
 ---
 
-<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+<BaseLayout
+    title="Contact QCI - Get in Touch"
+    description="Contact Quality Coils Industries (QCI) in Malaysia and Thailand. Reach out for OEM mosquito coil manufacturing, business partnerships, technical support, and inquiries."
+>
     <Navbar />
-    <section class="w-full">
-        <!-- MAIN AREA -->
-        <div class="bg-white py-12 px-6">
-            <div
-                class="max-w-9xl mx-auto grid grid-cols-[1fr_3fr_1fr] items-center"
-            >
-                <!-- LEFT LOGO -->
-                <div class="flex justify-start">
-                    <img
-                        src="/assets/qci-logo-main.png"
-                        alt="QCI"
-                        class="hidden md:block w-20 md:w-28"
-                    />
-                </div>
-
-                <!-- CENTER TEXT -->
-                <div class="text-center">
-                    <h2
-                        class="text-4xl md:text-6xl font-bold text-[#2b2623] mb-2"
-                    >
-                        Contact Us
-                    </h2>
-
-                    <h3 class="font-semibold text-lg md:text-3xl mb-2">
-                        Quality Coils Industries
-                    </h3>
-
-                    <p class="text-gray-600 text-md md:text-xl leading-tight">
-                        We are here to assist you with all your mosquito coil
-                        manufacturing needs. Whether you’re looking for OEM
-                        solutions, partnership opportunities, or general
-                        inquiries, our team is ready to help.
-                    </p>
-                </div>
-
-                <!-- RIGHT LOGO -->
-                <div class="flex justify-end">
-                    <img
-                        src="/assets/qci-logo-main.png"
-                        alt="QCI"
-                        class="hidden md:block w-20 md:w-28"
-                    />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-[#e3d7b8] py-20">
-        <div class="max-w-9xl mx-auto px-6 grid md:grid-cols-2 gap-16">
-            <!-- LEFT SIDE -->
-            <div class="space-y-10 text-[#2b2623]">
-                <!-- ADDRESS -->
-                <div>
-                    <h3 class="font-bold text-2xl md:text-3xl mb-4">Address</h3>
-
-                    <div
-                        class="grid sm:grid-cols-2 gap-8 text-base md:text-lg leading-relaxed"
-                    >
-                        <p>
-                            Lot 25278, Mambang Diwan,<br />
-                            31950 Kampar, Perak,<br />
-                            West Malaysia.
-                        </p>
-
-                        <p>
-                            333 Padang Besar Road,<br />
-                            Padang Besar, Sadao,<br />
-                            Songkhla, 90240 Thailand
-                        </p>
-                    </div>
-                </div>
-
-                <!-- CONTACT -->
-                <div>
-                    <h3 class="font-bold text-2xl md:text-3xl mb-4">Contact</h3>
-
-                    <div
-                        class="grid sm:grid-cols-2 gap-8 text-base md:text-lg leading-relaxed"
-                    >
-                        <div>
-                            <p class="font-semibold">(Malaysia)</p>
-                            <p>+605 465 2771</p>
-                            <p>info@qci.com.my</p>
-                        </div>
-
-                        <div>
-                            <p class="font-semibold">(Thailand)</p>
-                            <p>+66 74 521 465 | +66 816 6090</p>
-                            <p>info_qcipb@qci.com.my</p>
-                        </div>
-                    </div>
-
-                    <!-- SOCIALS -->
-                    <div class="flex gap-4 mt-6">
-                        <div
-                            class="w-12 h-12 bg-black text-white flex items-center justify-center rounded-full text-lg"
-                        >
-                            f
-                        </div>
-                        <div
-                            class="w-12 h-12 bg-black text-white flex items-center justify-center rounded-full text-lg"
-                        >
-                            in
-                        </div>
-                        <div
-                            class="w-12 h-12 bg-black text-white flex items-center justify-center rounded-full text-lg"
-                        >
-                            ig
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- RIGHT SIDE FORM -->
-            <form class="space-y-6 text-[#2b2623]">
-                <!-- NAME -->
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <label class="text-base md:text-lg">First Name</label>
-                        <input
-                            type="text"
-                            class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
-                        />
-                    </div>
-
-                    <div>
-                        <label class="text-base md:text-lg">Last Name</label>
-                        <input
-                            type="text"
-                            class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
-                        />
-                    </div>
-                </div>
-
-                <!-- TYPE + PHONE -->
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <label class="text-base md:text-lg"
-                            >Inquiry Type *</label
-                        >
-                        <select
-                            class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
-                        >
-                            <option>---</option>
-                            <option>Business Partnership</option>
-                            <option>OEM Manufacturing</option>
-                            <option>Technical Support</option>
-                            <option>Others</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="text-base md:text-lg"
-                            >Contact Number *</label
-                        >
-                        <input
-                            type="text"
-                            class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
-                        />
-                    </div>
-                </div>
-
-                <!-- EMAIL -->
-                <div>
-                    <label class="text-base md:text-lg">Email *</label>
-                    <input
-                        type="email"
-                        class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
-                    />
-                </div>
-
-                <!-- MESSAGE -->
-                <div>
-                    <label class="text-base md:text-lg">Message</label>
-                    <textarea
-                        rows="4"
-                        class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
-                    ></textarea>
-                </div>
-
-                <!-- TURNSTILE PLACEHOLDER -->
+    <main>
+        <section class="w-full">
+            <!-- MAIN AREA -->
+            <div class="bg-white py-12 px-6">
                 <div
-                    class="cf-turnstile"
-                    data-sitekey="0x4AAAAAACat4KviYp9cYO3c"
+                    class="max-w-9xl mx-auto grid grid-cols-[1fr_3fr_1fr] items-center"
                 >
+                    <!-- LEFT LOGO -->
+                    <div class="flex justify-start">
+                        <Image
+                            src={import("../../../assets/qci-logo-main.png")}
+                            alt="Quality Coils Industries logo"
+                            class="hidden md:block w-20 md:w-28"
+                            loading="eager"
+                            width={112}
+                            height={112}
+                        />
+                    </div>
+
+                    <!-- CENTER TEXT -->
+                    <div class="text-center">
+                        <h2
+                            class="text-4xl md:text-6xl font-bold text-[#2b2623] mb-2"
+                        >
+                            Contact Us
+                        </h2>
+
+                        <h3 class="font-semibold text-lg md:text-3xl mb-2">
+                            Quality Coils Industries
+                        </h3>
+
+                        <p
+                            class="text-gray-600 text-md md:text-xl leading-tight"
+                        >
+                            We are here to assist you with all your mosquito
+                            coil manufacturing needs. Whether you’re looking for
+                            OEM solutions, partnership opportunities, or general
+                            inquiries, our team is ready to help.
+                        </p>
+                    </div>
+
+                    <!-- RIGHT LOGO -->
+                    <div class="flex justify-end">
+                        <Image
+                            src={import("../../../assets/qci-logo-main.png")}
+                            alt="Quality Coils Industries logo"
+                            class="hidden md:block w-20 md:w-28"
+                            loading="lazy"
+                            width={112}
+                            height={112}
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#e3d7b8] py-20">
+            <div class="max-w-9xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+                <!-- LEFT SIDE -->
+                <div class="space-y-10 text-[#2b2623]">
+                    <!-- ADDRESS -->
+                    <div>
+                        <h3 class="font-bold text-2xl md:text-3xl mb-4">
+                            Address
+                        </h3>
+
+                        <div
+                            class="grid sm:grid-cols-2 gap-8 text-base md:text-lg leading-relaxed"
+                        >
+                            <p>
+                                Lot 25278, Mambang Diwan,<br />
+                                31950 Kampar, Perak,<br />
+                                West Malaysia.
+                            </p>
+
+                            <p>
+                                333 Padang Besar Road,<br />
+                                Padang Besar, Sadao,<br />
+                                Songkhla, 90240 Thailand
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CONTACT -->
+                    <div>
+                        <h3 class="font-bold text-2xl md:text-3xl mb-4">
+                            Contact
+                        </h3>
+
+                        <div
+                            class="grid sm:grid-cols-2 gap-8 text-base md:text-lg leading-relaxed"
+                        >
+                            <div>
+                                <p class="font-semibold">(Malaysia)</p>
+                                <p>+605 465 2771</p>
+                                <p>info@qci.com.my</p>
+                            </div>
+
+                            <div>
+                                <p class="font-semibold">(Thailand)</p>
+                                <p>+66 74 521 465 | +66 816 6090</p>
+                                <p>info_qcipb@qci.com.my</p>
+                            </div>
+                        </div>
+
+                        <!-- SOCIALS -->
+                        <div class="flex gap-4 mt-5">
+                            <a
+                                href="https://www.instagram.com/qci"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Follow us on Instagram"
+                                class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
+                            >
+                                <Image
+                                    src={import("../../../assets/icons/instagram.svg")}
+                                    alt="Instagram"
+                                    class="w-12 h-12"
+                                    loading="lazy"
+                                    width={48}
+                                    height={48}
+                                />
+                            </a>
+                            <a
+                                href="https://www.facebook.com/qci"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Follow us on Facebook"
+                                class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
+                            >
+                                <Image
+                                    src={import("../../../assets/icons/facebook.svg")}
+                                    alt="Facebook"
+                                    class="w-12 h-12"
+                                    loading="lazy"
+                                    width={48}
+                                    height={48}
+                                />
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/company/qci"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Follow us on LinkedIn"
+                                class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
+                            >
+                                <Image
+                                    src={import("../../../assets/icons/linkedin.svg")}
+                                    alt="LinkedIn"
+                                    class="w-12 h-12"
+                                    loading="lazy"
+                                    width={48}
+                                    height={48}
+                                />
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- BUTTON -->
-                <button
-                    class="bg-gray-200 text-black text-xl px-8 py-3 hover:bg-gray-50 transition rounded disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                    Send
-                </button>
-            </form>
-        </div>
-    </section>
+                <!-- RIGHT SIDE FORM -->
+                <form class="space-y-6 text-[#2b2623]">
+                    <!-- NAME -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="firstName" class="text-base md:text-lg"
+                                >First Name</label
+                            >
+                            <input
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
+                            />
+                        </div>
 
-    <section class="bg-[#e9e6e3]">
-        <!-- MALAYSIA -->
-        <div class="py-12 max-w-9xl mx-auto">
-            <div class="max-w-9xl mx-auto mb-6">
-                <h2 class="text-4xl md:text-5xl font-bold text-[#2b2623]">
-                    Malaysia
-                </h2>
+                        <div>
+                            <label for="lastName" class="text-base md:text-lg"
+                                >Last Name</label
+                            >
+                            <input
+                                type="text"
+                                id="lastName"
+                                name="lastName"
+                                class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
+                            />
+                        </div>
+                    </div>
+
+                    <!-- TYPE + PHONE -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label
+                                for="inquiryType"
+                                class="text-base md:text-lg"
+                                >Inquiry Type *</label
+                            >
+                            <select
+                                id="inquiryType"
+                                name="inquiryType"
+                                class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
+                            >
+                                <option>---</option>
+                                <option>Business Partnership</option>
+                                <option>OEM Manufacturing</option>
+                                <option>Technical Support</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label
+                                for="contactNumber"
+                                class="text-base md:text-lg"
+                                >Contact Number *</label
+                            >
+                            <input
+                                type="text"
+                                id="contactNumber"
+                                name="contactNumber"
+                                class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
+                            />
+                        </div>
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div>
+                        <label for="email" class="text-base md:text-lg"
+                            >Email *</label
+                        >
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
+                        />
+                    </div>
+
+                    <!-- MESSAGE -->
+                    <div>
+                        <label for="message" class="text-base md:text-lg"
+                            >Message</label
+                        >
+                        <textarea
+                            rows="4"
+                            id="message"
+                            name="message"
+                            class="w-full border border-black bg-transparent px-4 py-3 mt-2 text-base md:text-lg"
+                        ></textarea>
+                    </div>
+
+                    <!-- TURNSTILE PLACEHOLDER -->
+                    <div
+                        class="cf-turnstile"
+                        data-sitekey="0x4AAAAAACat4KviYp9cYO3c"
+                    >
+                    </div>
+
+                    <!-- BUTTON -->
+                    <button
+                        class="bg-gray-200 text-black text-xl px-8 py-3 hover:bg-gray-50 transition rounded disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                        Send
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="bg-[#e9e6e3]">
+            <!-- MALAYSIA -->
+            <div class="py-12 max-w-9xl mx-auto">
+                <div class="max-w-9xl mx-auto mb-6">
+                    <h2 class="text-4xl md:text-5xl font-bold text-[#2b2623]">
+                        Malaysia
+                    </h2>
+                </div>
+
+                <div class="w-full h-[420px]">
+                    <iframe
+                        title="QCI Mambang Diawam"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6760.7213303525095!2d101.14700347681303!3d4.273903245205845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cb1cda15555555%3A0x89d30b2b531d1e8a!2sQuality%20Coils%20Industries%20Sdn.Bhd.!5e1!3m2!1sen!2smy!4v1770906246621!5m2!1sen!2smy"
+                        class="w-full h-full border-0"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
 
-            <div class="w-full h-[420px]">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6760.7213303525095!2d101.14700347681303!3d4.273903245205845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cb1cda15555555%3A0x89d30b2b531d1e8a!2sQuality%20Coils%20Industries%20Sdn.Bhd.!5e1!3m2!1sen!2smy!4v1770906246621!5m2!1sen!2smy"
-                    class="w-full h-full border-0"
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
+            <!-- THAILAND -->
+            <div class="py-12 max-w-9xl mx-auto">
+                <div class="max-w-9xl mx-auto mb-6">
+                    <h2 class="text-4xl md:text-5xl font-bold text-[#2b2623]">
+                        Thailand
+                    </h2>
+                </div>
 
-        <!-- THAILAND -->
-        <div class="py-12 max-w-9xl mx-auto">
-            <div class="max-w-9xl mx-auto mb-6">
-                <h2 class="text-4xl md:text-5xl font-bold text-[#2b2623]">
-                    Thailand
-                </h2>
+                <div class="w-full h-[420px]">
+                    <iframe
+                        title="QCI Thailand Facility"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6734.1615137613235!2d100.42093817681305!3d6.635402321849133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304cb809708955e1%3A0x4d4d138c7b9d320!2zMzMzIOC4m-C4suC4lOC4seC4h-C5gOC4muC4i-C4suC4o-C5jCBUYW1ib24gU2FkYW8sIEFtcGhvZSBTYWRhbywgQ2hhbmcgV2F0IFNvbmdraGxhIDkwMTIwLCBUaGFpbGFuZA!5e1!3m2!1sen!2smy!4v1770906376647!5m2!1sen!2smy"
+                        class="w-full h-full border-0"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-
-            <div class="w-full h-[420px]">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6734.1615137613235!2d100.42093817681305!3d6.635402321849133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304cb809708955e1%3A0x4d4d138c7b9d320!2zMzMzIOC4m-C4suC4lOC4seC4h-C5gOC4muC4i-C4suC4o-C5jCBUYW1ib24gU2FkYW8sIEFtcGhvZSBTYWRhbywgQ2hhbmcgV2F0IFNvbmdraGxhIDkwMTIwLCBUaGFpbGFuZA!5e1!3m2!1sen!2smy!4v1770906376647!5m2!1sen!2smy"
-                    class="w-full h-full border-0"
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <Footer />
 </BaseLayout>

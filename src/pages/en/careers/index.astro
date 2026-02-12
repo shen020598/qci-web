@@ -2,20 +2,29 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
+import { Image } from 'astro:assets';
 ---
 
-<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+<BaseLayout 
+    title="Careers at QCI - Join Our Team" 
+    description="Join Quality Coils Industries (QCI) - Malaysia and Thailand. Explore career opportunities in mosquito coil manufacturing. We offer competitive benefits, career growth, and a positive work culture."
+>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <Navbar />
+    <main>
     <section class="relative w-full overflow-hidden">
         <!-- Background Image -->
         <div
             class="relative h-[320px] md:h-[500px] lg:h-[600px] 2xl:px-100 bg-[#edf7f7]"
         >
-            <img
-                src="/assets/careers/career-head-bg.jpg"
-                alt="Office"
+            <Image
+                src={import('../../../assets/careers/career-head-bg.jpg')}
+                alt="QCI office and workplace environment"
                 class="w-full h-full object-cover"
+                loading="eager"
+                fetchpriority={"high"}
+                width={854}
+                height={390}
             />
 
             <!-- Overlay -->
@@ -35,8 +44,9 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- BUTTON (slightly overlapping panel) -->
                     <a
-                        href="/careers"
+                        href="#positions"
                         class="inline-block -mt-10 text-2xl bg-[#1f1f1f] text-white px-8 py-3 font-semibold shadow hover:opacity-90 transition"
+                        aria-label="View available career opportunities"
                     >
                         Opportunities
                     </a>
@@ -53,9 +63,13 @@ import Footer from "../../../components/Footer.astro";
                 <div class="flex flex-col md:flex-row items-center gap-8">
                     <!-- Image -->
                     <div class="flex-1 flex justify-center md:justify-center">
-                        <img
-                            src="/assets/careers/careers-1.jpg"
+                        <Image
+                            src={import('../../../assets/careers/careers-1.jpg')}
+                            alt="QCI team members at work"
                             class="w-40 md:w-45 object-cover shadow"
+                            loading="eager"
+                            width={180}
+                            height={180}
                         />
                     </div>
 
@@ -97,9 +111,13 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- Image -->
                     <div class="flex-1 flex justify-center md:justify-center">
-                        <img
-                            src="/assets/careers/careers-2.jpg"
+                        <Image
+                            src={import('../../../assets/careers/careers-2.jpg')}
+                            alt="QCI workplace facilities"
                             class="w-40 md:w-45 object-cover shadow"
+                            loading="lazy"
+                            width={180}
+                            height={180}
                         />
                     </div>
                 </div>
@@ -124,9 +142,13 @@ import Footer from "../../../components/Footer.astro";
             <div class="relative hidden lg:block h-[800px]">
                 <!-- CENTER ICON -->
                 <div class="absolute inset-0 flex items-center justify-center">
-                    <img
-                        src="/assets/careers/career-middle-man.png"
+                    <Image
+                        src={import('../../../assets/careers/career-middle-man.png')}
+                        alt="Career benefits icon"
                         class="w-50"
+                        loading="lazy"
+                        width={200}
+                        height={200}
                     />
                 </div>
 
@@ -142,9 +164,13 @@ import Footer from "../../../components/Footer.astro";
                         reviews.
                     </p>
                     <div class="flex justify-end mt-6">
-                        <img
-                            src="/assets/careers/benefit-career-growth.svg"
+                        <Image
+                            src={import('../../../assets/careers/benefit-career-growth.svg')}
+                            alt="Career growth icon"
                             class="w-12"
+                            loading="lazy"
+                            width={48}
+                            height={48}
                         />
                     </div>
                 </div>
@@ -159,9 +185,13 @@ import Footer from "../../../components/Footer.astro";
                         hospitalization benefits.
                     </p>
                     <div class="flex justify-end mt-6">
-                        <img
-                            src="/assets/careers/benefit-health.svg"
+                        <Image
+                            src={import('../../../assets/careers/benefit-health.svg')}
+                            alt="Health benefits icon"
                             class="w-12"
+                            loading="lazy"
+                            width={48}
+                            height={48}
                         />
                     </div>
                 </div>
@@ -175,9 +205,13 @@ import Footer from "../../../components/Footer.astro";
                         Free uniforms provided for comfort and professionalism.
                     </p>
                     <div class="flex justify-end mt-6">
-                        <img
-                            src="/assets/careers/benefit-tshirt.svg"
+                        <Image
+                            src={import('../../../assets/careers/benefit-tshirt.svg')}
+                            alt="Uniforms provided icon"
                             class="w-12"
+                            loading="lazy"
+                            width={48}
+                            height={48}
                         />
                     </div>
                 </div>
@@ -192,9 +226,13 @@ import Footer from "../../../components/Footer.astro";
                         productivity and relaxation.
                     </p>
                     <div class="flex justify-end mt-6">
-                        <img
-                            src="/assets/careers/benefit-workplace.svg"
+                        <Image
+                            src={import('../../../assets/careers/benefit-workplace.svg')}
+                            alt="Workplace facilities icon"
                             class="w-12"
+                            loading="lazy"
+                            width={48}
+                            height={48}
                         />
                     </div>
                 </div>
@@ -209,9 +247,13 @@ import Footer from "../../../components/Footer.astro";
                         team.
                     </p>
                     <div class="flex justify-end mt-6">
-                        <img
-                            src="/assets/careers/benefit-vacation.svg"
+                        <Image
+                            src={import('../../../assets/careers/benefit-vacation.svg')}
+                            alt="Annual events icon"
                             class="w-12"
+                            loading="lazy"
+                            width={48}
+                            height={48}
                         />
                     </div>
                 </div>
@@ -227,9 +269,13 @@ import Footer from "../../../components/Footer.astro";
                         A team-oriented, respectful, and supportive workplace.
                     </p>
                     <div class="flex justify-end mt-6">
-                        <img
-                            src="/assets/careers/benefit-work-together.svg"
+                        <Image
+                            src={import('../../../assets/careers/benefit-work-together.svg')}
+                            alt="Team culture icon"
                             class="w-12"
+                            loading="lazy"
+                            width={48}
+                            height={48}
                         />
                     </div>
                 </div>
@@ -245,9 +291,13 @@ import Footer from "../../../components/Footer.astro";
                         employee contributions.
                     </p>
                     <div class="flex justify-end mt-6">
-                        <img
-                            src="/assets/careers/benefit-work-together.svg"
+                        <Image
+                            src={import('../../../assets/careers/benefit-work-together.svg')}
+                            alt="Bonuses icon"
                             class="w-12"
+                            loading="lazy"
+                            width={48}
+                            height={48}
                         />
                     </div>
                 </div>
@@ -316,7 +366,7 @@ import Footer from "../../../components/Footer.astro";
 
     <section>
         <!-- TOP INTRO -->
-        <div class="bg-[#e7eceb] text-center py-12 px-6">
+        <div id="positions" class="bg-[#e7eceb] text-center py-12 px-6">
             <div class="max-w-9xl mx-auto">
                 <h2 class="text-4xl md:text-7xl font-bold text-[#2b2623] mb-2">
                     Join Us
@@ -474,7 +524,7 @@ import Footer from "../../../components/Footer.astro";
                     <!-- Name + Email -->
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
-                            <label class="text-base md:text-lg">Name *</label>
+                            <label for="name" class="text-base md:text-lg">Name *</label>
                             <input
                                 type="text"
                                 name="name"
@@ -485,7 +535,7 @@ import Footer from "../../../components/Footer.astro";
                         </div>
 
                         <div>
-                            <label class="text-base md:text-lg">Email *</label>
+                            <label for="email" class="text-base md:text-lg">Email *</label>
                             <input
                                 type="email"
                                 name="email"
@@ -498,7 +548,7 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- Position -->
                     <div>
-                        <label class="text-base md:text-lg">Position</label>
+                        <label for="position" class="text-base md:text-lg">Position</label>
                         <input
                             type="text"
                             name="position"
@@ -510,7 +560,7 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- Cover Letter -->
                     <div>
-                        <label class="text-base md:text-lg">Cover Letter</label>
+                        <label for="cover_letter" class="text-base md:text-lg">Cover Letter</label>
                         <textarea
                             rows="4"
                             name="cover_letter"
@@ -521,7 +571,7 @@ import Footer from "../../../components/Footer.astro";
 
                     <!-- Resume -->
                     <div>
-                        <label class="text-base md:text-lg block mb-2"
+                        <label for="resume" class="text-base md:text-lg block mb-2"
                             >RESUME</label
                         >
                         <input
@@ -564,14 +614,16 @@ import Footer from "../../../components/Footer.astro";
                 </p>
 
                 <a
-                    href="/contact"
+                    href="/en/contact"
                     class="inline-block bg-gray-200 text-black text-xl px-8 py-3 hover:bg-gray-50 transition rounded"
+                    aria-label="Contact us for more information"
                 >
                     Contact
                 </a>
             </div>
         </div>
     </section>
+    </main>
     <Footer />
 </BaseLayout>
 

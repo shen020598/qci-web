@@ -4,8 +4,12 @@ import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
 ---
 
-<BaseLayout title="QCI - OEM Mosquito Coil Manufacturer">
+<BaseLayout 
+    title="OEM Advantage - Quality Mosquito Coil Manufacturing" 
+    description="Discover QCI's OEM advantage in mosquito coil manufacturing. Dedicated production lines for wood-based and charcoal coils. 50+ years expertise in Malaysia and Thailand. Custom formulations and private labeling available."
+>
     <Navbar />
+    <main>
     <section class="bg-[#d8c9a6] py-20">
         <div class="max-w-6xl mx-auto px-6">
             <!-- TOP BLOCK -->
@@ -114,13 +118,15 @@ import Footer from "../../../components/Footer.astro";
 
                 <!-- Button -->
                 <a
-                    href="/contact"
+                    href="/en/contact"
                     class="inline-block bg-gray-200 text-gray-800 px-8 py-3 rounded hover:bg-white transition"
+                    aria-label="Contact us for OEM partnership opportunities"
                 >
                     Contact Us
                 </a>
             </div>
         </div>
     </section>
+    </main>
     <Footer />
 </BaseLayout>

@@ -1,3 +1,7 @@
+---
+import { Image } from "astro:assets";
+---
+
 <footer class="bg-[#edf7f7] text-[#2b2623]">
   <div class="max-w-9xl mx-auto px-6 py-16">
     <!-- TOP GRID -->
@@ -5,7 +9,14 @@
       <!-- BRAND -->
       <div>
         <div class="flex items-center gap-3 mb-5">
-          <img src="/assets/qci-logo-main.png" alt="QCI" class="w-14" />
+          <Image
+            src={import("../assets/qci-logo-main.png")}
+            alt="Quality Coils Industries logo"
+            class="w-14"
+            loading="lazy"
+            width={56}
+            height={56}
+          />
           <h3 class="font-semibold text-xl">Quality Coil Industries</h3>
         </div>
 
@@ -52,14 +63,53 @@
         <h4 class="font-semibold text-xl mb-5">Follow Us</h4>
 
         <div class="flex gap-4">
-          <a href="#" class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]">
-            <img src="/assets/icons/instagram.svg" alt="Instagram" class="w-12 h-12" />
+          <a
+            href="https://www.instagram.com/qci"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Instagram"
+            class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
+          >
+            <Image
+              src={import("../assets/icons/instagram.svg")}
+              alt="Instagram"
+              class="w-12 h-12"
+              loading="lazy"
+              width={48}
+              height={48}
+            />
           </a>
-          <a href="#" class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]">
-            <img src="/assets/icons/facebook.svg" alt="Facebook" class="w-12 h-12" />
+          <a
+            href="https://www.facebook.com/qci"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Facebook"
+            class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
+          >
+            <Image
+              src={import("../assets/icons/facebook.svg")}
+              alt="Facebook"
+              class="w-12 h-12"
+              loading="lazy"
+              width={48}
+              height={48}
+            />
           </a>
-          <a href="#" class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]">
-            <img src="/assets/icons/linkedin.svg" alt="LinkedIn" class="w-12 h-12" />
+          <a
+            href="https://www.linkedin.com/company/qci"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on LinkedIn"
+            class="transition-all duration-300 hover:[filter:invert(27%)_sepia(51%)_saturate(2878%)_hue-rotate(200deg)_brightness(104%)_contrast(97%)]"
+          >
+            <Image
+              src={import("../assets/icons/linkedin.svg")}
+              alt="LinkedIn"
+              class="w-12 h-12"
+              loading="lazy"
+              width={48}
+              height={48}
+            />
           </a>
         </div>
       </div>
@@ -80,6 +130,7 @@
 
       <!-- MAP -->
       <iframe
+        title="QCI Mambang Diawam"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6760.7213303525095!2d101.14700347681303!3d4.273903245205845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cb1cda15555555%3A0x89d30b2b531d1e8a!2sQuality%20Coils%20Industries%20Sdn.Bhd.!5e1!3m2!1sen!2smy!4v1770906246621!5m2!1sen!2smy"
         class="w-full h-[200px] border border-green-800 rounded"
         loading="lazy"></iframe>

@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import '@fontsource/poppins';
-const { title = "QCI" } = Astro.props;
+const { title = "QCI", description = "Quality Coils Industries - Leading OEM mosquito coil manufacturer since 1973. Serving global brands with high-quality, custom mosquito coil solutions." } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -9,6 +9,7 @@ const { title = "QCI" } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
     <title>{title}</title>
   </head>
 
